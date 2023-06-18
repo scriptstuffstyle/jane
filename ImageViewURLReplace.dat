@@ -1,0 +1,1692 @@
+<$BREAK>
+
+>---------- ----------
+^http://nyanit\.com/(.+)$	http://$1		$NOBREAK
+^http://l\.moapi\.net/http://(.+)$	http://$1		$NOBREAK
+^http://z\.ula\.cc/+(.+)$	http://$1		$NOBREAK
+^http://t3\.i2ch\.net/y/http://(.+)$	http://$1		$NOBREAK
+^http://jump\.2ch\.net/\?(.+)$	http://$1		$NOBREAK
+^http://2jiero\.com/imagepage\.php\?name=http://(.+)$	http://$1		$NOBREAK
+^http://news\.guideme\.jp/img_pc_http://(.+)$	http://$1		$NOBREAK
+^http://gensun\.org/i/(.+)	http://$1		$NOBREAK
+^http://(.+)\?x-up-destcharset=\d+$	http://$1		$NOBREAK
+^http://www3\.atchs\.jp/j/(.+)$	http://$1		$NOBREAK
+^http://jump\.x0\.to/(?:http://)?(.+)$	http://$1		$NOBREAK
+^http://resize\.blogsys\.jp/[\da-f]{40}/\w+/\d+x\d+/http://(.+)$	http://$1		$NOBREAK
+^http://www\.gophoto\.it/view\.php\?i=http://(.+)$	http://$1		$NOBREAK
+^http://www\.fammys\.com/ViewImg\.php\?img=http://(.*)$	http://$1		$NOBREAK
+^http://img-space\.net/\w+/\?img=([^&]+)$	$1		$NOBREAK
+^http://fullrss\.net/i/http/(.+)$	http://$1		$NOBREAK
+
+>---------- ブラクラ抑止 ----------
+^http://(?:.*@)?(?:[^/.]+\.)*uploader\.asia/.
+^http://(?:.*@)?(?:[^/.]+\.)*uploader\.jp\.pn/.
+^http://(?:[^/.]+\.)*2ch\.netz\.tl/
+^http://(?:[^/.]+\.)*ameblo\.jp\.gp/
+^http://(?:[^/.]+\.)*atwiki\.jp\.gp/
+^http://(?:[^/.]+\.)*coo\.jp\.gp/
+^http://(?:[^/.]+\.)*engawa-2ch\.znet\.cl/
+^http://(?:[^/.]+\.)*mixi\.jp\.gp/
+^http://(?:[^/.]+\.)*naritaka\.jp/.+\.png
+^http://(?:[^/.]+\.)*news-google\.jp\.pn/
+^http://(?:[^/.]+\.)*nicovideo\.jp-sa\.com/
+^http://(?:[^/.]+\.)*nicovideo\.jp\.gp/
+^http://(?:[^/.]+\.)*pixiv\.netz\.tl/
+^http://(?:[^/.]+\.)*tvvitter\.com\.nu/
+^http://(?:[^/.]+\.)*unko7\.com/
+^http://(?:[^/.]+\.)*uploda\.biz/
+^http://(?:[^/.]+\.)*www-news\.google-it\.info/
+^http://(?:[^/.]+\.)*xvideos\.jp-sa\.org/
+^http://(?:[^/.]+\.)*xvideos\.jp\.gp/
+^http://(?:[^/.]+\.)*xvideos\.jp\.pn/
+^http://(?:[^/.]+\.)*yourtube\.com\.nu/
+^http://(?:www\.)?x-rider\.com/
+^http://(?:www\.)?yountunbe\.com/watch\?
+^http://(\w+\.)*com-w\.win/.
+^http://(\w+\.)*gu-ru\.net/.
+^http://[-\.\w]+/index413\.php/\?na=413
+^http://amilala\.blogspot\.com
+^http://blog-imgs-27-origin\.fc2\.com/g/r/o/grolian/
+^http://blog54\.fc2\.com/g/grodictionary/file/
+^http://djr\.s502\.xrea\.com/
+^http://easyweb\.easynet\.co\.uk/~hiros/
+^http://fatalita\.sakura\.ne\.jp/news/archives/51394273\.html
+^http://gazo01\.chbox\.com/guromovie/
+^http://gazo01\.chbox\.com/occult/
+^http://ginjirou\.blog\.ocn\.ne\.jp/310ch/images/
+^http://gore\.forcedexistence\.com/
+^http://headlinesyahoocojp\.zz\.tc/hla2011081100000510sansoci
+^http://i\.imgur\.jp/.
+^http://imagegeeks\.dojin\.com/.
+^http://imepita\.zz\.tc/
+^http://imguploader\.netgamers\.jp/.
+^http://infomation\.wkeya\.com/
+^http://ipatukouta\.altervista\.org/php5/
+^http://iplogger\.org/.
+^http://manmanco\.info/uploda/.
+^http://mat\.blogdns\.com/
+^http://mayhem\.net/juke/bodiesbeat1\.html
+^http://muvc\.net/mumyou/
+^http://news\.map1e\.com/.+
+^http://obuchan\.org/sexy-girls/
+^http://omanchin\.com/
+^http://poetry\.rotten\.com/
+^http://stock\.2ch\.net/test/(?:buy|sell)\.cgi\?.+
+^http://sv99\.koolserve\.com/images/
+^http://updas\.net/[-/.\w]+
+^http://uploader\.s602\.xrea\.com/uploader
+^http://uploda\.ars2\.net/src/.
+^http://upupimg\.com/.
+^http://upuploda\.xyz/.
+^http://ura22\.sakura\.ne\.jp/image/.
+^http://venusman\.byethost31\.com/\w
+^http://victreal\.com/news/archives/51394273\.html
+^http://vip\.6to23\.com/jpgman/
+^http://www17\.plala\.or\.jp/suigin/noroi49\.html
+^http://www2\.strangeworld\.org/uedakana/
+^http://www46\.atpages\.jp/freeuploader2/.
+^http://www\.albinoblacksheep\.com/lidanude\.jpg
+^http://www\.amigo\.in/hahahahahaha/oppai\.html
+^http://www\.bestgore\.com/
+^http://www\.bmezine\.com/service/samples/bonushigh/bonus5\.jpg
+^http://www\.charonboat\.com/
+^http://www\.documentingreality\.com/
+^http://www\.dushw\.cn/
+^http://www\.feiyu\.com\.cn/
+^http://www\.festered\.com/
+^http://www\.goregasm\.com/
+^http://www\.grannymax\.com/
+^http://www\.hackpalace\.com/virii/makers/
+^http://www\.hellplant\.org/cgi-bin/xoor/serpent\.cgi
+^http://www\.imslow\.kr/ghost/
+^http://www\.liquidgeneration\.com/sabotage/
+^http://www\.lysll\.cn/
+^http://www\.nicovideo\.win/.
+^http://www\.nomullas\.net/beheadings\.html
+^http://www\.rotten\.com/
+^http://www\.snuffx\.com/
+^http://www\.stileproject\.com/monkey_sugar\.swf
+^http://www\.stylite\.net/
+^http://www\.subculture\.com/
+^http://www\.theync\.com/
+^http://www\.uncoverreality\.com/
+^http://www\.wan163\.com/
+^http://www\.wuyabbs\.com/
+^http://www\.xratedhostz\.com/users/loloii/
+^http://wwwwwwwww\.jodi\.org/
+^http://yaromat\.com/macos8/
+
+^http://10m-uploader\.affip\.com/
+^http://10up\.66ghz\.com/
+^http://bbspink\.laypop\.com/
+^http://data-uploader\.gumomo\.com/
+^http://datastock-bbs\.nanapp\.com/
+^http://fastuploader\.bamocha\.com/
+^http://file-okiba\.comppe\.com/
+^http://filebbs\.guncannon\.com/
+^http://fileupbbs\.afipple\.com/
+^http://fileuploader\.comccha\.com/
+^http://free-uploader\.jamegg\.com/
+^http://gazoubbs\.afrisu\.com/
+^http://harix55\.22web\.org/
+^http://image-ch\.galwalk\.com/
+^http://image-space\.loligang\.com/
+^http://img-park\.mbmbm\.com/
+^http://imgloader\.comoppe\.com/
+^http://iup2ch\.social-networking\.me/
+^http://loda\.namaeha\.com/
+^http://my-uploader\.whipcafe\.com/
+^http://myup\.byethost13\.com/
+^http://petabbs\.panapu\.com/
+^http://petauploader\.2kool4u\.net/
+^http://photup\.qwapa\.com/
+^http://simple-loader\.f01\.jp/
+^http://terauploader\.pitad\.com/
+^http://up-loader\.lolista\.com/
+^http://up2space\.comodoll\.com/
+^http://uploader\.chupet\.com/
+^http://upspace\.totalh\.net/
+^http://upup\.afic\.jp/
+^http://upupbbs\.bickri\.com/
+^http://upuroda\.omoroll\.com/
+^http://vip-uploader\.warutan\.com/
+^http://www\.xmist\.net/u/.
+^http://www\.xmist\.net/webcontents/pict/.
+^http://youruploader\.a0001\.net/
+
+
+^http://(?:[^/.]+\.)*ad-55\.com/.
+^http://(?:[^/.]+\.)*citizun\.com/.
+^http://(?:[^/.]+\.)*hokuseiyoichi\.com/.
+^http://(?:[^/.]+\.)*moonshining\.net/.
+^http://022it\.net/.
+^http://15-m\.com/.
+^http://b-mobile\.xyz/
+^http://bbspink\.pw/
+^http://bloadcastnews\.xyz/
+^http://budego\.com/.
+^http://c-lovers\.net/.
+^http://c-loverz\.net/.
+^http://dakkun\.net/.
+^http://deaifinalstage\.xyz/
+^http://erosk\.com/.
+^http://finderz\.biz/.
+^http://gladnews\.xyz/
+^http://global-cast\.xyz/
+^http://heavynewstoday\.xyz/
+^http://however\.xyz/
+^http://hppyv\.com/.
+^http://ichitai\.net/.
+^http://ks6\.asia/
+^http://ks7\.asia/
+^http://lead-life\.xyz/
+^http://libertyartworx\.com/.
+^http://localgirls\.biz/
+^http://mankees\.com/.
+^http://merry2\.info/.
+^http://mg-k\.com/.
+^http://mm-t\.net/.
+^http://mt4-fx\.com/.
+^http://mt4sys\.com/.
+^http://next-stage\.xyz/
+^http://paraday\.net/.
+^http://party-boy\.info/.
+^http://party-rocking\.com/
+^http://pdayz\.com/.
+^http://penua\.com/.
+^http://ppooqq\.net/.
+^http://secret-g\.net/
+^http://sgnasion\.info/.
+^http://sinnihon-inter\.net/.
+^http://siraki\.info/.
+^http://snn2ch\.net/
+^http://sns-2ch\.net/
+^http://sns2ch\.in\.net/
+^http://subject24\.xyz/
+^http://takuhisa\.com/.
+^http://topic123\.xyz/
+^http://toyonaga69\.info/.
+^http://ttm2t\.com/.
+^http://uo-pk\.com/.
+^http://value-star\.xyz/
+^http://wadai2015\.xyz/
+^http://xn--ea-nn7dt53b\.net/.
+^http://xn--j1u05e33ssx6a\.com/
+^http://xn--n8ja4fh\.jp/.
+^http://xn--s4tq7k1cu44abwfy0d\.asia/
+^http://xvide0s\.info/.
+^http://yumechan\.info/.
+
+
+^http://alane\.web\.fc2\.com/
+^http://in12\.web\.fc2\.com/
+^http://out21\.web\.fc2\.com/
+^http://sgw2\.web\.fc2\.com/
+^http://sy13\.web\.fc2\.com/
+^http://takezou77ik\.web\.fc2\.com/
+^http://pai\.no\.land\.to/pts/
+^http://s123\.daa\.jp/
+
+>---------- 後ろの[/IMG]や.htmlを削除 ----------
+^(.+)\[/(?:[iI][mM][gG]|[uU][rR][lL]|[lL][iI][nN][kK])\]$	$1		$NOBREAK
+^(.+\.)([jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP])\.s?html?$	$1$2		$NOBREAK
+
+>---------- ビューアで表示させない ----------
+^http://77c\.org/d\.php\?f=\w+\.(?:jpe?g|gif|png)
+^http://www\.uploda\.net/(?:i/)?cgi/up(?:loader|k)\d/index\.php\?dlpas_id=\d{10}\.(?:jpe?g|png|gif|bmp)
+^http://[^.]+\.itmedia\.co\.jp/(?:[^/]+/){1,2}\d{4}/\d{2}/[^.]+\.html#[^.]+\.jpg
+^http://www1\.axfc\.net/uploader/(?:\w+/)?so/\d+	$&
+^http://www1\.axfc\.net/uploader/link\.pl\?.*file=(\d+)	http://www1.axfc.net/uploader/link.pl?file=$1
+^http://www1\.axfc\.net/u/\d+	$&
+^http://\w+\.axfc\.net/uploader/Img/l/\d+/v/Img_\d+	$&
+^http://www2\.axfc\.net/uploader/view\.pl\?.*	http://www2.axfc.net/uploader/view.pl
+^http://u[\dx]\.getuploader\.com/\w+/download/\d+/	$&
+^https?://t\.co/(\w+)	https://t.co/$1
+
+>---------- $EXTRACACHE $VIEWNOIMAGE$BREAK不必要な人は削除 ----------
+^http://[^. ]+\.2ch\.net/[^/]+/i/\d+\.html$	$&		$VIEWNOIMAGE$BREAK
+
+>---------- 動画系サイトの再生 $FLASH記述 ----------
+^https?://(?:(?:\w+\.)?youtube\.com\/watch(?:/v/|\?(?:\w+=\w+&)*v=)|youtu\.be/)([\w-]{11})	https://www.youtube.com/v/$1&hl=ja_JP&fs=1&hd=1		$FLASH
+^http://video\.google\.com/videoplay\?docid=(\d+)	http://video.google.com/googleplayer.swf?docid=$1		$FLASH
+^http://gamevideos\.com:80/video/videoListXML%3Fid%3D\d+	http://gamevideos.com/swf/gamevideos11.swf?embedded=0&fullscreen=1&autoplay=0&src=$&		$FLASH
+^http://www\.metacafe\.com/fplayer/\d+/[-\w]+\.swf	$&		$FLASH
+^http://www\.shoutfile\.com/emb/1/(\w+)	$&		$FLASH
+^http://www\.livevideo\.com/flvplayer/embed/\w{32}	$&		$FLASH
+^http://www\.gametrailers\.com/(?:remote_wrap\.php|umwatcher_gate72\.swf)\?u?mid=\d+	$&		$FLASH
+^http://video\.fc2\.com/flv2\.swf\?i=(\w+)	$&&d=600&stop=on&require_charge=0&charge_second=0&up_fee_point=0&current_point=0&movie_stop=off&no_progressive=1		$FLASH
+^http://tv\.mofile\.com/cn/xplayer\.swf\?v=\w{8}	$&&autoplay=0		$FLASH
+^http://www\.veoh\.com/static/flash/players/videodetails2\.swf\?permalinkId=([-\w]+)	$&&player=videodetails&&videoAutoPlay=1&version=4		$FLASH
+^http://www\.liveleak\.com/player\.swf\?token=(\w{3}_\w{10})	http://www.liveleak.com/player.swf?autostart=false&token=$1		$FLASH
+
+>---------- 動画系サイトのサムネイル ----------
+^http://tn-skr\d*\.smilevideo\.jp/smile\?i=(\d+)	http://tn-skr.smilevideo.jp/smile?i=$1		$VIEWER
+^http://lohas\.nicoseiga\.jp/+thumb/(\d+)	http://lohas.nicoseiga.jp/thumb/$1i		$VIEWER
+^http://www\.dailymotion\.com/thumbnail/\d{3}x\d{3}/video/[-\w]+	$&		$VIEWER
+^http://p-images\.veoh\.com/(?:thumb|image)\.out\?imageId=thumb-([-\w]{15})-0\.jpg(?:&.+)?	$&		$VIEWER
+
+^http://g\d\.ykimg\.com/[10]([\dA-F]{37}-[\dA-F]{4}-[\dA-F]{4}-[\dA-F]{4}-[\dA-F]{12})	http://g1.ykimg.com/1$1		$VIEWER
+
+>---------- アップローダ・画像掲示板系・リファラあり ----------
+^http://viploader\.net/(\w+)/(?:read\.cgi|src|i)/v(\w+\.(?:(?!_)\w)+(?:_\w+/v\w+\.\w+)?)	http://viploader.net/$1/src/v$2	$&
+^http://up2\.viploader\.net/(\w+)/(?:read\.cgi|src|i)/v(\w+\.(?:(?!_)\w)+(?:_\w+/v\w+\.\w+)?)	http://viploader.net/$1/src/v$2	$&
+^http://up3\.viploader\.net/(\w+)/(?:read\.cgi|src|i)/v(\w+\.(?:(?!_)\w)+(?:_\w+/v\w+\.\w+)?)	http://viploader.net/$1/src/v$2	$&
+^http://up4\.viploader\.net/(\w+)/(?:read\.cgi|src|i)/v(\w+\.(?:(?!_)\w)+(?:_\w+/v\w+\.\w+)?)	http://viploader.net/$1/src/v$2	$&
+
+^http://www\.kiken\.nu/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://www.kiken.nu/$1/img/$2	$&
+^http://kiken\.nu/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://kiken.nu/$1/img/$2	$&
+^http://www\.kiken\.jp/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://www.kiken.jp/$1/img/$2	$&
+^http://kiken\.jp/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://kiken.jp/$1/img/$2	$&
+^http://www\.sekai\.nu/channel/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://www.sekai.nu/channel/$1/img/$2	$&
+^http://sekai\.nu/channel/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://sekai.nu/channel/$1/img/$2	$&
+^http://www\.animar-japan\.com/cgi-bin/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://www.animar-japan.com/cgi-bin/$1/img/$2	$&
+^http://altair\.mydns\.jp/~kiken/sekai/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://altair.mydns.jp/~kiken/sekai/$1/img/$2	$&
+^http://next-web\.org/bbs/img\.php/(\w+)/(\d+\.(?:jpe?g|png|gif))	http://next-web.org/bbs/$1/img/$2	$&
+^http://www\.kiken\.nu/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://www.kiken.nu/img.php/$1/$2	$NOEXTCTRL
+^http://kiken\.nu/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://kiken.nu/img.php/$1/$2	$NOEXTCTRL
+^http://www\.kiken\.jp/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://www.kiken.jp/img.php/$1/$2	$NOEXTCTRL
+^http://kiken\.jp/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://kiken.jp/img.php/$1/$2	$NOEXTCTRL
+^http://www\.sekai\.nu/channel/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://www.sekai.nu/channel/img.php/$1/$2	$NOEXTCTRL
+^http://sekai\.nu/channel/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://sekai.nu/channel/img.php/$1/$2	$NOEXTCTRL
+^http://www\.animar-japan\.com/cgi-bin/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://www.animar-japan.com/cgi-bin/img.php/$1/$2	$NOEXTCTRL
+^http://altair\.mydns\.jp/~kiken/sekai/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://altair.mydns.jp/~kiken/sekai/img.php/$1/$2	$NOEXTCTRL
+^http://next-web\.org/bbs/(\w+)/img/(\d+\.(?:jpe?g|png|gif))	$&	http://next-web.org/bbs/img.php/$1/$2	$NOEXTCTRL
+^http://www\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://www.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs1\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs1.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs2\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs2.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs3\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs3.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs4\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs4.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs5\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs5.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs6\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs6.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs7\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs7.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs8\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs8.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs9\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs9.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs10\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs10.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs11\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs11.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs12\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs12.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs13\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs13.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs14\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs14.aimix-z.com/gbbsimg/$1/$2	$&
+^http://bbs15\.aimix-z\.com/photovw\.cgi\?room=(\w+)&image=(\d+\.(?:jpe?g|gif|png|bmp))(?:&btp=\w+)?	http://bbs15.aimix-z.com/gbbsimg/$1/$2	$&
+^http://www\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://www.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs1\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs1.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs2\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs2.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs3\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs3.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs4\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs4.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs5\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs5.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs6\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs6.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs7\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs7.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs8\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs8.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs9\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs9.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs10\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs10.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs11\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs11.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs12\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs12.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs13\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs13.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs14\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs14.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+^http://bbs15\.aimix-z\.com/gbbsimg/(\w+)/(\d+\.(?:jpe?g|gif|png|bmp))	$&	http://bbs15.aimix-z.com/photovw.cgi?room=$1&image=$2	$NOEXTCTRL
+
+^http://www\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www1\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www1.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www2\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www2.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www3\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www3.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www4\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www4.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www5\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www5.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www6\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www6.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www7\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www7.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www8\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www8.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www9\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www9.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www10\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www10.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www11\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www11.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www12\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www12.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www13\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www13.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www14\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www14.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www15\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www15.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www16\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www16.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www17\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www17.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://www18\.jp-net\.ne\.jp/(\w+)/upload/([-\w]+)-\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www18.jp-net.ne.jp/$1/bbs.cgi?room=$2	$NOEXTCTRL
+^http://arn\.kyosui\.net/ib/disp\.php\?img=(\w+)_(\d+\.(?:jpe?g|gif|png))	http://arn.kyosui.net/ib/img/$1/$1_$2	$&
+^http://asc\.kyosui\.net/ib/disp\.php\?img=(\w+)_(\d+\.(?:jpe?g|gif|png))	http://asc.kyosui.net/ib/img/$1/$1_$2	$&
+^http://arn\.kyosui\.net/ib/img/(\w+)/\1_(\d+\.(?:jpe?g|gif|png))	$&	http://arn.kyosui.net/ib/disp.php?img=$1_$2	$NOEXTCTRL
+^http://asc\.kyosui\.net/ib/img/(\w+)/\1_(\d+\.(?:jpe?g|gif|png))	$&	http://arn.kyosui.net/ib/disp.php?img=$1_$2	$NOEXTCTRL
+
+^http://pinknotora\.net/([^/]+)/pc/img\.php\?src=\.\./src/(\d+-\d+\.(?:jpe?g|gif|png|bmp))	http://pinknotora.net/$1/src/$2	$&
+^http://pinknotora\.net/([^/]+)/src/(\d+)-1\.(?:jpe?g|gif|png|bmp)	$&	http://pinknotora.net/$1/pc/index.php?res=$2	$NOEXTCTRL
+^http://pinknotora\.net/([^/]+)/src/(\d+-\d+\.(?:jpe?g|gif|png|bmp))	$&	http://pinknotora.net/$1/pc/img.php?src=../src/$2	$NOEXTCTRL
+^http://(\d{3})\.pinknotora\.net/(\w+)/img/(.+)	http://$1.pinknotora.net/$2/src/$3
+^http://(\w+)\.harikonotora\.net/img/(\d+-\d+\.\w+)	http://$1.harikonotora.net/src/$2
+^http://(\w+)\.qlip\.jp/pic/(\d+-\d+\.\w+)	http://$1.qlip.jp/src/$2
+
+^http://www2\.himitsukichi\.info/panther_pc_viwer\.php\?category=(\w+)&bname=([-\w]+)&fname=([-\w]+)&extnt=(\.(?:jpe?g|png|gif))	http://www2.himitsukichi.info/up/$1/$2/$3$4	$&
+^http://www3\.himitsukichi\.info/panther_pc_viwer\.php\?category=(\w+)&bname=([-\w]+)&fname=([-\w]+)&extnt=(\.(?:jpe?g|png|gif))	http://www3.himitsukichi.info/up/$1/$2/$3$4	$&
+^http://www4\.himitsukichi\.info/panther_pc_viwer\.php\?category=(\w+)&bname=([-\w]+)&fname=([-\w]+)&extnt=(\.(?:jpe?g|png|gif))	http://www4.himitsukichi.info/up/$1/$2/$3$4	$&
+^http://www5\.himitsukichi\.info/panther_pc_viwer\.php\?category=(\w+)&bname=([-\w]+)&fname=([-\w]+)&extnt=(\.(?:jpe?g|png|gif))	http://www5.himitsukichi.info/up/$1/$2/$3$4	$&
+^http://www6\.himitsukichi\.info/panther_pc_viwer\.php\?category=(\w+)&bname=([-\w]+)&fname=([-\w]+)&extnt=(\.(?:jpe?g|png|gif))	http://www6.himitsukichi.info/up/$1/$2/$3$4	$&
+^http://www7\.himitsukichi\.info/panther_pc_viwer\.php\?category=(\w+)&bname=([-\w]+)&fname=([-\w]+)&extnt=(\.(?:jpe?g|png|gif))	http://www7.himitsukichi.info/up/$1/$2/$3$4	$&
+^http://erosu\.himitsukichi\.info/panther_pc_viwer\.php\?category=(\w+)&bname=([-\w]+)&fname=([-\w]+)&extnt=(\.(?:jpe?g|png|gif))	http://erosu.himitsukichi.info/up/$1/$2/$3$4	$&
+
+^http://www\.774\.cc/down/downcon\.cgi\?name=(up\d+\.(?:jpe?g|png|gif|bmp))@UplodaMicro	http://www.774.cc:8020/upload-micro/src/files/$1	$&
+^http://www\.774\.cc/down/downcon\.cgi\?name=(up\d+\.(?:jpe?g|png|gif|bmp))@UplodaMini	http://www.774.cc:8020/upload-mini/src/files/$1	$&
+^http://www\.774\.cc/down/downcon\.cgi\?name=(up\d+\.(?:jpe?g|png|gif|bmp))@Uploda	http://www.774.cc:8020/upload/src/files/$1	$&
+^http://www\.774\.cc:8000/upload-micro/src/(up\d+\.(?:jpe?g|png|gif|bmp))	http://www.774.cc:8020/upload-micro/src/files/$1	http://www.774.cc/down/downcon.cgi?name=$1@UplodaMicro
+^http://www\.774\.cc:8000/upload-mini/src/(up\d+\.(?:jpe?g|png|gif|bmp))	http://www.774.cc:8020/upload-mini/src/files/$1	http://www.774.cc/down/downcon.cgi?name=$1@UplodaMini
+^http://www\.774\.cc:8000/upload/src/(up\d+\.(?:jpe?g|png|gif|bmp))	http://www.774.cc:8020/upload/src/files/$1	http://www.774.cc/down/downcon.cgi?name=$1@Uploda
+
+^http://wktk\.vip2ch\.com/dl\.php\?f=(vipper\d+\.(?:jpe?g|png|gif|bmp))	http://wktk.vip2ch.com/$1	$&
+^http://wktk\.vip2ch\.com/(vipper\d+\.(?:jpe?g|png|gif|bmp))	$&	http://wktk.vip2ch.com/dl.php?f=$1	$NOEXTCTRL
+^http://nullpo\.vip2ch\.com/dl\.php\?f=(ga\d+\.(?:jpe?g|png|gif|bmp))	http://nullpo.vip2ch.com/$1	$&
+^http://nullpo\.vip2ch\.com/(ga\d+\.(?:jpe?g|png|gif|bmp))	$&	http://nullpo.vip2ch.com/dl.php?f=$1	$NOEXTCTRL
+^http://mup\.vip2ch\.com/dl(?:\.php)?\?f=(\d+)	http://mup.vip2ch.com/up/vipper$1.jpg
+^http://(\w+)\.vip2ch\.com/mobileimg/img/th_(\w+\d+\.\w+)	http://$1.vip2ch.com/up/$2
+^http://(sukima|hirame|miso)\.vip2ch\.com/+up/(\w+\d+\.\w+)	http://fsm.vip2ch.com/-/$1/$2
+^http://fsm\.vip2ch\.com/noredirect/(\w+/\w+\d+\.\w+)	http://fsm.vip2ch.com/-/$1
+
+^http://momiage\.sakura\.ne\.jp/loda/(?:src/|count\.cgi\?)(momi\d+\.(?:jpe?g|png|gif|bmp))	http://momiage.sakura.ne.jp/loda/src/$1	http://momiage.sakura.ne.jp/loda/count.cgi?$1
+
+^http://pc\.gban\.jp/([fm]/)?(?:index\.php)?\?p=(\d+\.(?:jpe?g|png|gif))	http://pc.gban.jp/$1img/$2	$&
+^http://pc\.gban\.jp/([fm]/)?img/(\d+\.(?:jpe?g|gif|png))	$&	http://pc.gban.jp/$1index.php?p=$2	$NOEXTCTRL
+
+^http://www\.gz-loader\.com/(\w+)/mailbbs\.php\?mode=graphic&log=(\d+)\.dat&file=(image\d+\.(?:jpe?g|gif|png))	http://www.gz-loader.com/$1/data/$2/org/$3	$&
+^http://www\.ura-gz-loader\.com/(\w+)/mailbbs\.php\?mode=graphic&log=(\d+)\.dat&file=(image\d+\.(?:jpe?g|gif|png))	http://www.ura-gz-loader.com/$1/data/$2/org/$3	$&
+
+^http://www\.sukebegazou\.com/(bbs\w)/image\.cgi\?id=(img/img\d+\.(?:jpe?g|png|gif|bmp))	http://www.sukebegazou.com/$1/$2	$&
+^http://www\.sukebegazou\.com/(bbs\w)/(img/img\d+\.(?:jpe?g|png|gif|bmp))	$&	http://www.sukebegazou.com/$1/image.cgi?id=$2	$NOEXTCTRL
+^http://anime\.sukebegazou\.com/(imgbbs\d)/img\.cgi\?(\d+\.(?:jpe?g|png|gif|bmp))	http://anime.sukebegazou.com/$1/img/$2	$&
+^http://anime\.sukebegazou\.com/(imgbbs\d)/img/(\d+\.(?:jpe?g|png|gif|bmp))	$&	http://anime.sukebegazou.com/$1/img.cgi?$2	$NOEXTCTRL
+
+^http://age\.tubo\.80\.kg/age01/view/img\d+\.(?:jpe?g|gif|png|bmp)	$&	http://age.tubo.80.kg/age01/imgboard.cgi	$NOEXTCTRL
+^http://age3\.tubo\.80\.kg/age02/view/\d+\.(?:jpe?g|gif|png)	$&	http://age3.tubo.80.kg/age02/clip.cgi	$NOEXTCTRL
+
+^http://wp\.madcowdisease\.org/gp/(.+\.(?:jpe?g|png|gif|bmp))$	http://wp.madcowdisease.org/$1	$&
+
+^http://www\.sunseagull\.com/freespace/download\.html\?download(\d+)&(.+\.(?:jpe?g|png|gif|bmp))$	http://new$1.freespace.jp/$2	$&
+
+^http://bbs\.2ch2\.net/(?:\w+/\?m=img&q=\.\./)?(\w+/img/\d+/\d+\.\w+)	http://bbs.2ch2.net/$1	$&
+
+^http://co0\.sakura\.ne\.jp/ph/link\.php\?f=(\d+)x(jpe?g|png|gif)	http://co0.sakura.ne.jp/ph/src/$1.$2	$&
+
+^http://www\.kabegamikan\.com/p/jump\.php\?url=www%2ekabegamikan%2ecom%2fimg%2f(\w+)%2f(\d+)%2e(jpe?g|gif|png|bmp)	http://www.kabegamikan.com/img/$1/$2.$3	$&
+^http://www\.kabegamikan\.com/img/(\w+)/(\d+)\.(jpe?g|gif|png|bmp)	$&	http://www.kabegamikan.com/p/jump.php?url=www%2ekabegamikan%2ecom%2fimg%2f$1%2f$2%2e$3	$NOEXTCTRL
+
+^http://kjm\.kir\.jp/pc/(?:index\.php)?\?p=(\d+\.(?:jpe?g|png|gif))	http://kjm.kir.jp/pc/img/$1	$&
+^http://kjm\.kir\.jp/pc/img/(\d+\.(?:jpe?g|png|gif))	$&	http://kjm.kir.jp/pc/?p=$1	$NOEXTCTRL
+
+^http://photos-server\.com/ps/(board\d+)/img-box/img\d+\.(?:jpe?g|gif|png|bmp)	$&	http://photos-server.com/ps/$1/imgboard.cgi
+
+^http://www\.uicupid\.info/uicupid/_user/mbbs/file/gazo(\d{2})\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www.uicupid.info/uicupid/bbs/gazo$1_01.html	$NOEXTCTRL
+
+^http://up00\.hyperbit\.info/up/trash-box/contents\.jsp\?file=(\d+\.(?:jpe?g|gif|png|bmp))	http://up00.hyperbit.info/up/trash-box/file/$1	$&
+^http://up00\.hyperbit\.info/up/trash-box/file/(\d+\.(?:jpe?g|gif|png|bmp))(?:\.jpg)?	http://up00.hyperbit.info/up/trash-box/file/$1	http://up00.hyperbit.info/up/trash-box/contents.jsp?file=$1
+
+^http://toku\.xdisc\.net/cgi/up(?:/vcc/nm|2/nbb/xs)\d+\.(?:jpe?g|gif|png|bmp)	$&	$&.html
+
+^http://www\.hotass\.jp/more-hipbbs/(\d+)/pages/(\w+jpg)\.htm	http://www.hotass.jp/more-hipbbs/$1/images/$2.jpg	$&
+^http://www\.hotass\.jp/more-hipbbs/(\d+)/images/(\w+jpg)\.jpg	$&	http://www.hotass.jp/more-hipbbs/$1/pages/$2.htm	$NOEXTCTRL
+
+^http://wing2\.jp/~zettoncoffee/cgi-bin/pipipiga/pipipiga\.php\?q_file=\.%2Fimg%2F(\w+)%2F(\w+\.(?:jpe?g|png|gif|bmp))	http://wing2.jp/~zettoncoffee/cgi-bin/pipipiga/img/$1/$2	$&
+^http://wing2\.jp/~zettoncoffee/cgi-bin/pipipiga/img/(\w+)/(\w+\.(?:jpe?g|png|gif|bmp))	$&	http://wing2.jp/~zettoncoffee/cgi-bin/pipipiga/pipipiga.php?q_file=.%2Fimg%2F$1%2F$2	$NOEXTCTRL
+
+^http://www\.onamoe\.com/main/bbsi/view\.cgi\?[&=\w]+\./(img-box/img\d+\.(?:jpe?g|png|gif|bmp))	http://www.onamoe.com/main/bbsi/$1	$&
+^http://www\.onamoe\.com/main/bbsi/(img-box/img\d+\.(?:jpe?g|png|gif|bmp))	$&	http://www.onamoe.com/main/bbsi/view.cgi?mode=search_menu&SearchWords=./$1	$NOEXTCTRL
+
+^http://damsuki\.com/2chriver/(?:html|nph-i)\.c/(out/\d+\.\d+\.\d+/\d+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]))	http://damsuki.com/2chriver/nph-i.c/$1	http://damsuki.com/2chriver/html.c/$1	$NOEXTCTRL
+
+^http://imagepot\.net/(?:view|image)/(\d+\.(?:jpe?g|png|gif|bmp))	http://imagepot.net/image/$1	http://imagepot.net/view/$1	$NOEXTCTRL
+
+^http://shiga\.s287\.xrea\.com/upload/src/(up\d+\.(?:jpe?g|png|gif|bmp))(/\1?)?	http://shiga.s287.xrea.com/upload/src/$1/$1	http://shiga.s287.xrea.com/upload/src/$1/
+
+^http://xs\.to/xs\.php\?h=(xs\d+)&d=(\d+)&f=([-\w]+\.(?:jpe?g|png|gif|bmp))	http://$1.xs.to/$1/$2/$3	$&
+
+^http://vip\.cmdap\.com/cgi-bin/up/imgup/src/vip\d+\.(?:jpe?g|gif|png|bmp)	$&	$&.html
+
+^http://xbbs\.knacks\.biz/_upload/([^/]+)/(\w+\.(?:jpe?g|png|gif|bmp))	$&	http://xbbs.knacks.biz/$1/image/$2	$NOEXTCTRL
+^http://xbbs\.knacks\.biz/([^/]+)/image/(\w+\.(?:jpe?g|png|gif|bmp))	http://xbbs.knacks.biz/_upload/$1/$2	$&	$NOEXTCTRL
+
+^http://a-draw\.com/uploader/src/up\d+\.(?:jpe?g|gif|png|bmp)	$&	$&.html
+^http://a-draw\.com/contents/uploader2/src/up\d+\.(?:jpe?g|png|gif|bmp)	$&	$&.html
+
+^http://apple\.mokuren\.ne\.jp/loader_1/src/apple\d+\.(?:jpe?g|png|gif|bmp)	$&	$&.html
+
+^http://beach\.dip\.jp/BBS/img/(\w+/\d+\.)(?:jpe?g|gif|png)	$&	http://beach.dip.jp/BBS/$1html	$NOEXTCTRL
+
+^http://tsukasa\.matome\.org/up/(?:count\.cgi\?|src/)(tup\d+\.(?:jpe?g|gif|png|bmp))	http://tsukasa.matome.org/up/src/$1	http://tsukasa.matome.org/up/count.cgi?$1
+
+^http://www\.photogiga\.com/(?:show\.php/|out\.php/i)(\w+\.(?:jpe?g|gif|png|bmp))	http://www.photogiga.com/out.php/i$1	http://www.photogiga.com/show.php/$1.html
+^http://www\.photogiga\.com/(?:view\.php/|image\.php/i)(\w+\.(?:jpe?g|gif|png|bmp))	http://www.photogiga.com/image.php/i$1	http://www.photogiga.com/view.php/$1.html
+^http://www\.photogiga\.com/view/[-\w]+/(\w+\.(?:jpe?g|gif|png|bmp))	http://www.photogiga.com/images.php/m$1	$&
+
+^http://www\.100gazou\.com/(\w+)/bbs\.cgi\?check_img=(\d+)&type=(jpe?g|png|gif)	http://www.100gazou.com/$1/bbsdata/img/$2.$3	$&
+^http://www\.100gazou\.com/(\w+)/bbsdata/img/(\d+)\.(jpe?g|png|gif)	$&	http://www.100gazou.com/$1/bbs.cgi?check_img=$2&type=$3	$NOEXTCTRL
+
+^http://img2\.stooorage\.com/images/(\d+/\w+\.\w+)	$&	http://www.stooorage.com/show/$1	$NOEXTCTRL
+
+^http://karinto2\.mine\.nu/(?:ulink/down|ulink/ups/download)/(\d+\.(?:jpe?g|gif|png|bmp))	http://karinto2.mine.nu/ulink/ups/download/$1	http://karinto2.mine.nu/ulink/down/$1
+
+^http://www\.suisen\.sakura\.ne\.jp/~bingbing/img-box2/bing\d+\.(?:jpe?g|gif|png|bmp)	$&	http://www.suisen.sakura.ne.jp/~bingbing/imgonly.cgi	$NOEXTCTRL
+
+^http://images\.freedl\.org/(?:gallery\.php\?entry=)?(images/\d+\.(?:jpe?g|gif|png|bmp))	http://images.freedl.org/$1	http://images.freedl.org/gallery.php?entry=$1
+
+^http://adult-cafe\.net/ana/bbs/(\w+)/(?:dlreg\.php\?|src/)(\d+\.\w+)	http://adult-cafe.net/ana/bbs/$1/src/$2	$&
+
+^http://www\.mrjh\.org/(?:gallery\.php\?entry=)?images/(\d+\.\w+)	http://www.mrjh.org/images/$1	$&
+
+^http://www\.b-idol\.com/photo\.cgi/(bbs\d?/\d{10}/)(?:max_)?(\d+\.\w+)	http://www.b-idol.com/$1img/$2	$&
+
+^http://imagezilla\.net/(?:show|images)/([\w-]+\.\w+)	http://imagezilla.net/images/$1	$&
+
+^http://chan\.sankakustatic\.com/data/(?:sample/)?[\da-f]{2}/[\da-f]{2}/(?:preview)?[\da-f]{32}\.\w+	$&	http://chan.sankakucomplex.com/post/show/	$NOEXTCTRL
+^http://c1\.sankakustatic\.com/data/((?:sample/)?[\da-f]{2}/[\da-f]{2}/(?:preview)?[\da-f]{32}\.\w+)	http://chan.sankakustatic.com/data/$1	http://chan.sankakucomplex.com/post/show/
+^http://c2\.sankakustatic\.com/data/((?:sample/)?[\da-f]{2}/[\da-f]{2}/(?:preview)?[\da-f]{32}\.\w+)	http://chan.sankakustatic.com/data/$1	http://chan.sankakucomplex.com/post/show/
+^http://c3\.sankakustatic\.com/data/((?:sample/)?[\da-f]{2}/[\da-f]{2}/(?:preview)?[\da-f]{32}\.\w+)	http://chan.sankakustatic.com/data/$1	http://chan.sankakucomplex.com/post/show/
+^http://c4\.sankakustatic\.com/data/((?:sample/)?[\da-f]{2}/[\da-f]{2}/(?:preview)?[\da-f]{32}\.\w+)	http://chan.sankakustatic.com/data/$1	http://chan.sankakucomplex.com/post/show/
+
+^http://moeziru\.net/upload/src/up\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://sageuploadw\.rdy\.jp/12upload/src/sage12_\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://bbs1\.elog-ch\.net/script/\w+/bbs/img/.+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://konyoku\.in/photobbs777/image7/\d+-\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://gigauploader\.com/src/file\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://seiup\.net/\w+/src/seiup[\w-]+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://shamech\.kir\.jp/ch/shame/img/\d{14}\.\w+	$&	$&	$NOEXTCTRL
+
+^http://bbs02\.fubuki\.info/\w+/img/\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://aliceuploader\.ddo\.jp/picture/img/\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://www\.imgbase\.info/images/.+	$&	http://www.wallpapervortex.com/	$NOEXTCTRL
+
+^http://walls4joy\.com/walls/.+	$&	$&	$NOEXTCTRL
+
+^http://m3\.momogaki\.com/bbs/\w+/img/\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://www2\.spline\.tv/bbs/nhk/grpview\.php/\d+\.\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://enjoy-web\.biz/bbs(?:-i)?/\w+/photo-pc/\d+\.\w+	$&	$&	$NOEXTCTRL
+^http://enjoy-web\.biz/bbs((?:-i)?/\w+)/bbs\.cgi\?mode=photo&no=(\d+)	http://enjoy-web.biz/bbs$1/photo-pc/$2.jpg	$&
+
+^http://uproda\.2ch-library\.com/src/lib\d+\.(?:jpe?g|gif|png|bmp)$	$&	$&.shtml
+^http://uproda11\.2ch-library\.com/src/\d+\.(?:jpe?g|gif|png|bmp)$	$&	$&.shtml
+^http://uproda11\.2ch-library\.com/r/e(\d+-\d+\.\w+)	http://uproda11.2ch-library.com/e/e$1
+^http://iup\.2ch-library\.com/r/(i\d+-\d+\.\w+)	http://iup.2ch-library.com/i/$1
+
+^http://img1\.imepic\.jp/image/\d{8}/\d{6}\.\w+\?[\da-f]{32}	$&	$&	$VIEWER
+^http://img2\.imepic\.jp/image/\d{8}/\d{6}\.\w+\?[\da-f]{32}	$&	$&	$VIEWER
+
+^http://i5\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i25\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i203\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i245\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i263\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i312\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i328\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i460\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i709\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i719\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i799\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i1121\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+^http://i1282\.photobucket\.com/albums/\w+/([\w-]+)/([^?]+\.\w+)	$&~original	$&	$VIEWER
+
+>---------- アップローダ・画像掲示板系・リファラなし ----------
+^http://(\w+\.(?:meiwasuisan\.com|shanimuni\.net))/(?:bbs/)?bin/i(?:mg)?/(\w+)/(\d{14}\.\w+)	http://$1/bbs/$2/img/$3
+
+^http://(www\d{0,2}\.oekakibbs\.com/bbs/[^/]+)/oekakibbs\.cgi\?.*thisfile=(\d+\.(?:jpe?g|png|gif|bmp))	http://$1/data/$2
+^http://proxy\.f\d\.ymdb\.yahoofs\.jp/users/\w+/bc/\w+/__hr_/[^.]+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP])\?\w{16}	$&		$VIEWER
+^http://iboard\d\.to/GAZOimage/\d+/\w+	$&		$VIEWER
+^http://an\.to/\?[-\w]+(?:jpe?g|png|gif|bmp)	$&		$VIEWER
+
+^http://\w\.upup\.be/\?mode=imageout&k=\w+	$&		$VIEWER
+^http://\w+\.upup\.be/f/r/\w+	$&		$VIEWER
+
+^http://\w+\.rara\.jp/img/\d+	$&		$VIEWER
+^http://2d\.moe\.hm/miku/upload\.php\?id=\d+	$&		$VIEWER
+^http://item\.slide\.com/(?:[^/]+/){4}[-\w/.]+	$&		$VIEWER
+
+^http://www\.photogiga\.com/show\.php/(\d+_\w+\.(?:jpe?g|png|gif|bmp))	http://www.photogiga.com/out.php/i$1
+^http://www-2ch\.net:8080/up/download/\d+\.\w+	$&		$VIEWER
+^http://images\.freedl\.org/gallery\.php\?entry=(images/\d+\.(?:jpe?g|png|gif|bmp))	http://images.freedl.org/$1
+^http://(\d{3})\.shanbara\.jp/(\w+)/(?:view|data)/(.+\.(?:jpe?g|png|gif|bmp))	http://$1.shanbara.jp/$2/data/$3
+
+^http://cmonet\.s58\.xrea\.com/upload/src/(up\d+\.\w+)(?:/\1?)?	http://cmonet.s58.xrea.com/upload/src/$1/$1
+
+^http://upload\.ninja-x\.jp/(img\d+\.\w+)	$&/$1
+^http://uploader\.chitosedori\.com/(img\d+\.\w+)	$&/$1
+^http://uploader\.gouketu\.com/(img\d+\.\w+)	$&/$1
+^http://uploader\.ie-yasu\.com/(img\d+\.\w+)	$&/$1
+^http://uploader\.kanpaku\.jp/(img\d+\.\w+)	$&/$1
+^http://uploader\.rakugan\.com/(img\d+\.\w+)	$&/$1
+^http://uploader\.sessya\.net/(img\d+\.\w+)	$&/$1
+^http://uploader\.shakunage\.net/(img\d+\.\w+)	$&/$1
+^http://uploader\.tamajiri\.com/(img\d+\.\w+)	$&/$1
+^http://uploader\.zashiki\.com/(img\d+\.\w+)	$&/$1
+^http://uploda\.aikotoba\.jp/(img\d+\.\w+)	$&/$1
+^http://viploader\.bakufu\.org/(img\d+\.\w+)	$&/$1
+^http://viploader\.client\.jp/(img\d+\.\w+)	$&/$1
+^http://viploader\.dotera\.net/(img\d+\.\w+)	$&/$1
+^http://viploader\.higoyomi\.com/(img\d+\.\w+)	$&/$1
+^http://viploader\.iinaa\.net/(img\d+\.\w+)	$&/$1
+^http://viploader\.kasajizo\.com/(img\d+\.\w+)	$&/$1
+^http://viploader\.nagesen\.net/(img\d+\.\w+)	$&/$1
+^http://viploader\.uijin\.com/(img\d+\.\w+)	$&/$1
+
+^http://52\.3zoku\.com/(\d{9})\.(\w+)	http://52.3zoku.com/${1}0.$2
+^http://beebee2see\.mypages\.jp/(\d{9})\.(\w+)	http://beebee2see.mypages.jp/${1}0.$2
+^http://beebee2see\.web6\.jp/(\d+[1-9])\.(\w+)	http://beebee2see.web6.jp/${1}0.$2
+^http://live2ch-uploader\.ehehe\.net/(\d{9})\.(\w+)	http://live2ch-uploader.ehehe.net/${1}0.$2
+^http://new2loda\.firebird\.jp/(\d+[1-9])\.(\w+)	http://new2loda.firebird.jp/${1}0.$2
+^http://uproda2ch\.daa\.jp/(\d+[1-9])\.(\w+)	http://uproda2ch.daa.jp/${1}0.$2
+^http://uproda\.crz\.jp/(\d{9})\.(\w+)	http://uproda.crz.jp/${1}0.$2
+^http://vip2ch\.boo\.jp/(\d+[1-9])\.(\w+)	http://vip2ch.boo.jp/${1}0.$2
+
+^http://files\.or\.tl/dl\.php\?f=up(\d+\.\w+)	http://files.or.tl/up$1
+
+^http://pr55\.net/page\.php\?i=(\w+\.\w+)	http://pr55.net/img/$1
+
+^http://n\.namusyaka\.info/(\d{8}/\d{6}\.\w+)	http://namusyaka.sakura.ne.jp/images/$1
+
+^http://motenai\.orz\.hm/up/orz(\d{5}\.\w+)	http://motenai.orz.hm/up/i/orz$1
+
+^http://rivens\.info/(\w+/)?IMG_LOG\.php\?i=(\d{14}\.\w+)	http://rivens.info/$1IMG_LOG/$2
+
+^http://mu\.skr\.jp/index\.php\?mode=image&file=(\d+\.\w+)	http://mu.skr.jp/data/img/$1
+
+^http://shikiyoku\.tank\.jp/board/(\w+)/images/(\d+\.\w+)	http://shikiyoku.tank.jp/board/$1/img/$2
+
+^http://imgdepot\.org/show/(\d{8}/\d+/.+)	http://imgdepot.org/images/$1
+
+^http://(?:www\.)?uproda\.net/down/(uproda\d+\.\w+)	http://uproda.net/down/$1
+
+^http://up4\.jp/(\w+)/(\d+)$	http://up4.jp/img/$2.$1
+
+^http://kumobbs\.com/(?:image|data/img/)(\d+)(?:_tn)?\.(\w+)	http://kumobbs.com/data/img/$1.$2
+
+^http://x\.fap\.to/images/full/(\d+/\d+/\d+\.\w+)	http://fap.to/images/full/$1
+
+^http://otakaragirl\.com/index\.php\?mode=image&file=(\d+\.\w+)	http://otakaragirl.com/data/img/$1
+
+^http://beebee2see\.appspot\.com/i/(.+)	http://beebee2see.appspot.com/d/$1
+
+^http://(\w+\.)?oopsup\.com/browse\.php/(\w+/.+\.\w+)	http://$1oopsup.com/readfile.php/$2
+
+^http://([\da-f]{32})\.gazou\.me/\w+\.(\w+)	http://$1.gazou.me/large.$2
+
+^http://dennou\.1000\.tv/((?:[^/]+/){2})dlreg\.php\?(\d+\.\w+)	http://dennou.1000.tv/$1src/$2
+
+^http://img(\d+\.imageporter\.com/i/\d+/\w+)_t\.(\w+)	http://img$1.$2
+
+^http://img\d+\.s\.movie-rush\.com/bbs/contents/((?:comment_\d+_)?\d+_[\da-f]{32})(?:_\d+x\d+)?(\.\w+)	http://img01.s.movie-rush.com/bbs/contents/$1$2
+
+^http://(?:static|s\d+)\.zerochan\.net/(?:full/\d+/\d+/|.*\.(?:full|\d+)\.)(\d+\.\w+)	http://static.zerochan.net/.full.$1
+
+^http://(?:i\.)?snag\.gy/(\w+\.\w+)	http://temporary-link-x-use-i-dot-snaggy-for-hotlinking-x-3295a434ffc3.snag.gy/$1
+
+^http://uploda\.cc/thumb/img(\w+\.\w+)	http://uploda.cc/img/img$1
+^http://uploda\.cc/file/img([\da-f]+\.\w+)(?:\.html)?	http://uploda.cc/img/img$1
+
+^http://ibp\.atura\.ws/m/f/\d+/img/\d+\.\w+	$&
+
+^http://(?:www\.)?javblog\.biz/image/viewer\.php\?file=(\w+\.\w+)	http://www.javblog.biz/image/images/$1
+
+^https?://(?:\w+\.)?imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2
+^https?://(?:\w+\.)?imgur\.com/(?!gallery/|delete/)(?:download/)?(\w{5}(?:\w{2})?)(?![&,]|\w{2,})	https://imgur.com/download/$1		$VIEWER
+
+^http://img-up\.com/img_dl\.php\?(?:\w+=\w+&)*file=(up_img-up\.com_\w+/\d+/\w+\.\w+)	http://img-up.com/$1
+^http://img-up\.com/img_dl_convert\.php\?.+	$&		$VIEWER
+
+^http://(?:www\.)?heberger-image\.fr/images/(\d+_[\w-]+\.\w+)(?:\.html)?	http://www.heberger-image.fr/data/images/$1
+
+^http://img(\d+)\.imageshack\.us/i(?:mg\d+/\d+)?/(\w+\.\w+)	https://imageshack.us/download/$1/$2
+^https?://imageshack\.us/(?:f|photo/[\w-]+)/(\d+/\w+\.\w+)	https://imageshack.us/download/$1
+
+^http://premium\.imagesocket\.com/thumbs/(\d{4}/\d{2}/\d{2}/[\w-]+\.\w+)	http://premium.imagesocket.com/images/$1
+
+^http://tenka2\.sakura\.ne\.jp/WOW\.php\?SLNO=(\d+)&IMG=(\d+\.\w+)	http://tenka2.sakura.ne.jp/$1/img/$2
+
+^http://xpics\.us/viewer\.php\?file=([\w-]+\.\w+)	http://xpics.us/images/$1
+
+^http://www\.imageboss\.net/(?:view/)?img(\d+/\w+)(?:-|/thumbs/)(\d+\.\w+)	http://www.imageboss.net/img$1/$2
+
+^http://ix-logic\.mydns\.jp/csup/count\.cgi\?(\w+_\d+\.\w+)	http://ix-logic.mydns.jp/csup/src/$1
+
+^http://(?:(?:i\d*\.)?minus\.com|min\.us)/[ij](\w+\.\w+)	http://i.minus.com/i$1
+
+^http://img\.ly/system/uploads/(\d{3}/\d{3}/\d{3})/\w+_upload\.(\w+)	http://img.ly/system/uploads/$1/original_upload.$2
+^http://img\.ly/(?:show/\w+/)?(\w+)$	http://img.ly/show/full/$1		$VIEWER
+
+^http://prcm\.jp/album/(\w+)/pic/(\d+)	http://pic.prepics-cdn.com/$1/$2.jpeg
+^http://opt\.prepics\.com/pic/prcmpic/(\w+/\d+)(?:_\w+)?\.(\w+)	http://pic.prepics-cdn.com/$1.$2
+^http://pic\.prepics-cdn\.com/(\w+/\d+)(?:_\w+)?\.(\w+)	http://pic.prepics-cdn.com/$1.$2
+
+^http://erogahaku\.net/bbs(\d+)/img\.php/(\w+)/(\d+\.\w+)	http://erogahaku.net/bbs$1/$2/img/$3
+
+^http://imgnip\.com/viewer\.php\?file=(\d+\.\w+)	http://imgnip.com/download.php?file=$1
+
+^http://imagepix\.org/image/([\da-f]{32})\.html	http://imagepix.org/full/$1.jpg
+
+^http://pentakun\.com/pen/(?:penguinresponses/image/[\w-]+/\d+|upload/\w+)/(\d+_[\da-f]{32})_\w+\.(\w+)	http://pentakun.com/pen/upload/original/$1_original.$2
+^http://mofu3\.com/pink/(?:pimg/\w+/\d+|upload/\w+)/(\d+_[\da-f]{32})_\w+\.(\w+)	http://mofu3.com/pink/upload/original/$1_original.$2
+
+^https?://(?:www\.)?copy\.com/(?:s/|thumbs_public/)?(\w+/(?:[\w-]|%[\dA-F]{2})+\.\w+)	https://copy\.com/$1
+
+^http://i-bbs\.sijex\.net/(?:sp/)?imageDisp\.jsp\?id=([^&]+)&file=(\d+)\w\.(\w+)	http://i-bbs.sijex.net/bbs/$1/$2o.$3
+^http://(?:image\.)?i-bbs\.sijex\.net/bbs/(\w+/\d+)\w\.(\w+)	http://i-bbs.sijex.net/bbs/$1o.$2
+
+^http://fast-uploader\.com/file/(\d+\.\w+)	http://fast-uploader.com/transfer/$1
+
+^http://movapic\.com/pic/([\da-f]{27})	http://image.movapic.com/pic/m_$1.jpeg
+
+^http://ppp\.atbbs\.jp/photo/(\w+)/(\d+\.\w+)	http://ppp.atbbs.jp/$1/img/$2
+
+^http://diegoal\.net/expo/script/bbs/dlreg\.php\?(\d+\.\w+)	http://diegoal.net/expo/script/bbs/src/$1
+
+^http://\d+-media-cdn\.foolz\.us/ffuuka/board/(\w+/(?:image|thumb)/\d+/\d+/\d+\.\w+)	http://0-media-cdn.foolz.us/ffuuka/board/$1
+
+^http://(live|uni)\.kota2\.net/index\.php\?mode=image&file=(\d+\.\w+)	http://$1.kota2.net/data/img/$2
+
+^http://catpic\.biz/x/viewer\.php\?file=(\w+\.\w+)	http://catpic.biz/x/images/$1
+
+^http://upload\.saloon\.jp/count\.cgi\?up(\d+\.\w+)	http://upload.saloon.jp/src/up$1
+
+^http://garanger\.net/bbs/(\w+)/dlreg\.php\?(\d+\.\w+)	http://garanger.net/bbs/$1/src/$2
+
+^https?://shanachan\.org/(\w+/src/\d+\.\w+)	https://shanachan.org/$1
+
+^http://demon-uploader\.rosepink\.us/small\.html\?img=(\d{19}\.\w+)	http://demon-uploader.rosepink.us/uploads/$1
+
+^http://(\w+)\.turboimg\.net/sp/([\da-f]{32})/[^/]+\.(\w+)	http://$1.turboimg.net/sp/$2/$2.$3
+
+^http://(?:(?:(?:(?:(?:img|cdn)\d*|simg\d*)\.)?gelbooru\.com)|youhate\.us)//?images//?(\d+/[\da-f]+\.\w+)	http://simg2.gelbooru.com/images/$1
+^http://(?:(?:(?:(?:(?:img|cdn)\d*|simg\d*)\.)?gelbooru\.com)|youhate\.us)//?samples/(\d+/sample_[\da-f]+\.\w+)	http://simg2.gelbooru.com/samples/$1
+
+^http://(?:img\.)?booru\.org/size//?images/(\d+/[\da-f]+\.\w+)	http://booru.org/size/images/$1
+^http://(?:img\.)?booru\.org/size//?samples/(\d+/sample_[\da-f]+\.\w+)	http://booru.org/size/samples/$1
+
+^http://safebooru\.org//?images/(\d+/[\da-f]+\.\w+)	http://safebooru.org/images/$1
+^http://safebooru\.org//?samples/(\d+/sample_[\da-f]+\.\w+)	http://safebooru.org/samples/$1
+
+^https?://derpicdn\.net/img/(?:view/)?(\d+/\d+/\d+/\d+)[^?]*\.(\w+)	https://derpicdn.net/img/view/$1.$2
+^https?://derpicdn\.net/media/(\w+/\d+)	https://derpicdn.net/media/$1		$VIEWER
+
+^http://konachan\.com/(\w+/[\da-f]{32}).*\.(\w+)	http://konachan.com/$1.$2
+
+^https?://yande\.re/image/([\da-f]{32}).*\.(\w+)$	https://yande.re/image/$1.$2
+^https?://yande\.re/(\w+/[\da-f]{32}).*\.(\w+)$	https://yande.re/$1/.$2
+
+^http://(?:\w+\.)?donmai\.us/data/((?:sample/sample-)?[\da-f]{32}\.\w+)	http://donmai.us/data/$1
+
+^https?://(?:static1\.)?e621\.net/data/((?:(?:preview|sample)/)?[\da-f]{2}/[\da-f]{2}/[\da-f]{32}\.\w+)	https://e621.net/data/$1
+
+^http://booru\.nanochan\.org/i/[\da-f]{32}	$&		$VIEWER
+
+^http://giantessbooru\.com/_images/[\da-f]{32}	$&		$VIEWER
+
+^http://rule34-data-\d+\.paheal\.net/_images/([\da-f]{32})	http://rule34-data-000.paheal.net/_images/$1		$VIEWER
+
+^http://(?:www\.)?mgbooru\.com/_images/([\da-f]{32})	http://mgbooru.com/_images/$1		$VIEWER
+
+^http://megabooru\.com/_images/([\da-f]{2})([\da-f]{30})	http://img2.megabooru.com/images/$1/$1$2		$VIEWER
+^http://img2\.megabooru\.com/images/[\da-f]{2}/[\da-f]{32}	$&		$VIEWER
+
+^http://imgdino\.com/images/(\d+)_thumb\.(\w+)	http://imgdino.com/download.php?file=$1.$2		$VIEWER
+^http://imgdino\.com/viewer\.php\?file=(\d+\.\w+)	http://imgdino.com/download.php?file=$1		$VIEWER
+
+^http://rmart\.org/(\d+)	http://rmart.org/$1/Src		$VIEWER
+
+^http://up\d+\.ayame\.jp/up/download/\d+$	$&		$VIEWER
+
+^http://imefix\.info/\d{8}/\d+	$&/rare		$VIEWER
+
+^http://p\.serena\.gs/(?:file/)?(\d{8}/\d+)	http://p.serena.gs/file/$1		$VIEWER
+
+^http://(?:img\d\.)?myup\.jp/(?:i/)?(\w{2,})	http://myup.jp/i/$1		$VIEWER
+^http://(?:img\d\.)?upchu\.net/(?:i/)?(\w{2,})	http://img2.upchu.net/i/$1		$VIEWER
+
+^http://(?:www\.)?pic-loader\.net/(?:picfile|vi(?:ew)?(?:\.php)?)/?(?:\?(?:n|pic)=)?(\w+)	http://pic-loader.net/picfile/$1		$VIEWER
+
+^http://(?:data\d\.)?sp-up\.jp/data/deliver\.php\?.*id=(\d+)	http://sp-up.jp/data/deliver.php?id=$1		$VIEWER
+
+^http://iphone\.80\.kg/view/(\d{15})\.html	http://iphone.80.kg/upload/$1		$VIEWER
+
+^http://tinypic\.com/view\.php\?pic=(\w+)&s=(\d+)	http://s$2.tinypic.com/$1		$VIEWER
+^http://tinypic\.com/r/(\w+)/(\d+)	http://s$2.tinypic.com/$1		$VIEWER
+^http://s\d+\.tinypic\.com/[\dA-Za-z]+	$&		$VIEWER
+
+^http://p2\.ms/(\w+)&z=(\d+)	http://p2.ms/skur-$1$2&s=240		$VIEWER
+^http://p2\.ms/skur-\w+&s=240	$&		$VIEWER
+
+^http://(?:www\.)?twitxr\.com/(?:image|\w+/updates)/(\d+)/	http://twitxr.com/image/$1/		$VIEWER
+
+^http://twitrpix\.com/(\w+)$	http://img.twitrpix.com/$1		$VIEWER
+
+^http://f\.xup\.cc/\w+\.(?:bmp|gif|png|jpg)	$&?download		$VIEWER
+
+^http://imgtiger\.com/viewer\.php\?file=([^&]+)	http://imgtiger.com/download.php?file=$1		$VIEWER
+
+^http://www\.fastpic\.jp/(?:viewer|images)\.php\?file=(\d+\.\w+)	http://www.fastpic.jp/download.php?file=$1		$VIEWER
+
+^http://www\.sunwin\.mydns\.jp/kameup/media/\w+	$&		$VIEWER
+
+^http://mmoloda\.com/(\w+)/image(?:/|\.php\?id=)(\d+)	http://mmoloda.com/$1/image/$2		$VIEWER
+^http://([\w-]+)\.mmoloda\.com/image(?:/|\.php\?id=)(\d+)	http://$1.mmoloda.com/image/$2		$VIEWER
+^http://mmoloda\.x0\.com/(\w+)/image(?:/|\.php\?id=)(\d+)	http://mmoloda.x0.com/$1/image/$2		$VIEWER
+^http://kancolle\.x0\.com/image(?:/|\.php\?id=)(\d+)	http://kancolle.x0.com/image/$1		$VIEWER
+^http://mmoloda-aion\.x0\.com/image(?:/|\.php\?id=)(\d+)	http://mmoloda-aion.x0.com/image/$1		$VIEWER
+^http://mmoloda-ff14\.x0\.com/image(?:/|\.php\?id=)(\d+)	http://mmoloda-ff14.x0.com/image/$1		$VIEWER
+^http://mmoloda-kancolle\.x0\.com/image(?:/|\.php\?id=)(\d+)	http://mmoloda-kancolle.x0.com/image/$1		$VIEWER
+^http://mmoloda-kanpani\.x0\.com/image(?:/|\.php\?id=)(\d+)	http://mmoloda-kanpani.x0.com/image/$1		$VIEWER
+^http://mmoloda-msgo\.x0\.com/image(?:/|\.php\?id=)(\d+)	http://mmoloda-msgo.x0.com/image/$1		$VIEWER
+
+^http://ero-gazou-uploader\.x0\.com/image(?:/|\.php\?id=)(\d+)	http://ero-gazou-uploader.x0.com/image/$1		$VIEWER
+
+>---------- アップローダ・画像掲示板系・決め打ちあり(誤爆あり) ----------
+^http://i\.turboimagehost\.com/p/(\d+)/([^.]+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP]))	http://i2.turboimagehost.com/b1/$1/$2	$&
+
+
+^http://cgi\.2chan\.net/(\w+)/red/(\d+)\.htm	http://cgi.2chan.net/$1/src/$2.jpg	$&
+^http://dat\.2chan\.net/(\w+)/red/(\d+)\.htm	http://dat.2chan.net/$1/src/$2.jpg	$&
+^http://img\.2chan\.net/(\w+)/red/(\d+)\.htm	http://img.2chan.net/$1/src/$2.jpg	$&
+^http://jun\.2chan\.net/(\w+)/red/(\d+)\.htm	http://jun.2chan.net/$1/src/$2.jpg	$&
+^http://may\.2chan\.net/(\w+)/red/(\d+)\.htm	http://may.2chan.net/$1/src/$2.jpg	$&
+^http://nov\.2chan\.net/(\w+)/red/(\d+)\.htm	http://nov.2chan.net/$1/src/$2.jpg	$&
+^http://tmp\.2chan\.net/(\w+)/red/(\d+)\.htm	http://tmp.2chan.net/$1/src/$2.jpg	$&
+^http://up\.2chan\.net/(\w+)/red/(\d+)\.htm	http://up.2chan.net/$1/src/$2.jpg	$&
+^http://zip\.2chan\.net/(\w+)/red/(\d+)\.htm	http://zip.2chan.net/$1/src/$2.jpg	$&
+
+^http://\w+\.2chan\.net/(\w+)/(\w+)/src/(\d+\.\w+)	http://$1.2chan.net/$2/src/$3
+^http://(\w+)\.2chan\.net/g\.php\?(\w+)\.(\d+\.\w+)(?:\.htm)?	http://$1.2chan.net/$2/src/$3
+
+
+^http://hidebehind\.com/((\w{2})\w{4})(?:/f)?	http://hidebehind.com/img/$2/$1.jpg	$&/f
+^http://www\.hidebehind\.com/((\w{2})\w{4})(?:/f)?	http://hidebehind.com/img/$2/$1.jpg	$&/f
+^http://moech\.net/imgboard777/redirecthtm/(\d+)\.htm	http://moech.net/imgboard777/src/$1.jpg	$&
+^http://sp\.moech\.net/php/imgboard9/redirecthtm/(\d+)\.htm	http://sp.moech.net/php/imgboard9/src/$1.jpg	$&
+^http://www\.inverse\.jp/perl2/gazou/html/(\d+)\.htm	http://www.inverse.jp/perl2/gazou/src/$1.jpg	$&
+^http://up\.nm78\.com/obj/(\d+)	http://up.nm78.com/dl/$1.jpg	$&
+
+^http://www\.divshare\.com/img/\w+-\w+	$&		$VIEWER
+^http://www\.divshare\.com/(?:img|download)(/\d+-\w{3})	http://www.divshare.com/img/display$1.jpg	http://www.divshare.com/img$1	$VIEWER
+^http://divshare\.com/(?:img|download)(/\d+-\w{3})	http://www.divshare.com/img/display$1.jpg	http://www.divshare.com/img$1	$VIEWER
+^http://www\.divshare\.com/img/(\d+-\w{3})	http://www.divshare.com/img/$1.jpg	http://www.divshare.com/img/$1	$VIEWER
+^http://www\.divshare\.com/(?:img/display|image|download(?:/launch)?)/(\d+-\w{3})	http://www.divshare.com/img/display/$1.jpg	http://www.divshare.com/img$1	$VIEWER
+^http://divshare\.com/(?:img(?:/display)?|download)(/\d+-\w{3})	http://www.divshare.com/img/display$1	http://www.divshare.com/img$1	$VIEWER
+
+^http://mushuxp\.com/jpg/\d/\d+	$&.jpg	$&
+^http://bbs\.mushuxp\.com/jpg/\d/\d+	$&.jpg	$&
+^http://jyukujyo\.jpn\.org/jkup/up/up\d+	$&.jpg	$&
+^http://jyukujyo\.jpn\.org/jkup/up2/up\d+	$&.jpg	$&
+
+^http://www\.emailgenki\.com/view/(\d+)	http://www.emailgenki.com/photos/$1.jpg
+
+^http://up-photo\.itsaol\.com/up\.cgi\?mode=photo&no=(\d+)	http://up-photo.itsaol.com/photo/$1.jpg	$&
+^http://up-photo\.itsaol\.com/photo(?:-thumbs)?/(\d+\.\w+)	http://up-photo.itsaol.com/photo/$1	$&
+
+>---------- 単なるリファラ送り ----------
+^http://momiage\.sakura\.ne\.jp/(\w+)/src/(\d+)\.(?:jpe?g|png|gif)	$&	http://momiage.sakura.ne.jp/$1/ref/$2.htm	$NOEXTCTRL
+^http://namamono\.tk/(\w+)/src/(\d+)\.(?:jpe?g|png|gif)	$&	http://namamono.tk/$1/ref/$2.htm	$NOEXTCTRL
+^http://8\.pro\.tok2\.com/~namamono/(\w+)/src/(\d+)\.(?:jpe?g|png|gif)	$&	http://8.pro.tok2.com/~namamono/$1/ref/$2.htm	$NOEXTCTRL
+
+^http://moech\.net/imgboard777/src/(\d+)\.(?:jpe?g|gif|png)	$&	http://moech.net/imgboard777/redirecthtm/$1.htm	$NOEXTCTRL
+^http://sp\.moech\.net/php/imgboard9/src/(\d+)\.(?:jpe?g|png|gif|bmp)	$&	http://sp.moech.net/php/imgboard9/redirecthtm/$1.htm	$NOEXTCTRL
+
+^http://www\.gazoru\.com/g-((\w)\w{31}\.(?:jpe?g|gif|png|bmp))	http://img.gazoru.com/file/pic/$2/$1	$&
+^http://www\.gazoru\.com/file/pic/\w/(\w{32}\.(?:jpe?g|gif|png|bmp))	$&	http://www.gazoru.com/g-$1	$NOEXTCTRL
+^http://img\.gazoru\.com/file/pic/\w/(\w{32}\.(?:jpe?g|gif|png|bmp))	$&	http://www.gazoru.com/g-$1	$NOEXTCTRL
+
+^http://gazoubbs\.com/(\w+)/img/(\d+)/\d+\.(?:jpe?g|gif|png|bmp)	$&	http://gazoubbs.com/test/read.cgi/$1/$2/	$NOEXTCTRL
+^http://bbs03\.gazoubbs\.com/(\w+)/img/(\d+)/\d+\.(?:jpe?g|gif|png|bmp)	$&	http://bbs03.gazoubbs.com/test/read.cgi/$1/$2/	$NOEXTCTRL
+
+^http://bbs\.j-banana\.net/([^/]+)/user/(?:images/)?([^_]+)_img/(\d+)\.(?:jpe?g|png|gif|bmp)$	$&	http://bbs.j-banana.net/$1/gazou.cgi?room=$2&no=$3	$NOEXTCTRL
+
+^http://doup\.org/files/([^/]+)/\1_\d+\.(?:jpe?g|png|gif|bmp)	$&	http://doup.jp/files/$1	$NOEXTCTRL
+
+^http://gban\.jp/d/\w/(\w+)\.(?:jpe?g|png|gif|bmp)	$&	http://gban.jp/i/$1	$NOEXTCTRL
+
+^http://hostimage\.eu/show\.php/(.+\.(?:jpe?g|gif|png|bmp))$	http://hostimage.eu/out.php/i$1	$&.html
+
+^http://bbs01\.apricot-fizz\.net/(\w+)/grpview\.php/(\d+)\.\d+\.(?:jpe?g|gif|png|bmp)	$&	http://bbs01.apricot-fizz.net/$1/?command=GRPVIEW&num=$2	$NOEXTCTRL
+
+^http://a-beach\.net/BBS/img/(\w+)/\d/(\d+\.)(?:jpe?g|gif|png)	$&	http://a-beach.net/BBS/$1/$2html	$NOEXTCTRL
+
+^http://i2\.turboimagehost\.com/b1?/(\d+)/([^.]+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP]))	$&	http://i.turboimagehost.com/p/$1/$2	$NOEXTCTRL
+
+^http://ip1\.imgbbs\.jp/(read\d/[^/]+/\d+/\d+/)img/(\d+)\.(?:jpe?g|png|gif|bmp)	$&	http://ip1.imgbbs.jp/$1$2.html	$NOEXTCTRL
+
+^http://upl\.silkload\.info/(all|2d|neta|mmo)/link\.php\?id=\d+	$&	http://upl.silkload.info/$1/upload.php?page=all&gal=0&mode=list&sword=&andor=	$VIEWER
+
+^http://www\.inverse\.jp/perl2/gazou/src/(\d+)\.(?:jpe?g|png|gif)	$&	http://www.inverse.jp/perl2/gazou/html/$1.htm	$NOEXTCTRL
+
+^http://tv2ch\.be-to\.com/s/(tv2ch\.net_15_\d+\.(?:jpe?g|png|gif|bmp))	$&	http://tv2ch.be-to.com/count.cgi?$1
+^http://damedao\.web\.fc2\.com/img/(\d+)\.(?:jpe?g|png|gif|bmp)	$&	http://damedao.web.fc2.com/html/$1.html	$NOEXTCTRL
+
+^http://1rg\.org/up/\d+\.(?:jpe?g|png|gif|bmp)$	$&	$&.html
+
+^http://up\.mugitya\.com/img/Lv\.1_up\d+\.(?:jpe?g|gif|png|bmp)$	$&	$&.html
+
+^http://nigauri\.sakura\.ne\.jp/src/(up\d+\.(?:jpe?g|gif|png|bmp))$	http://www.nigauri.sakura.ne.jp/src/$1	http://www.nigauri.sakura.ne.jp/src/$1.html
+^http://www\.nigauri\.sakura\.ne\.jp/src/up\d+\.(?:jpe?g|gif|png|bmp)$	$&	$&.html
+
+^http://japangirlz\.com/((?:[^/]+/){1,3}.+)\.(?:jpe?g|png|gif|bmp)	$&	http://japangirlz.com/$1.html	$NOEXTCTRL
+
+^http://www2\.ni-so\.org/(?:files/|count\.cgi\?)(abs\d+\.(?:jpe?g|png|gif|bmp))	http://www2.ni-so.org/files/$1	http://www2.ni-so.org/count.cgi?$1
+
+^http://up\.pandoravote\.net/img/pandora(\d+)\.(?:jpe?g|png|gif|bmp)	$&	http://up.pandoravote.net/link.php?id=$1	$NOEXTCTRL
+^http://up2\.pandoravote\.net/img/pandora(\d+)\.(?:jpe?g|png|gif|bmp)	$&	http://up2.pandoravote.net/link.php?id=$1	$NOEXTCTRL
+^http://up3\.pandoravote\.net/img/pandorakabe(\d+)\.(?:jpe?g|png|gif|bmp)	$&	http://up3.pandoravote.net/link.php?id=$1	$NOEXTCTRL
+^http://up4\.pandoravote\.net/img/panflash(\d+)\.(?:jpe?g|png|gif|bmp)	$&	http://up4.pandoravote.net/link.php?id=$1
+^http://pandoravote\.net/jpg/mini\d?/mini\d?\.php\?.+&_ucb_u=http%3A%2F%2Fup(\d)?\.pandoravote\.net%2Fimg%2F(pan(?:dora(?:kabe)?|flash)(\d+)\.(?:jpe?g|png|gif|bmp))	http://up$1.pandoravote.net/img/$2	http://up$1.pandoravote.net/link.php?id=$3
+^http://up2\.pandoravote\.net/index\.php\?id=(\d+)	http://up2.pandoravote.net/img/pan2ji$1.jpg	$&
+
+^http://headset\.rdy\.jp/cgi-bin/uploader/src/hedup\d+\.(?:jpe?g|png|gif|bmp)$	$&	$&.html
+
+^http://bebe\.run\.buttobi\.net/up/src/be_\d+\.(?:jpe?g|gif|png|bmp)	$&	$&.html
+
+^http://www\.katsakuri\.sakura\.ne\.jp/src/up\d+\.(?:jpe?g|gif|png|bmp)	$&	$&.html
+
+^http://megalodon\.jp/[-\d]+/.+	$&	$&	$NOEXTCTRL
+^http://s01\.megalodon\.jp/[-\d]+/.+	$&	$&	$NOEXTCTRL
+^http://s02\.megalodon\.jp/[-\d]+/.+	$&	$&	$NOEXTCTRL
+^http://s03\.megalodon\.jp/[-\d]+/.+	$&	$&	$NOEXTCTRL
+^http://s04\.megalodon\.jp/[-\d]+/.+	$&	$&	$NOEXTCTRL
+
+^http://tool\.ggs\.jp/up10/download/.+	$&	$&	$NOEXTCTRL
+
+^http://gallery\.cl-erotic\.com/FHG/\d+-\w+/.+	$&	$&	$NOEXTCTRL
+
+^http://www\.teendreams\.com/tgp/\w+/\w+/pics/.+	$&	$&	$NOEXTCTRL
+
+^http://picroda\.jphip\.com/\w+/jphip\d+\.\w+	$&	$&	$NOEXTCTRL
+^http://picroda\.jphip\.net/\w+/jphip\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://www\.comusume\.net/cgi-bin/\d+/src/\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://gvote\.x0\.com/up/g\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://upic\.me/i/\w{2}/.+	$&	$&	$NOEXTCTRL
+
+^http://www\.gpara\.com/.+$	$&	$&	$NOEXTCTRL
+
+^http://sugumiru\.fvby\.cocospace\.com/pimage/.+	$&	$&	$NOEXTCTRL
+^http://sug18\.fvby\.cocospace\.com/pimage/.+	$&	http://sugumiru18.2chblog.jp/archives/	$NOEXTCTRL
+
+^http://ft\.uicupid\.com/daily/\d{14}/\d{4}\.\w+	$&	$&	$NOEXTCTRL
+^http://ht\.uicupid\.com/daily/\d{14}/\d{4}\.\w+	$&	$&	$NOEXTCTRL
+^http://jk\.uicupid\.com/daily/\d{14}/\d{4}\.\w+	$&	$&	$NOEXTCTRL
+^http://op\.uicupid\.com/daily/\d{14}/\d{4}\.\w+	$&	$&	$NOEXTCTRL
+^http://pc\.uicupid\.com/daily/\d{14}/\d{4}\.\w+	$&	$&	$NOEXTCTRL
+^http://sr\.uicupid\.com/daily/\d{14}/\d{4}\.\w+	$&	$&	$NOEXTCTRL
+^http://gazo\.uicupid\.org/daily/\d{14}/\d{4}\.\w+	$&	$&	$NOEXTCTRL
+
+^http://www\.mizukinana\.jp/(?:[^?]+/)?img/.+	$&	$&	$NOEXTCTRL
+
+^http://p\.img-space\.net/.+	$&	$&	$NOEXTCTRL
+
+^http://www\.orient-doll\.com/gallery/images/.+	$&	$&	$NOEXTCTRL
+
+>---------- ニュース ----------
+^http://([^.]+)\.ascii24\.com/((?:\w+/)+)imageview/(images\d+\.(?:jpe?g|png|gif|bmp))	http://$1.ascii24.com/$2images/$3
+
+^http://stream\.itmedia\.co\.jp/(.+\.(?:jpe?g|png|gif|bmp))	http://stream.itmedia.co.jp/$1	http://image.itmedia.co.jp/l/st/$1
+^http://image\.itmedia\.co\.jp/l/st/(.+\.(?:jpe?g|png|gif|bmp))	http://stream.itmedia.co.jp/$1	http://image.itmedia.co.jp/l/st/$1
+^http://image\.itmedia\.co\.jp/(?:l/im/)?(.+\.(?:jpe?g|png|gif|bmp))	http://image.itmedia.co.jp/$1	http://image.itmedia.co.jp/l/im/$1
+
+^http://mainichi\.jp/graph/(\d{4}/\d{2}/\d{2}/\d{8}\w+)/(\d+)\.html	http://mainichi.jp/graph/$1/image/$2.jpg
+
+^http://journal\.mycom\.co\.jp/photo/(.+\.(?:jpe?g|png|gif|bmp))	http://journal.mycom.co.jp/$1	$&
+^http://news\.mynavi\.jp/photo/((?:\w+/)+images/\w+l\.\w+)	http://news.mynavi.jp/$1
+
+^http://mantan-web\.jp/gallery/(\d{4}/\d{2}/\d{2}/\d{8}\w+)/(\d+)\.html	http://mantan-web.jp/gallery/$1/image/$2.jpg
+
+^http://release\.nikkei\.co\.jp/attach\.cfm\?attID=([^.]+\.(?:jpe?g|png|gif|bmp))	http://release.nikkei.co.jp/attach_file/$1	$&
+
+^http://pc\.nikkeibp\.co\.jp/.+/popup\w*\.shtml\?i=http%3A//(pc\.nikkeibp\.co\.jp/.+/\d+/\d+/\d+\.(?:jpe?g|gif|png|bmp))	http://$1	$&
+^http://pc\.nikkeibp\.co\.jp/article/(\w+/\d{8}/\d{7})/\?SS=imgview&FD=[\d-]+&FN=([^&]+)	http://pc.nikkeibp.co.jp/article/$1/$2
+
+^http://news\.tennis365\.net/news/\w+/players/details/image\.html\?img=/((?:\w+/)+\w+\.\w+)	http://news.tennis365.net/$1
+
+^http://www\.4gamer\.net/news/image/(\d{4}\.\d{2}/\d{14}_\w+)\.html	http://www.4gamer.net/news/image/$1.jpg	$&
+^http://www\.4gamer\.net/games/(\d{3}/G\d{6}/\d{11})/screenshot\.html\?num=(\d+)	http://www.4gamer.net/games/$1/SS/$2.jpg
+
+^http://www\.sponichi\.co\.jp/((?:[\w-]+/)+)(\w+)_p\.html	http://www.sponichi.co.jp/$1images/$2_l.jpg
+^http://www\.sponichi\.co\.jp/(\w+/\w+/\d{4}/(?:\w+/)+)gazo/G(\d{17})\.html	http://www.sponichi.co.jp/$1jpeg/G$2_view.jpg
+^http://www\.sponichi\.co\.jp/(\w+/\w+/\d{4}/\d{2}/\d{2}/jpeg/\w+)_thum\.(\w+)	http://www.sponichi.co.jp/$1_view.$2
+
+^http://www\.vector\.co\.jp/games/news/(\d{6}/\d{2})/(\d{2})/images_(\d{2})\.html	http://www.vector.co.jp/games/news/$1/$2/images/$1_$2_$3.jpg	$&
+^http://www\.vector\.co\.jp/games/review/(\d{4})/images_\d{2}\.html	http://www.vector.co.jp/games/review/$1/images/$2_l.gif	$&
+^http://www\.vector\.co\.jp/magazine/(\w+/\d{6})/(\w+\d)b?_pic\.html	http://www.vector.co.jp/magazine/$1/images/$2b.gif	$&
+
+^http://www\.forest\.impress\.co\.jp/article/([^/]+/\w+\d+r)\.html	http://www\.forest\.impress\.co\.jp/article/$1.jpg	$&
+^http://www\.watch\.impress\.co\.jp/akiba/hotline/(\d{8}/image/\w+\d{1})\.html	http://www.watch.impress.co.jp/akiba/hotline/$1.jpg	$&
+^http://www\.watch\.impress\.co\.jp/game/docs/(\d{8}/(?:\w*(?:\D|_)?)?\d{2})\.htm	http://www.watch.impress.co.jp/game/docs/$1.jpg	$&
+^http://(?:m\.)?((?:[^./]+\.)+)impress\.co\.jp/img/(\w+)/docs/(\d+/\d{3})/html/(?:m\.)?([^.]+\.\w+)(?:\.html)?	http://$1impress.co.jp/img/$2/docs/$3/$4
+
+^http://www\.yomiuri\.co\.jp/(.+/graph/.+)/(\d+)\.htm	http://www.yomiuri.co.jp/$1/img/$2.jpg	$&
+^http://www\.yomiuri\.co\.jp/zoom/(MM\d+)M0\.htm	http://www.yomiuri.co.jp/img/$1L0.jpg	$&
+^http://www\.yomidr\.yomiuri\.co\.jp/(?:page\.jsp\?id=\d+&reqId|image\.jsp\?id=)=(\d+)	http://www.yomidr.yomiuri.co.jp/image.jsp?id=$1		$VIEWER
+^http://show\.yomiuri\.co\.jp/(\w+/\w+/img/\w+)\.htm	http://show.yomiuri.co.jp/$1_L.jpg
+
+^http://www\.rbbtoday\.com/cgi-bin/news/pict/(\d+)/\d+/\w+/([-\w]+)\.html	http://www.rbbtoday.com/news/$1/$2.jpg	$&
+^http://(?:www\.)?inside-games\.jp/article/img/\d{4}/\d{2}/\d{2}/\d+/(\d+)\.html	http://www.inside-games.jp/imgs/zoom/$1.jpg
+^http://(?:www\.)?rbbtoday\.com/article/img/\d{4}/\d{2}/\d{2}/\d+/(\d+)\.html	http://www.rbbtoday.com/imgs/zoom/$1.jpg
+^http://(?:www\.)?resemom\.jp/article/img/\d{4}/\d{2}/\d{2}/\d+/(\d+)\.html	http://resemom.jp/imgs/zoom/$1.jpg
+^http://(?:www\.)?response\.jp/article/img/\d{4}/\d{2}/\d{2}/\d+/(\d+)\.html	http://response.jp/imgs/zoom/$1.jpg
+^http://scan\.netsecurity\.ne\.jp/article/img/\d{4}/\d{2}/\d{2}/\d+/(\d+)\.html	http://scan.netsecurity.ne.jp/imgs/zoom/$1.jpg
+
+^http://today\.reuters\.co\.jp/news/newsPhotoPresentation\.aspx\?.+?&imageID=([-\w]+?)_01_NOOTR_RTRJONC_0_JAPAN-(\d+-\d)\.xml	http://i.today.reuters.com/misc/genImage.aspx?uri=$1_01_NOOTR_RTRJONP_2_JAPAN-$2-pic0.jpg&resize=full	$&	$VIEWER
+^http://(?:\w+\.)?reutersmedia\.net/resources/r/\?.*d=(\d{8}).*&r=([\w-]+)	http://s1.reutersmedia.net/resources/r/?d=$1&t=2&r=$2		$VIEWER
+^http://(?:\w+\.)?reutersmedia\.net/resources/r/\?.*d=(\d{8}).*&i=(\d+)	http://s1.reutersmedia.net/resources/r/?d=$1&t=2&i=$2		$VIEWER
+
+^http://www\.excite\.co\.jp/News/photo_news/kyodo/photo/\?image=\w+/(\w+\.-\.-\.CI000)2\.jpg.*	http://image.excite.co.jp/feed/news/Kyodo/$1\3.jpg	$&
+
+^http://www\.shikoku-np\.co\.jp/(?:\w+/\w+/photo\.aspx|img_news\.aspx)\?id=(\d+)&no=(\d+)	http://www.shikoku-np.co.jp/img_news.aspx?id=$1&no=$2		$VIEWER
+
+^http://(?:www\.)?kyoto-np\.co\.jp/kp/topics/photo-news/(\d{6}/diary\d{10})\.html	http://www.kyoto-np.co.jp/kp/topics/photo-news/$1.jpg
+
+^http://www\.asahi\.com/(\w+)/gallery_e/view_photo\.html\?\w+-pg/(\d{4})/(\w{3}\d{12}\.\w+)	http://www.asahi.com/$1/update/$2/images/$3
+^http://www\.asahi\.com/showbiz/gallery_e/view_photo\.html\?nikkannewsflash-pg/(\w{3}\d{12}\.\w+)	http://www.asahi.com/showbiz/nikkan/images/$1
+^http://www\.asahi\.com/showbiz/gallery_e/view_photo\.html\?wowkorea-pg/(\w{3}\d{12}\.\w+)	http://www.asahi.com/showbiz/korea/images/$1
+^http://www\.asahi\.com/shopping/gallery_e/view_photo\.html\?shopnews-pg/(\w{3}\d{12}\.\w+)	http://www.asahi.com/shopping/news/images/$1
+^http://www\.asahi\.com/(\w+)/gallery_e/view_photo\.html\?(\w+)-pg/(\w{3}\d{12}\.\w+)	http://www.asahi.com/$1/$2/images/$3
+^http://www\.asahi\.com/\w+/articles/gallery_e/view_photo\.html\?(\w+)-pg/(\w{3}\d{12}\.\w+)	http://www.asahi.com/$1/articles/images/$2
+^http://www\.asahi\.com/news/gallery_e/view_photo_news_intro\.html\?intro-pg/(\w{3}\d{12}\.\w+)	http://www.asahi.com/news/intro/images/$1
+^http://www\.asahi\.com/(\w+)/(?:\d+/)?gallery_e/view_photo\w*\.html\?(\w+)-pg/(\w+\.\w+)	http://www.asahi.com/$1/$2/images/$3
+^http://publications\.asahi\.com/ecs/tool/cover_image/\?image=(\d+\.\w+)	http://publications.asahi.com/ecs/image/cover_image/$1
+
+^http://sankei\.jp\.msn\.com/\w+/photos/(\d{6}/\w{3}\d{14}-\w\d)\.htm	http://sankei.jp.msn.com/images/news/$1.jpg
+
+^http://(?:www\.)?zakzak\.co\.jp/((?:\w+/)+)photos/(\d{8}/\w{3}\d{13}-p\d+)\.htm	http://www.zakzak.co.jp/$1images/$2.jpg
+
+^http://www\.gamespot\.com/images/(?:[\w-]+/)+images/\d+/\?path=((?:\w+/)+\w+\.\w+)	http://image.gamespotcdn.net/gamespot/images/$1
+^http://japan\.gamespot\.com/image/l/story_image/(\d{4}/\d{8})/AI/(.+)	http://japan.gamespot.com/story_image/$1/AI/$2
+^http://japan\.gamespot\.com/image\.htm\?.*path=/([/\w]+\.\w+)	http://japan.gamespot.com/$1
+
+^http://www\.famitsu\.com/news/(\d{6}/images/\d{8}/\w+)\.html	http://www.famitsu.com/news/$1.jpg
+^http://www\.famitsu\.com/image/(\d+/\w+)\.html	http://www.famitsu\.com/image/$1.jpg
+^http://(?:www\.)?famitsu\.com/images/(\d+/\d+/\d+)/(\w+)\.html	http://www.famitsu.com/images/$1/l_$2.jpg
+
+^http://www\.xbitlabs\.com/picture/\?src=/(.+)	http://www.xbitlabs.com/$1
+
+^http://www\.hindi\.haihoi\.com/gallery/hindi_movie_gallery\.php\?(?:\w+=[^&]+&)*image=([^&]+)	http://haihoi.com/Channels/cine_gallery/$1
+
+^http://www\.at-s\.com/tool/thumb\.php\?(?:\w+=\w+&)*file=/images/([^&]+)	http://www.at-s.com/images/$1
+^http://www\.at-s\.com/tool/thumb\.php\?(?:\w+=\w+&)*file=http://www\.at-s\.com/([^&]+)	http://www.at-s.com/$1
+
+^http://www\.sgame\.jp/img\.php\?filename=[\w.]+	$&		$VIEWER
+
+^http://www\.bloomberg\.(?:co\.jp|com)/apps/data\?pid=\w+&iid=\w+	$&		$VIEWER
+
+^https?://i\.chzbgr\.com/maxW500/(\d+)	https://i.chzbgr.com/maxW500/$1		$VIEWER
+
+^http://www\.daylife\.com/photo/(\w+)	http://cache.daylife.com/imageserve/$1/610x.jpg
+
+^http://akiba\.kakaku\.com/image\.php\?name=%20http://img\.akiba\.kakaku\.com/(.+)	http://img.akiba.kakaku.com/$1
+^http://magazine\.kakaku\.com/mag/picture/picture\.asp\?.*g=(\w+).*&p=(\w+).*&f=(\w+\.\w+)	http://img.kakaku.com/images/magazinem/org/$1/$2/$3
+
+^http://japan\.cnet\.com/image/l/storage/\d+/storage/(\d{4}/\d{2}/\d{2}/[\da-f]{32}/\w+\.\w+)	http://japan.cnet.com/storage/$1
+^http://japan\.zdnet\.com/image/l/storage/\d+/storage/(\d{4}/\d{2}/\d{2}/[\da-f]{32}/\w+\.\w+)	http://japan.zdnet.com/storage/$1
+
+^http://img\.afpbb\.com/i-img/image_for_msafari\.php\?.*article_id=(\d+)	http://img.afpbb.com/i-img/image_for_msafari.php?article_id=$1&mode=normal_detail_photo		$VIEWER
+^http://img3\.afpbb\.com/jpegdata/(?:main_photo|(?:quarter_)?thumb)/\d{8}/(\d+)\.\w+	http://img.afpbb.com/i-img/image_for_msafari.php?article_id=$1&mode=normal_detail_photo		$VIEWER
+
+^http://www\.gamer\.ne\.jp/img/news/(\d{8}/[\da-f]{36})/\w/(\d+\.\w+)	http://www.gamer.ne.jp/img/news/$1/o/$2	$&
+^http://image\.gamer\.ne\.jp/news/(\d{4})/(\d{8})/([\da-f]{36})/\w/(\d+)\.(\w+)	http://image.gamer.ne.jp/news/$1/$2/$3/o/$4.$5	http://www.gamer.ne.jp/news/$2/image/$4/
+
+^http://image\.onlinegamer\.jp/img/news/\d{8}/[a-f0-9]{36}/\d+\.\w+	$&	http://www.onlinegamer.jp/	$NOEXTCTRL
+
+^http://i\.daily\.jp/\w+/(?:\w+/)?\d{4}/\d{2}/\d{2}/Images/(?:b_)?\d{8}\.\w+	$&	$&	$NOEXTCTRL
+
+^http://idoimg\.3mt\.com\.cn/Article/upload/.+	$&	$&	$NOEXTCTRL
+
+^http://(?:www\.)?jiji\.com/jc/(?:z)?c\?(?:\w+=[\w/]+&)*p=(\w+)	http://www.jiji.com/news/kiji_photos/$1_p.jpg
+^http://(?:www\.)?jiji\.com/jc/(?:pp|d4)\?d=(\w+)&p=([\w-]+)	http://www.jiji.com/news/handmade/topic/$1/$2.jpg
+
+^http://japanese\.joins\.com/upload/images/(\d{4}/\d{2})/tmb\d+_(\d+-\d+\.\w+)	http://japanese.joins.com/upload/images/$1/$2
+
+^http://www\.terrafor\.net/files/(\d+/[\da-f]{32})_s\.(\w+)	http://www.terrafor.net/files/$1.$2
+^http://www\.asobiniikoze\.com/files/(\d+/[\da-f]{32})_s\.(\w+)	http://www.asobiniikoze.com/files/$1.$2
+
+^http://(?:www\.)?mdpr\.jp/photo/images/(\d{4}/\d{2}/\d{2})/(?:\w+_)?(\d+\.\w+)	http://mdpr.jp/photo/images/$1/$2
+
+^http://news\.searchina\.ne\.jp/disp\.cgi\?y=(\d{4})&d=(\d{4})&f=(\w+)\.shtml&pt=large	http://news.searchina.ne.jp/$1/$2/$3.jpg
+
+^http://news\.infoseek\.co\.jp/photo/(\w+)_(\w+)	http://media.image.infoseek.co.jp/isnews/photos/$1/$1_$2_0-enlarge.jpg
+^http://woman\.infoseek\.co\.jp/news/photo/(\w+)_(\d+)_(\w+)	http://media.image.infoseek.co.jp/isnews/photos/$1/$1_$2_$3_0-enlarge.jpg
+^http://media\.image\.infoseek\.co\.jp/isnews/photos/(\w+/\w+_\w+_\d+)(?:-\w+)?\.(\w+)	http://media.image.infoseek.co.jp/isnews/photos/$1-enlarge.$2
+
+^http://s\.cinematoday\.jp/res/mvga/(\d{2}/\d{2}/v\d+/\d+_\d+)-\d+x\d+\.(\w+)	http://s.cinematoday.jp/res/mvga/$1.$2
+^http://(?:s|img)\.cinematoday\.jp/res/GA/(\d{4}/\d{4}_\d+/v\d+/\w+)(?:-\d+x\d+)?\.(\w+)	http://img.cinematoday.jp/res/GA/$1.$2
+
+^http://www\.sanyo\.oni\.co\.jp/news_s/news/p/(\d{4})(\d{2})(\d{2})(\d{8}-\d+)/	http://www.sanyo.oni.co.jp/news_s/images/$1/$2/$3/$1$2$3$4.jpg
+
+^http://www\.sannichi\.co\.jp/photogallery/photo\.php\?id=(\w+)&seq=(\d+)	http://www.sannichi.co.jp/photogallery/photoimg/$1/$2/photo.jpg
+
+^http://www\.niigata-nippo\.co\.jp/photonews/page\d+/(\d+)\.html	http://www.niigata-nippo.co.jp/news/photos/w_h/$1.jpg
+
+^http://www\.sanspo\.com/(\w+)/photos/(\d{8}/\w{3}\d{14}-p\d+)\.html	http://www.sanspo.com/$1/images/$2.jpg
+
+^http://fsv-image\.autoc-one\.jp/images/(\d+/\d+)_s\.(\w+)	http://fsv-image.autoc-one.jp/images/$1_o.$2
+
+^http://(?:www\.)?hidakashimpo\.co\.jp/news/photo-album/([\w-]+/slides/[\w-]+No,\d+).html	http://www.hidakashimpo.co.jp/news/photo-album/$1.JPG
+
+^http://kyodo-biz\.47news\.jp/keizai/market/app/resimg/+(\w+/detail\?.+)$	http://kyodo-biz.47news.jp/keizai/market/app/resimg/$1		$VIEWER
+
+^http://www\.gannett-cdn\.com/media/(\w+/\w+/\d{4}/\d{2}/\d{2}/[\w-]+?)(?:_(?:r\d+|small))?\.(\w+)	http://www.gannett-cdn.com/media/$1.$2
+
+^http://p\.news\.nimg\.jp/photo/(\d+/\d+)\w\.(\w+)	http://p.news.nimg.jp/photo/$1l.$2
+
+^http://www\.mynewsjapan\.com/reports/displayimage\?file=(\w+\.\w+)	http://www.mynewsjapan.com/reportsimg/$1
+
+^http://news\.thetv\.jp/article/(\d+)/image(\d+)\.html	http://news.walkerplus.com/article/$1/$2_400.jpg
+
+^http://contents\.oricon\.co\.jp/photo/photoImg/P/\w/(\d+/\d+_\d+_\d+\.\w+)	http://contents.oricon.co.jp/photo/photoImg/P/L/$1
+
+^http://storage\.canoe\.ca/v1/dynamic_resize/sws_path/([^?]+)\.(\w+)	http://storage.canoe.ca/v1/$1.$2
+
+^http://(\w+)\.ismedia-deliver\.jp/mwimgs/([\da-f]/[\da-f])/\d+x/img_([\da-f]{32,}\.\w+)	http://$1.ismedia-deliver.jp/mwimgs/$2/-/img_$3
+
+^http://files\d?\.rocketnews24\.com/wp-content/uploads/(.*)$	https://sociorocketnews.files.wordpress.com/$1
+
+>---------- ブログ系 ----------
+^http://b03\.30\.kg/(?:_img/view\.cgi/)?(_img/\d+/\d+/\d+/\d+\.\w+)	http://b03.30.kg/$1	$&
+^http://b04\.30\.kg/(?:_img/view\.cgi/)?(_img/\d+/\d+/\d+/\d+\.\w+)	http://b04.30.kg/$1	$&
+^http://b05\.30\.kg/(?:_img/view\.cgi/)?(_img/\d+/\d+/\d+/\d+\.\w+)	http://b05.30.kg/$1	$&
+^http://b06\.30\.kg/(?:_img/view\.cgi/)?(_img/\d+/\d+/\d+/\d+\.\w+)	http://b06.30.kg/$1	$&
+
+^http://blogs\.yahoo\.co\.jp/\w+/GALLERY/show_image_v2\.html\?id=(http://img\.blogs\.yahoo\.co\.jp/(?:(?:\w+/){4}\w+/[^?]+))(?:\?.+)?	$1	$&	$VIEWER
+^http://img\.blogs\.yahoo\.co\.jp/((?:(?:\w+/){4})(\w+)/(?:[^?]+))(?:\?.+)?	http://img.blogs.yahoo.co.jp/$1	http://blogs.yahoo.co.jp/$2	$VIEWER
+^http://img\d?\.blogs\.yahoo\.co\.jp/ybi/((?:\w+/)+img_[\d_]+)	http://img.blogs.yahoo.co.jp/ybi/$1		$VIEWER
+
+^http://([^/]+/\.)shared/image\.html\?(/\w+/\w+/.+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP]))	http://$1$2
+
+^http://www\.akibablog\.net/archives/img-([^/]+/\d{4}-\d{2}-\d{2}-\d{3})\.html	http://www.akibablog.net/archives/$1.jpg	$&
+^http://(\w+\.\w+\.akibablog\.net/images/\d+/[\w-]+/\d+)\.html	http://$1.jpg
+
+^http://(bbs\d*)\.as\.wakwak\.ne\.jp/blog/imgview\.cgi\?(?:.+&)?id=(\d+)(?:&.+)?&image=([^./&]+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP]))(?:&.+)?	http://$1.as.wakwak.ne.jp/$2/blog/photo/$3
+
+^http://www\.exblog\.jp/blog_logo\.asp\?slt=(\d)&imgsrc=(\d{6}/\d{2}/\d{2}/\w\d{7}_\d+\.\w+)	http://pds.exblog.jp/pds/$1/$2	$&
+^http://www\.exblog\.jp/blog_logo\.asp\?imgsrc=(.+\.\w+)	http://pds.exblog.jp/pds/1/$1
+^http://www\.exblog\.jp/blog_logo\.asp\?slt=\d&imgsrc=(\d{6}/\d{2}/\d{2}/\w\d+\.\w+)	http://pds.exblog.jp/logo/1/$1
+^http://\w+\.exblog\.jp/iv/detail/index\.asp\?s=\d+&i=(\d{6}/\d{2}/\d{2}/d\d+_\d+\.\w+)	http://pds.exblog.jp/pds/1/$1
+
+^http://([^.]+)\.cocolog-nifty\.com/\.shared/image\.html\?/(.+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP]))	http://$1.cocolog-nifty.com/./$2
+^http://(\w+\.cocolog-nifty\.com/photos/\w+/[\w-]+)\.html	http://$1.jpg
+
+^http://ameblo\.jp/public/image/displayimage\.do\?imagePath=(/user_images/(?:\w+/){2}\d+\.(?:jpe?g|png|gif|bmp))	http://stat.ameba.jp$1	$&
+^http://imgstat\.ameba\.jp/view/d/\d+/stat\d*\.ameba\.jp/user_images/(\d{8}/\d{2}/[\w-]+/\w{2}/\w{2}/\w)/(?:t\d+_|o)(\d+\.\w+)	http://stat.ameba.jp/user_images/$1/o$2
+^http://stat\d*\.ameba\.jp/user_images/(\d{8}/\d{2}/[\w-]+/\w{2}/\w{2}/\w)/(?:t\d+_|o)(\d+\.\w+)	http://stat.ameba.jp/user_images/$1/o$2
+^http://stat\d*\.ameba\.jp/user_images/([\da-f]{2}/[\da-f]{2}/\d+\.\w+)	http://stat.ameba.jp/user_images/$1
+
+^http://livedoor\.(?:(?:\d+|sp)\.)?blogimg\.jp/([\w-]+/imgs/\w/\w/\w{8})(?:-s)?\.(\w+)	http://livedoor.blogimg.jp/$1.$2
+^http://((?:\w+\.)+blogimg\.jp/[\w-]+/imgs/\w/\w/\w{8})(?:-s)?(\.\w+)	http://$1$2
+
+^http://daiyukyo\.or\.jp/blog2/diary\.cgi\?mode=image&upfile=([\w-]+\.\w+)	http://daiyukyo.or.jp/blog2/data/upfile/$1
+
+^http://blog-imgs-(\d+)(?:-origin)?\.fc2\.com/(\w/\w/\w/\w+/[^?]+\.\w+)	http://blog-imgs-$1.fc2.com/$2
+
+^http://image\.portphoto\.com/img/\w+/.+\.\w+	$&
+
+^http://\w\d-\d+\.twitpicproxy\.com/photos/\w+/(\d+\.\w+)	http://s1-01.twitpicproxy.com/photos/full/$1
+
+^http://\d+\.dtiblog\.com/(\w/\w+/file/.+\.\w+)	http://dtiblog.com/$1
+
+^https?://(?:farm\d\.)?static\.?flickr\.com/(\d+/\d+_[\da-f]+(?:_\w)?\.\w+)	https://static.flickr.com/$1
+
+^http://\w+\.up\.d\.seesaa\.net/\w+/\w+/[\w-]+\.\w+	$&
+^http://\w+\.up\.n\.seesaa\.net/\w+/image/[\w-]+\.\w+	$&
+
+^http://blogimg\.goo\.ne\.jp/user_image/\w{2}/\w{2}/[\da-f]{32}\.\w+	$&
+
+^http://blog(?:-cdn)?\.oricon\.co\.jp/_images/((?:\w+/)+)(?:m_)?([^.]+\.\w+)	http://blog.oricon.co.jp/_images/$1$2
+
+^http://(?:www\.)?senakablog\.com/archives/(img\d+/\d{4}-\d{2}-\d{2}-\d+)\.html	http://www.senakablog.com/archives/$1.JPG
+
+^https?://(?:[\w-]+\.)*blog\.so-net\.ne\.jp/_images/blog/_(\w{3}/[\w-]+/[^?]+\.\w+)	https://blog.so-net.ne.jp/_images/blog/_$1
+
+^http://(?:cdn-ak\.f\.st-hatena\.com|f\.hatena\.ne\.jp)/images/fotolife/([\w-]/[\w-]+/\d{8}/\d{14}(?:_original)?\.\w+)	http://f.hatena.ne.jp/images/fotolife/$1
+
+^http://ecaco\.jp/illust/view\.php\?illust_id=(\d+)	http://ecaco\.jp/illust/image\.php/$1.png
+^http://ecaco\.jp/illust/image\.php/(\d+)(?:_\d+)*\.(\w+)	http://ecaco.jp/illust/image.php/$1.$2
+
+^http://(?:m)?articleimage\.nicoblomaga\.jp/image/(\d+/\d{4}/[\da-f]/[\da-f]/[\da-f]{50})(?:-s)?\.(\w+)	http://articleimage.nicoblomaga.jp/image/$1.$2
+
+^http://www\.fmotor\.net/photo/f1/(\d+/\w+/\w+_\d+)\.htm	http://www.fmotor.net/photo/f1/$1.jpg
+
+^http://postfiles\d+\.naver\.net/(\d{8}_\d+)/(\w+)_([A-Z]+)/.+	http://postfiles.naver.net/$1/$2_$3/$2.$3?type=w1		$VIEWER
+^http://tc\.search\.naver\.jp/\?/(\w+/\w+/USER/\w+/\w+/\w+/\w+/\w+\.\w+)	http://imgcc.naver.jp/$1
+^http://imgcc\d+\.naver\.jp/(\w+/\w+/USER/\w+/\w+/\w+/\w+/\w+\.\w+)	http://imgcc.naver.jp/$1
+
+^http://bp\d\.blogger\.com/[\w-]+/[\w-]+I/AAAAAAA[\w-]+/[\w-]+/	$&s0/		$VIEWER
+^https?://\d\.bp\.blogspot\.com/([\w-]+/[\w-]+I/AAAAAAA[\w-]+/[\w-]+/)	https://lh3.ggpht.com/$1s0/		$VIEWER
+^https?://lh\d\.ggpht\.com/([\w-]+/[\w-]+I/AAAAAAA[\w-]+/[\w-]+/)	https://lh3.ggpht.com/$1s0/		$VIEWER
+^https?://lh\d\.googleusercontent\.com/([\w-]+/[\w-]+I/AAAAAAA[\w-]+/[\w-]+/)(?:(?:Ut-[\w-]+|[\w-]+-Ut)/)	https://lh3.googleusercontent.com/$1s0-Ut/		$VIEWER
+^https?://lh\d\.googleusercontent\.com/([\w-]+/[\w-]+I/AAAAAAA[\w-]+/[\w-]+/)(?:(?:Ic42-[\w-]+|[\w-]+-Ic42)/)	https://lh3.googleusercontent.com/$1d-Ic42/		$VIEWER
+^https?://lh\d\.googleusercontent\.com/([\w-]+/[\w-]+I/AAAAAAA[\w-]+/[\w-]+/(?:I/)?)	https://lh3.googleusercontent.com/$1s0/		$VIEWER
+
+^https?://p\.twimg\.com/([\w-]+\.\w+(?::large)?)	https://p.twimg.com/$1		$VIEWER
+^https?://pbs\.twimg\.com/media/([\w-]+\.\w+(?::(?:large|orig)(?:/\.\w+)?)?)	https://pbs.twimg.com/media/$1		$VIEWER
+^https?://pbs\.twimg\.com/media/([\w-]+)\?format=pjpg&name=(\w+)	https://pbs.twimg.com/media/$1.jpg:$2		$VIEWER
+^https?://pbs\.twimg\.com/media/([\w-]+)\?format=(\w+)&name=(\w+)	https://pbs.twimg.com/media/$1.$2:$3		$VIEWER
+^https?://o\.twimg\.com/(\d/proxy\.jpg\?t=\w+&s=\w+)	https://o.twimg.com/$1		$VIEWER
+
+^http://p\.(?:twpl|twipple)\.jp/(?:show/\w+/)?(\w+)(?:\?.*)?$	http://p\.twpl\.jp/show/orig/$1		$VIEWER
+^http://p\.(?:twpl|twipple)\.jp/data/(\w)/(\w)/(\w)/(\w)/(\w)	http://p\.twpl\.jp/show/orig/$1$2$3$4$5		$VIEWER
+
+^http://www-img\.dclog\.jp/m/album/image\?[\w=&]+	$&		$VIEWER
+
+^http://pikubo\.(?:jp|com)/(?:photo|p/[lq])/(\w{22})	http://pikubo.jp/p/l/$1		$VIEWER
+
+^http://cfile(\d+)\.uf\.tistory\.com/(?:image|original)/([\dA-F]{22})	http://cfile$1.uf.tistory.com/original/$2		$VIEWER
+^http://cfile(\d+)\.uf\.daum\.net/(?:image|original)/([\dA-F]{22})	http://cfile$1.uf.daum.net/original/$2		$VIEWER
+
+^http://(?:www\.)?maniado\.jp/usrimg/((?:\d+)?_[\da-f]{32})	http://www.maniado.jp/usrimg/$1		$VIEWER
+
+^http://s(\d+)\.sinaimg\.cn/\w+/(\w{21})	http://s$1.sinaimg.cn/large/$2		$VIEWER
+^http://ww(\d+)\.sinaimg\.cn/\w+/(\w{32})	http://ww$1.sinaimg.cn/large/$2		$VIEWER
+
+^http://([\w-]+)\.typepad\.jp/\.a/([\da-f]{34})	http://$1.lekumo.biz/.a/$2		$VIEWER
+^http://([\w-]+)\.weblogs\.jp/\.a/([\da-f]{34})	http://$1.lekumo.biz/.a/$2		$VIEWER
+^http://[\w-]+\.lekumo\.biz/\.a/[\da-f]{34}	$&		$VIEWER
+
+^http://img\.scoop\.it/\w+	$&		$VIEWER
+
+^http://wblog\.jp/charm/media/.+	$&	$&	$NOEXTCTRL
+
+^http://img\.tinami\.com/illust\d*/img/\d+/[\da-f]+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://pics1\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics2\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics3\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics4\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics5\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics6\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics7\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics8\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics9\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics10\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics11\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics12\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics13\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics14\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics15\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics16\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics17\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics18\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics19\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics20\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics21\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics22\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics23\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics24\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics25\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics26\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+^http://pics27\.yamedia\.tw/\d+/userfile/\w/\w+/\w+/[\da-f]{14}\.\w+	$&	$&	$NOEXTCTRL
+
+^http://img01\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img01.pixiv.net/img/$1/$2$3$4	$&
+^http://img02\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img02.pixiv.net/img/$1/$2$3$4	$&
+^http://img03\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img03.pixiv.net/img/$1/$2$3$4	$&
+^http://img04\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img04.pixiv.net/img/$1/$2$3$4	$&
+^http://img05\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img05.pixiv.net/img/$1/$2$3$4	$&
+^http://img06\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img06.pixiv.net/img/$1/$2$3$4	$&
+^http://img07\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img07.pixiv.net/img/$1/$2$3$4	$&
+^http://img08\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img08.pixiv.net/img/$1/$2$3$4	$&
+^http://img09\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img09.pixiv.net/img/$1/$2$3$4	$&
+^http://img10\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img10.pixiv.net/img/$1/$2$3$4	$&
+^http://img11\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img11.pixiv.net/img/$1/$2$3$4	$&
+^http://img12\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img12.pixiv.net/img/$1/$2$3$4	$&
+^http://img13\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img13.pixiv.net/img/$1/$2$3$4	$&
+^http://img14\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img14.pixiv.net/img/$1/$2$3$4	$&
+^http://img15\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img15.pixiv.net/img/$1/$2$3$4	$&
+^http://img16\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img16.pixiv.net/img/$1/$2$3$4	$&
+^http://img17\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img17.pixiv.net/img/$1/$2$3$4	$&
+^http://img18\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img18.pixiv.net/img/$1/$2$3$4	$&
+^http://img19\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img19.pixiv.net/img/$1/$2$3$4	$&
+^http://img20\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img20.pixiv.net/img/$1/$2$3$4	$&
+^http://img21\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img21.pixiv.net/img/$1/$2$3$4	$&
+^http://img22\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img22.pixiv.net/img/$1/$2$3$4	$&
+^http://img23\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img23.pixiv.net/img/$1/$2$3$4	$&
+^http://img24\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img24.pixiv.net/img/$1/$2$3$4	$&
+^http://img25\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img25.pixiv.net/img/$1/$2$3$4	$&
+^http://img26\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img26.pixiv.net/img/$1/$2$3$4	$&
+^http://img27\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img27.pixiv.net/img/$1/$2$3$4	$&
+^http://img28\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img28.pixiv.net/img/$1/$2$3$4	$&
+^http://img29\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img29.pixiv.net/img/$1/$2$3$4	$&
+^http://img30\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img30.pixiv.net/img/$1/$2$3$4	$&
+^http://img31\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img31.pixiv.net/img/$1/$2$3$4	$&
+^http://img32\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img32.pixiv.net/img/$1/$2$3$4	$&
+^http://img33\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img33.pixiv.net/img/$1/$2$3$4	$&
+^http://img34\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img34.pixiv.net/img/$1/$2$3$4	$&
+^http://img35\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img35.pixiv.net/img/$1/$2$3$4	$&
+^http://img36\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img36.pixiv.net/img/$1/$2$3$4	$&
+^http://img37\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img37.pixiv.net/img/$1/$2$3$4	$&
+^http://img38\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img38.pixiv.net/img/$1/$2$3$4	$&
+^http://img39\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img39.pixiv.net/img/$1/$2$3$4	$&
+^http://img40\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img40.pixiv.net/img/$1/$2$3$4	$&
+^http://img41\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img41.pixiv.net/img/$1/$2$3$4	$&
+^http://img42\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img42.pixiv.net/img/$1/$2$3$4	$&
+^http://img43\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img43.pixiv.net/img/$1/$2$3$4	$&
+^http://img44\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img44.pixiv.net/img/$1/$2$3$4	$&
+^http://img45\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img45.pixiv.net/img/$1/$2$3$4	$&
+^http://img46\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img46.pixiv.net/img/$1/$2$3$4	$&
+^http://img47\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img47.pixiv.net/img/$1/$2$3$4	$&
+^http://img48\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img48.pixiv.net/img/$1/$2$3$4	$&
+^http://img49\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img49.pixiv.net/img/$1/$2$3$4	$&
+^http://img50\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img50.pixiv.net/img/$1/$2$3$4	$&
+^http://img51\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img51.pixiv.net/img/$1/$2$3$4	$&
+^http://img52\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img52.pixiv.net/img/$1/$2$3$4	$&
+^http://img53\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img53.pixiv.net/img/$1/$2$3$4	$&
+^http://img54\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img54.pixiv.net/img/$1/$2$3$4	$&
+^http://img55\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img55.pixiv.net/img/$1/$2$3$4	$&
+^http://img56\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img56.pixiv.net/img/$1/$2$3$4	$&
+^http://img57\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img57.pixiv.net/img/$1/$2$3$4	$&
+^http://img58\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img58.pixiv.net/img/$1/$2$3$4	$&
+^http://img59\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img59.pixiv.net/img/$1/$2$3$4	$&
+^http://img60\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img60.pixiv.net/img/$1/$2$3$4	$&
+^http://img61\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img61.pixiv.net/img/$1/$2$3$4	$&
+^http://img62\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img62.pixiv.net/img/$1/$2$3$4	$&
+^http://img63\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img63.pixiv.net/img/$1/$2$3$4	$&
+^http://img64\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img64.pixiv.net/img/$1/$2$3$4	$&
+^http://img65\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img65.pixiv.net/img/$1/$2$3$4	$&
+^http://img66\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img66.pixiv.net/img/$1/$2$3$4	$&
+^http://img67\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img67.pixiv.net/img/$1/$2$3$4	$&
+^http://img68\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img68.pixiv.net/img/$1/$2$3$4	$&
+^http://img69\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img69.pixiv.net/img/$1/$2$3$4	$&
+^http://img70\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img70.pixiv.net/img/$1/$2$3$4	$&
+^http://img71\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img71.pixiv.net/img/$1/$2$3$4	$&
+^http://img72\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img72.pixiv.net/img/$1/$2$3$4	$&
+^http://img73\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img73.pixiv.net/img/$1/$2$3$4	$&
+^http://img74\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img74.pixiv.net/img/$1/$2$3$4	$&
+^http://img75\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img75.pixiv.net/img/$1/$2$3$4	$&
+^http://img76\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img76.pixiv.net/img/$1/$2$3$4	$&
+^http://img77\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img77.pixiv.net/img/$1/$2$3$4	$&
+^http://img78\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img78.pixiv.net/img/$1/$2$3$4	$&
+^http://img79\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img79.pixiv.net/img/$1/$2$3$4	$&
+^http://img80\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img80.pixiv.net/img/$1/$2$3$4	$&
+^http://img81\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img81.pixiv.net/img/$1/$2$3$4	$&
+^http://img82\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img82.pixiv.net/img/$1/$2$3$4	$&
+^http://img83\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img83.pixiv.net/img/$1/$2$3$4	$&
+^http://img84\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img84.pixiv.net/img/$1/$2$3$4	$&
+^http://img85\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img85.pixiv.net/img/$1/$2$3$4	$&
+^http://img86\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img86.pixiv.net/img/$1/$2$3$4	$&
+^http://img87\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img87.pixiv.net/img/$1/$2$3$4	$&
+^http://img88\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img88.pixiv.net/img/$1/$2$3$4	$&
+^http://img89\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img89.pixiv.net/img/$1/$2$3$4	$&
+^http://img90\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img90.pixiv.net/img/$1/$2$3$4	$&
+^http://img91\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img91.pixiv.net/img/$1/$2$3$4	$&
+^http://img92\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img92.pixiv.net/img/$1/$2$3$4	$&
+^http://img93\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img93.pixiv.net/img/$1/$2$3$4	$&
+^http://img94\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img94.pixiv.net/img/$1/$2$3$4	$&
+^http://img95\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img95.pixiv.net/img/$1/$2$3$4	$&
+^http://img96\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img96.pixiv.net/img/$1/$2$3$4	$&
+^http://img97\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img97.pixiv.net/img/$1/$2$3$4	$&
+^http://img98\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img98.pixiv.net/img/$1/$2$3$4	$&
+^http://img99\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img99.pixiv.net/img/$1/$2$3$4	$&
+^http://img100\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img100.pixiv.net/img/$1/$2$3$4	$&
+^http://img101\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img101.pixiv.net/img/$1/$2$3$4	$&
+^http://img102\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img102.pixiv.net/img/$1/$2$3$4	$&
+^http://img103\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img103.pixiv.net/img/$1/$2$3$4	$&
+^http://img104\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img104.pixiv.net/img/$1/$2$3$4	$&
+^http://img105\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img105.pixiv.net/img/$1/$2$3$4	$&
+^http://img106\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img106.pixiv.net/img/$1/$2$3$4	$&
+^http://img107\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img107.pixiv.net/img/$1/$2$3$4	$&
+^http://img108\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img108.pixiv.net/img/$1/$2$3$4	$&
+^http://img109\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img109.pixiv.net/img/$1/$2$3$4	$&
+^http://img110\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img110.pixiv.net/img/$1/$2$3$4	$&
+^http://img111\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img111.pixiv.net/img/$1/$2$3$4	$&
+^http://img112\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img112.pixiv.net/img/$1/$2$3$4	$&
+^http://img113\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img113.pixiv.net/img/$1/$2$3$4	$&
+^http://img114\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img114.pixiv.net/img/$1/$2$3$4	$&
+^http://img115\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img115.pixiv.net/img/$1/$2$3$4	$&
+^http://img116\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img116.pixiv.net/img/$1/$2$3$4	$&
+^http://img117\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img117.pixiv.net/img/$1/$2$3$4	$&
+^http://img118\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img118.pixiv.net/img/$1/$2$3$4	$&
+^http://img119\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img119.pixiv.net/img/$1/$2$3$4	$&
+^http://img120\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img120.pixiv.net/img/$1/$2$3$4	$&
+^http://img121\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img121.pixiv.net/img/$1/$2$3$4	$&
+^http://img122\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img122.pixiv.net/img/$1/$2$3$4	$&
+^http://img123\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img123.pixiv.net/img/$1/$2$3$4	$&
+^http://img124\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img124.pixiv.net/img/$1/$2$3$4	$&
+^http://img125\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img125.pixiv.net/img/$1/$2$3$4	$&
+^http://img126\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img126.pixiv.net/img/$1/$2$3$4	$&
+^http://img127\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img127.pixiv.net/img/$1/$2$3$4	$&
+^http://img128\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img128.pixiv.net/img/$1/$2$3$4	$&
+^http://img129\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img129.pixiv.net/img/$1/$2$3$4	$&
+^http://img130\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img130.pixiv.net/img/$1/$2$3$4	$&
+^http://img131\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img131.pixiv.net/img/$1/$2$3$4	$&
+^http://img132\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img132.pixiv.net/img/$1/$2$3$4	$&
+^http://img133\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img133.pixiv.net/img/$1/$2$3$4	$&
+^http://img134\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img134.pixiv.net/img/$1/$2$3$4	$&
+^http://img135\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img135.pixiv.net/img/$1/$2$3$4	$&
+^http://img136\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img136.pixiv.net/img/$1/$2$3$4	$&
+^http://img137\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img137.pixiv.net/img/$1/$2$3$4	$&
+^http://img138\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img138.pixiv.net/img/$1/$2$3$4	$&
+^http://img139\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img139.pixiv.net/img/$1/$2$3$4	$&
+^http://img140\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img140.pixiv.net/img/$1/$2$3$4	$&
+^http://img141\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img141.pixiv.net/img/$1/$2$3$4	$&
+^http://img142\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img142.pixiv.net/img/$1/$2$3$4	$&
+^http://img143\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img143.pixiv.net/img/$1/$2$3$4	$&
+^http://img144\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img144.pixiv.net/img/$1/$2$3$4	$&
+^http://img145\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img145.pixiv.net/img/$1/$2$3$4	$&
+^http://img146\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img146.pixiv.net/img/$1/$2$3$4	$&
+^http://img147\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img147.pixiv.net/img/$1/$2$3$4	$&
+^http://img148\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img148.pixiv.net/img/$1/$2$3$4	$&
+^http://img149\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img149.pixiv.net/img/$1/$2$3$4	$&
+^http://img150\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img150.pixiv.net/img/$1/$2$3$4	$&
+^http://img151\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img151.pixiv.net/img/$1/$2$3$4	$&
+^http://img152\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img152.pixiv.net/img/$1/$2$3$4	$&
+^http://img153\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img153.pixiv.net/img/$1/$2$3$4	$&
+^http://img154\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img154.pixiv.net/img/$1/$2$3$4	$&
+^http://img155\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img155.pixiv.net/img/$1/$2$3$4	$&
+^http://img156\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img156.pixiv.net/img/$1/$2$3$4	$&
+^http://img157\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img157.pixiv.net/img/$1/$2$3$4	$&
+^http://img158\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img158.pixiv.net/img/$1/$2$3$4	$&
+^http://img159\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img159.pixiv.net/img/$1/$2$3$4	$&
+^http://img160\.pixiv\.net/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img160.pixiv.net/img/$1/$2$3$4	$&
+^http://i1\.pixiv\.net/img(\d+)/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img$1.pixiv.net/img/$2/$3$4$5	$&
+^http://i2\.pixiv\.net/img(\d+)/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img$1.pixiv.net/img/$2/$3$4$5	$&
+^http://i3\.pixiv\.net/img(\d+)/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img$1.pixiv.net/img/$2/$3$4$5	$&
+^http://i4\.pixiv\.net/img(\d+)/img/([-\w]+)/(?:mobile/)?(\d+)(?:_\d+(?:x\d+|mw))?((?:_big)?_p\d+)?(?:_[sm])?(\.\w+)	http://img$1.pixiv.net/img/$2/$3$4$5	$&
+^http://i1\.pixiv\.net/.+	$&	$&	$NOEXTCTRL
+^http://i2\.pixiv\.net/.+	$&	$&	$NOEXTCTRL
+^http://i3\.pixiv\.net/.+	$&	$&	$NOEXTCTRL
+^http://i4\.pixiv\.net/.+	$&	$&	$NOEXTCTRL
+
+>---------- ショップ・オークション系 dmmは誤爆多し ----------
+^http://thumbnail\.image\.rakuten\.co\.jp/s/\?(@[^.]+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP]))[!=#-&(-;?-\[\]-~]*	http://thumbnail.image.rakuten.co.jp/$1	$&
+^http://thumbnail\.image\.rakuten\.co\.jp/(?:s/\?)?@0_mall((?:/[\w-]+)+\.\w+)	http://thumbnail.image.rakuten.co.jp/@0_mall$1
+^http://auction\.thumbnail\.image\.rakuten\.co\.jp/(?:s/\?)?(?:@|%40)0_auc/image(\d+/\w{2}/\w{2}/\d+/\w{2}/\w{2}/img\d+\.\w+)	http://auction.thumbnail.image.rakuten.co.jp/%400_auc/image$1
+^http://auction\.thumbnail\.image\.rakuten\.co\.jp/@0_aucitem/image\d+/\d+/\d+/\d+/img\d+\.\w+	$&
+
+^http://www\.cs371\.com/[-\w]+/img_([-\w]+)\.html	http://www.cs371.com/admin/upimages/$1.jpg	$&
+^http://www\.cs371\.com/[-\w]+/img\.php\?/(img/program/[-\w]+/[-\w]+\.(?:jpe?g|png|gif|bmp))	http://www.cs371.com/$1	$&
+
+^http://www\.db\.megahit\.co\.jp/cgi-bin/itemview\.pl\?number=(\w)([-\w]+)	http://www.db.megahit.co.jp/item_img2/$1/$1$2.jpg	$&
+^http://www\.db\.megahit\.co\.jp/item_img2/\w/([-\w]+)\.jpg	$&	http://www.db.megahit.co.jp/cgi-bin/itemview.pl?number=$1
+^http://www\.megahit\.co\.jp/cgi-bin/itemview\.pl\?number=(\w)([-\w]+)$	http://www.megahit.co.jp/item_img2/$1/$1$2.jpg	$&
+^http://www\.megahit\.co\.jp/item_img2/\w/[-\w]+\.jpg	$&	$&	$NOEXTCTRL
+
+^http://img\d?\.store\.yahoo\.co\.jp/I/[^/.]+_\d+_\d+	$&		$VIEWER
+
+^http://www\.dmm\.(co\.jp|com)/(?:rental(?:/ppr)?|mono/(?:dvd|vhs))/-/(?:detail|jpg)/=/(?:\w+=.+/)*cid=([-\w]+)	http://pics.dmm.$1/mono/movie/$2/$2pl.jpg
+^http://www\.dmm\.(co\.jp|com)/mono/book/-/(?:detail|jpg)/=/(?:\w+=.+/)*cid=([-\w]+)	http://pics.dmm.$1/mono/comic/$2/$2pl.jpg
+^http://www\.dmm\.(co\.jp|com)/mono/doujin/-/(?:detail|jpg)/=/(?:\w+=.+/)*cid=([-\w]+)	http://pics.dmm.$1/mono/doujin/$2/$2pl.jpg
+^http://www\.dmm\.(co\.jp|com)/digital/pcgame2/-/(?:detail|jpg)/=/(?:\w+=.+/)*cid=([-\w]+)	http://pics.dmm.$1/digital/pcgame/$2/$2pl.jpg
+^http://www\.dmm\.(co\.jp|com)/digital/(?:videoa|psp)/-/(?:detail|jpg)/=/(?:\w+=.+/)*cid=([-\w]+)	http://pics.dmm.$1/digital/video/$2/$2pl.jpg
+^http://www\.dmm\.co\.jp/live/chat/-/chat_room/=/character_id=(\d{6})	http://pics.dmm.co.jp/livechat/00$1/profile.jpg
+^http://www\.dmm\.co\.jp/monthly/playgirl/-/detail/=/(?:\w+=.+/)*cid=(\w{5})0{0,2}(\d{3})	http://pics.dmm.co.jp/digital/video/$1\00$2/$1\00$2pl.jpg
+
+^http://www\.shop-online\.jp/bijin/image\.php\?.*image=([\d-]+\.\w+)	http://www.shop-online.jp/bijin/image/$1
+
+^http://www\.eic-book\.com/detail_(\d+)\.html	http://img.idol-mile.com/book/product/h4/pp_$1.jpg
+^http://www\.eic-av\.com/detail_(\d+)\.html	http://img.idol-mile.com/av/product/h4/pp_$1.jpg
+^http://www\.dl-laby\.jp/detail_(\d+)\.html	http://img.idol-mile.com/laby/product/pp_$1l.jpg
+
+^http://www\.imouto\.tv/shop/release/(\w+)\.html	http://www.imouto.tv/shop/introduction/img/$1_1024.jpg
+
+^http://www\.oimoya-shop\.jp/shopdetail/(\d{12})	http://www.oimoya-shop.jp/shopimages/gcom147/$1.jpg
+
+^http://img\.toranoana\.jp/img18/(\d+/\d+/\d+/\d+/\d+-\d+\.\w+)	http://img.toranoana.jp/img/$1
+^http://img\.toranoana\.jp/popup_img18/(\d+/\d+/\d+/\d+/\d+-\d+p\.\w+)	http://img.toranoana.jp/popup_img/$1
+
+^http://shop\.elleair\.co\.jp/shop/image_view\.html\?image=(\d+\.\w+)	http://shop.elleair.co.jp/shopimages/takuhai/$1
+
+^http://images\.yuzu-soft\.com\.s3\.amazonaws\.com/(.+)	http://images.yuzu-soft.com/$1
+
+^http://dragonsshop\.info/shop/image_view\.html\?image=(\d+\.\w+)	http://dragonsshop.info/shopimages/dragons/$1
+
+^http://www\.kameya\.jp/shop/image_view\.html\?image=(\d+\.\w+)	http://www.kameya.jp/shopimages/kameya/$1
+
+^http://www\.f1today\.net/en/(?:fotos|photos)/f/([\da-f]{45}\.\w+)	http://content.f1today.net/x/full/photos/$1
+
+^http://(\w+)\.d-dream\.com/chara_image\.php\?tno=(\d{4})&cno=(\d\d)	http://$1.d-dream.com/database/t_chara_l/0000$2-$3.jpg
+^http://(\w+)\.d-dream\.com/chara_image\.php\?tno=(\d{4})&cno=(\d)	http://$1.d-dream.com/database/t_chara_l/0000$2-0$3.jpg
+^http://(\w+)\.d-dream\.com/(?:title_image\.php\?|database/main\.php\?arg_)tno=(\d+)(?:&kubun=large)?	http://$1.d-dream.com/database/main.php?arg_tno=$2&kubun=large		$VIEWER
+^http://\w+\.d-dream\.com/(?:title_image\.php\?type=screen&|large\.php\?arg_)tno=(\d+)&(?:arg_)?gno=(\d+)	http://img.d-dream.com/large.php?arg_tno=$1&arg_gno=$2		$VIEWER
+^http://\w+\.d-dream\.com/chara\.php\?tno=\d+&cno=\d+&type=large	$&		$VIEWER
+
+^http://www\.tma\.co\.jp/.+	$&	$&	$NOEXTCTRL
+^http://tma\.co\.jp/(.+)	http://www.tma.co.jp/$1	$&
+
+^http://www\.pinkpineapple\.co\.jp/.+	$&	$&		$NOEXTCTRL
+
+^http://www\.idol-club\.com/pic/\w+/\w+/[\w-]+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://img\.arzon\.jp/image/\w+/\w+/[\w-]+\.\w+	$&	http://www.arzon.jp/	$NOEXTCTRL
+
+>---------- 検索系 ----------
+^https?://(\w+\.wikimedia\.org/wikipedia/[^/]+)/(\w/\w{2}/([^/]+\.svg))	https://$1/thumb/$2/1000px-$3.png
+
+^http://img\d*\.wikia\.nocookie\.net/__cb\d*/((?:\w+/)+)images/(?:thumb/)?(\w/\w{2}/[^/]+\.\w+)	http://img.wikia.nocookie.net/__cb/$1images/$2
+^http://(?:\w+\.)?wikia\.nocookie\.net/__cb\d*/((?:\w+/)+)images/(?:thumb/)?(\w/\w{2}/[^/]+\.\w+)	http://wikia.nocookie.net/__cb/$1images/$2
+
+^http://img\.map\.yahoo\.co\.jp/ymap/mk_map\?(.+)	$&	http://map.yahoo.co.jp/pl?$1	$VIEWER
+^http://srd\.yahoo\.co\.jp/IMG/.+/\*-(?:http(?::|%3A)(?:/|%2F){2}(.+\.(?:[jJ][pP][eE]?[gG]|[pP][nN][gG]|[gG][iI][fF]|[bB][mM][pP])).*)	http://$1	$&
+
+>---------- その他 ----------
+^http://support\.mozillamessaging\.com/(.+)$	https://support.mozillamessaging.com/$1
+
+^http://img2\.coneco\.net/review/\w+\.\w+	$&
+
+^http://kifulog\.shogi\.or\.jp/\.service/mobile/popup-image/photos/(\w+/\d{4}/\d{2}/\d{2}/\w+\.\w+)	http://kifulog.shogi.or.jp/.service/mobile/image/photos/$1
+
+^http://(?:cache\.)?niji-gazo\.com/image/\d+/\d+/(\w+\.\w+)	http://niji-gazo.com/image/640/960/$1
+
+^http://img\d*\.nijigazo\.com/(\d{4}/\d{2}/\d{2}/\w+/\w+?)(?:_mobile)?\.(\w+)	http://img.nijigazo.com/$1.$2
+
+^http://imgbako\.com/pic/(\w)[_/](\d+)[_/](\d+)[\._]([a-z]+)	http://imgbako.com/pic/$1/$2/$3.$4	$&
+^http://futalog\.com/pic/(\w)[_/](\d+)[_/](\d+)[\._]([a-z]+)	http://futalog.com/pic/$1/$2/$3.$4	$&
+^http://futalog\.com/pic/(\w+?)[_/](\d+)[\._]([a-z]+)	http://futalog.com/pic/$1/$2.$3	$&
+
+^http://(\w+)\.2chanlog\.net/image/(\w+/\d+/\d+/\d+/\d+\.\w+)	http://$1.2chanlog.net/$2
+
+^http://(?:www\.)?kindgirls\.com/photo/\w+/(\w+)/\d+/\d+/(\d+)	http://gals.kindgirls.com/$1/$1_$2.jpg
+
+^http://(?:www\.)?silentpix\.com/galleries/(\d+/[\w-]+/(?!index)[\w-]+)\.php	http://www.silentpix.com/galleries/$1.jpg
+
+^http://www\.taxidrivermovie\.com/gallerypic/([\w-]+)/(\d+)	http://www.taxidrivermovie.com/gallery_pics/pictures/$1-$2.jpg
+
+^http://(?:www\.)?imagepost\.com/videos/([\w-]+/[\w-]+)\.\w+	http://www.imagepost.com/videos/$1.jpg
+
+^http://(?:\d+\.)?static\.wix\.com/media/([\da-f]{6}_[\da-f]{32})\.([\dA-Za-z]+)	http://static.wix.com/media/$1.$2
+^http://(?:\d+\.)?static\.wix\.com/media/[\da-f]{32}\.wix_mp	$&		$VIEWER
+
+^http://ehowa\.com/showpicture\.shtml\?image=([\w-]+\.\w+)	http://images.ehowa.com/$1	$&
+^http://www\.ehowa\.com/showpicture\.shtml\?image=([\w-]+\.\w+)	http://images.ehowa.com/$1	$&
+^http://ehowa\.com/features/([\w-]+)/(\d+)	http://images.ehowa.com/$1/$1$2.jpg	$&
+^http://www\.ehowa\.com/features/([\w-]+)/(\d+)	http://images.ehowa.com/$1/$1$2.jpg	$&
+
+^https?://(?:www|dl)\.dropbox\.com/(\w{1,2}/[^?]+)	https://dl.dropbox.com/$1
+^https?://dl\.dropboxusercontent\.com/u/(\d+/.+)	https://dl.dropboxusercontent.com/u/$1
+
+^http://www\.lovekoala\.com/dx/pt3\.cgi\?photo=(\w+\.\w+).*&pht=(\w+)	http://www.lovekoala.com/photo/$2/$1
+
+^https?://lvimg\.jp/((?:[\w-]+/)+[\w-]+\.\w+)	https://lvimg.jp/$1
+^https?://www\.r-chintai\.jp/common_dataImgShow\.php\?gazoucd=(\d+).*&sub=(\w+)	https://lvimg.jp/door-chintai/realestate/rchintai/$2/$1.jpg
+
+^http://member\.maxi-247\.org/ms/\w+/\w+\.\w+	$&
+
+^https?://(\w+)\.files\.wordpress\.com/(\d{4}/\d{2}/[\w-]+\.\w+)	https://$1.files.wordpress.com/$2
+^https?://i\d\.wp\.com/(.+)	https://i0.wp.com/$1
+
+^http://tajigen\.com/wp-content/uploads/imgs/([\da-f]/[\da-f]/[\da-f]{8})(?:-s)?\.(\w+)	http://tajigen.com/wp-content/uploads/imgs/$1.$2
+
+^http://www\.paperman\.jp/popup\.html\?src=upload/upimage/(\d+\.\w+)	http://www.paperman.jp/upload/upimage/$1
+
+^http://i-uploader\.rdy\.jp/i/(\w+\.\w+)	http://news4ss.xsrv.jp/2chlog/images/$1
+^http://news4ss\.xsrv\.jp/2chlog/images/\?img=(\w+\.\w+)	http://news4ss.xsrv.jp/2chlog/images/$1
+
+^http://www\.yanmar\.com/(.*)	https://www.yanmar.com/$1
+
+^http://i\.na\.cx/(\w+\.\w+)	https://i.na.cx/$1
+
+^http://www\.tweaktown\.com/image\.php\?image=imagescdn\.tweaktown\.com/content/(\w/\w/\w+\.\w+)	http://imagescdn.tweaktown.com/content/$1
+
+^http://deco\.yahoo\.co\.jp/detail/img/(\d+)/	http://decopc.c.yimg.jp/img/$1/		$VIEWER
+^http://decopc\.c\.yimg\.jp/img/\d+/	$&		$VIEWER
+^http://item\.shopping\.c\.yimg\.jp/i/\w/[\w-]+	$&		$VIEWER
+^http://blogs\.c\.yimg\.jp/res/blog-[\da-f]{2}-[\da-f]{2}/[\w-]+/folder/\d+/\d+/\d+/img_\d+	$&		$VIEWER
+^http://img\.bookstore\.c\.yimg\.jp/im_sigg[\w.-]+/ebook/[\da-f]{2}/[\da-f]{2}/[\da-f]{32}_\w+\.\w+	$&
+^https?://ks\.c\.yimg\.jp/res/([\w-]+/\d+/\d+/\d+/\d+/i\d+)	https://ks.c.yimg.jp/res/$1		$VIEWER
+
+^http://thm-a\d{2}\.yimg\.com/nimage/[\da-f]{16}	$&		$VIEWER
+^https://s2\.yimg\.com/sr/img/[\da-f]/[\da-f-]{36}	$&		$VIEWER
+
+^http://hgn\.ai/(\w{6})(?:/(?:img\d)?)?$	http://hgn.ai/$1/img1		$VIEWER
+^http://magi\.md/(\w{6})(?:/(?:img\d)?)?$	http://magi.md/$1/img1		$VIEWER
+^http://to-a\.ru/(\w{6})(?:/(?:img\d)?)?$	http://to-a.ru/$1/img1		$VIEWER
+
+^https?://sourceforge\.net/dbimage\.php\?id=(\d+)	https://sourceforge.net/dbimage.php?id=$1		$VIEWER
+
+^http://img\.guideme\.jp/im?/([\da-zA-Z/+]+)	http://img.guideme.jp/i/$1		$VIEWER
+
+^http://dokuo(?:image)?\.mine\.nu/(?:index\.php)?\?action_retry=(.+&item_id=\d+)	http://dokuo.mine.nu/?action_retry=$1		$VIEWER
+
+^http://(?:www\.)?bildereintopf\.de/(?:index\.php)?\?r=gallery(?:Pictures)?/\w+&id=(\d+)	http://www.bildereintopf.de/index.php?r=galleryPictures/showimage&id=$1		$VIEWER
+
+^http://covers\.jqe360\.com/getfile\.php\?(?:[^&]+&)*file=(\d+)	http://covers.jqe360.com/getfile.php?file=$1		$VIEWER
+
+^http://bijyo\.oooooz\.com/(?:_img|thumb)/(\d+/[\w.-]+)	http://bijyo.oooooz.com/_img/$1		$VIEWER
+
+^https?://(?:t|encrypted-tbn)\d\.gstatic\.com/images\?q=tbn(?::|%3[Aa])([\w-]+)	https://encrypted-tbn0.gstatic.com/images\?q=tbn:$1		$VIEWER
+
+^http://m\.ip\.bn765\.com/[\da-f]+	$&		$VIEWER
+
+^http://tabelog\.com/imgview/original\?id=r\d+	$&		$VIEWER
+
+^http://ps-os\.com/_lib/images(?:2)?\.php\?src=\w+	$&		$VIEWER
+
+^http://raw\.senmanga\.com/raw-viewer\.php\?series=.+	$&		$VIEWER
+
+^http://(tabisuke\.arukikata\.co\.jp/\w+/\d+/image)	http://$1		$VIEWER
+
+^http://horipro\.co\.jp/base/side_system/uploader/uploaded(?:/+|_file\.php\?.+&fileid=)(\d+)	http://horipro.co.jp/base/side_system/uploader/uploaded/$1		$VIEWER
+
+>---------- 未整理 ----------
+^http://bbs\.gazo\.biz/(\w+)/im/(\d)\.(?:jpe?g|gif|png)	$&	http://bbs.gazo.biz/i.php?id=$1i&p=&n=$2&e=j	$NOEXTCTRL
+^http://bbs1\.gazo\.biz/(\w+)/im/(\d)\.(?:jpe?g|gif|png)	$&	http://bbs1.gazo.biz/i.php?id=$1i&p=&n=$2&e=j	$NOEXTCTRL
+^http://labs\.wanokoto\.jp/olds?/(?:view|complete)/([-\w]+\.(?:jpe?g|gif|png|bmp))	http://labs.wanokoto.jp/old/complete/$1	http://labs.wanokoto.jp/olds/view/$1
+
+^http://eeu\.dip\.jp/download/dl_entry\.cgi\?id=eeu(\d+)	http://eeu.dip.jp/upfiles/eeu$1	http://eeu.dip.jp/download/dl_entry.cgi?id=eeu$1	$VIEWER
+
+^http://multipics\.net/\?img=([\w~.]+\.jpg)	http://multipics.net/img/$1
+
+^http://([\da-z]+)\.wtakumi\.com/bbs\.cgi\?id=(\w+)&rp=&m=m_file&file=(\d+\.(?:jpe?g|png|gif|bmp))	http://$1.wtakumi.com/s/$2/$3
+
+^http://www\.moelife\.net/download\.php\?idx=(\d+)&table=(\w+)	$&&dummy=/$2_$1		$VIEWER
+^http://www\.moelife\.net/db/(\w+)/[-_\w]+\.(?:jpe?g|gif|png|bmp)	$&	http://www.moelife.net/list.php?table=$1
+
+^http://www\.sweetnote\.com/static\d/[\da-f]+\.(?:jpe?g|png|gif)	$&	http://www.sweetnote.com/board/aporoda/
+^http://www\.sweetnote\.com/box\d/file/\d+\.(?:jpe?g|png|gif)	$&	http://www.sweetnote.com/site/aporoda/
+^http://v3\.sweetnote\.com/\w+/static/images/\d{20}\.\w+\?\d+_[\da-f]+	$&		$VIEWER
+
+^http://age2\.tv/up(1)?/upload\.php\?id=\d+	$&	http://age2.tv/up$1/upload.php	$VIEWER
+^http://(?:www\.)?age2\.tv/rd05/count\.cgi\?up(\d+\.\w+)	http://www.age2.tv/rd05/src/up$1
+
+^http://pic\.20ch\.net/index\.php\?upp=\d+	$&		$VIEWER
+^http://img\.20ch\.net/(?:\w+/)?index\.php\?upp=\d+	$&		$VIEWER
+
+^http://or2\.mobi/(?:data/img/|index\.php\?mode=image&file=)(.+)	http://or2.mobi/data/img/$1	http://or2.mobi/index.php?mode=image&file=$1
+
+^http://subuya\.com/p/up/img/.+	$&	http://subuya.com/p/up/
+^http://up\.subuya\.com/view/(\d+)\.htm	http://up.subuya.com/src/$1.jpg	$&
+^http://up\.subuya\.com/src/\d+\.\w+	$&	$&	$NOEXTCTRL
+
+^http://www\.blingo\.jp/photobbs/bbs(\d+)/img/\d+\.(?:jpg|png|gif)	$&	http://www.blingo.jp/photobbs/bbs$1/pict.html	$NOEXTCTRL
+
+^http://2dlol\.moe\.hm/_images/[\da-f]{32}	$&		$VIEWER
+
+^http://tsushima\.2ch\.at/index\.php\?upp=\d+	$&		$VIEWER
+
+^http://oops-music\.com/info_images/\d/\d/\d+_\d+\.img	$&		$VIEWER
+
+^http://www\.badongo\.com/t/\d+/\d+	$&		$VIEWER
+
+^http://img\.chobbit\.com/\d+$	$&		$VIEWER
+
+^http://img6\.zozo\.jp/people/\d+/article/\d+\.pimg	$&		$VIEWER
+
+^http://i-motion\.mine\.nu/imgpart/\d+/(\d+)/\d+	http://i-motion.mine.nu/imgfull/$1.jpg
+^http://i-motion\.mine\.nu/(?:index\.php)?\?action_image_image_get=true&type=\w+&id=(\d+)	http://i-motion.mine.nu/imgfull/$1.jpg
+^http://mix-image\.net/imgpart/\d+/(\d+)/\d+	http://mix-image.net/imgfull/$1.jpg
+^http://mix-image\.net/(?:index\.php)?\?action_image_image_get=true&type=\w+&id=(\d+)	http://mix-image.net/imgfull/$1.jpg
+^http://dmotion\.dyndns\.tv/imgpart/\d+/(\d+)/\d+	http://dmotion.dyndns.tv/imgfull/$1.jpg
+^http://dmotion\.dyndns\.tv/(?:index\.php)?\?action_image_image_get=true&type=\w+&id=(\d+)	http://dmotion.dyndns.tv/imgfull/$1.jpg
+^http://dmotion\.mine\.nu/imgpart/\d+/(\d+)/\d+	http://dmotion.mine.nu/imgfull/$1.jpg
+^http://dmotion\.mine\.nu/(?:index\.php)?\?action_image_image_get=true&type=\w+&id=(\d+)	http://dmotion.mine.nu/imgfull/$1.jpg
+
+^http://dmotion\.dyndns\.tv/imgdpart/\d+/(\d+)/\d+	http://dmotion.dyndns.tv/?action_doujin_image_get=true&type=full&id=$1		$VIEWER
+^http://dmotion\.dyndns\.tv/(?:index\.php)?\?action_doujin_image_get=true&type=\w+&id=\d+	$&		$VIEWER
+^http://dmotion\.mine\.nu/imgdpart/\d+/(\d+)/\d+	http://dmotion.mine.nu/?action_doujin_image_get=true&type=full&id=$1		$VIEWER
+^http://dmotion\.mine\.nu/(?:index\.php)?\?action_doujin_image_get=true&type=\w+&id=\d+	$&		$VIEWER
+
+^http://image\.(?:makeadultfriend\.info|saylike\.net)/show\.php\?img=(\w+\.\w+)	http://image.makeadultfriend.info/out.php?i=$1
+
+^http://img\.iina\.tv/m/imagebbs/_nosync/(\d+/\d+/\d+)/\d+(\.\w+)	http://img.iina.tv/m/imagebbs/_nosync/$1/org$2
+
+^http://d\d+\.decoo\.jp/data/\d+/\d+/[\da-f]+\.\w+	$&
+
+^http://mjv-art\.org/pictures/get_image/(\d+).*\.(\w+)	http://mjv-art.org/pictures/get_image/$1.$2
+
+^http://www\.myadulthost\.org/view\.php\?filename=(.+)	http://www.myadulthost.org/images/$1
+
+^http://img\.nippongaru\.com/(?:share|image)\.php\?id=([\dA-F]{4}_[\dA-F]{8})	http://img.nippongaru.com/image.php?id=$1		$VIEWER
+
+^http://images\.lirenti\.com/out\.php/i\d+_\w+	$&		$VIEWER
+^http://images\.lirenti\.com/(?:show\.php|(?:viewimg|gallery)/[^/])/(\d+_\w+)	http://images.lirenti.com/out.php/i$1		$VIEWER
+
+^http://static(\d+)\.photo\.sina\.com\.cn/(?:\w+/)?(\w{21})	http://static$1.photo.sina.com.cn/$2		$VIEWER
+
+^https?://ex-chaos\.appspot\.com/api/download/([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})	https://ucon.favclip.com/api/download/$1		$VIEWER
+^https?://ucon\.favclip\.com/api/download/([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})	https://ucon.favclip.com/api/download/$1		$VIEWER
+
+^http://guide-images\.ifixit\.net/igi/\w{16}	$&		$VIEWER
+
+^http://www\.soschildrensvillages\.org\.uk/charity-news/archive/\d{4}/\d{2}/[\w-]+/image	$&		$VIEWER
+
+^http://moagu\.typepad\.jp/\.a/[\da-f]{34}-pi	$&		$VIEWER
+
+^http://eelog\.jp/image/\d+	$&		$VIEWER
+
+^http://stooq\.com/c/\?[\w&=]+	$&		$VIEWER
+
+^http://moemoe\.zitaku\.org/img\.php\?mode=(?:l_)?img&id=(\d+)	http://moemoe.zitaku.org/img.php?mode=l_img&id=$1		$VIEWER
+
+^http://zigsow\.jp/img(?:_page)?\.php\?filename=(\w+\.\w+)	http://zigsow.jp/img.php?filename=$1&a=a		$VIEWER
+
+^http://cache\d*\.asset-cache\.net/(\w{2}/\d+)[^.?]*\.jpg\?(.+)$	http://cache\.asset-cache\.net/$1.jpg?$2		$VIEWER
+
+^http://www\.fotosearch\.jp/bigcomp\.asp\?path=(.+)	http://comps.fotosearch.com/bigcomps/$1
+
+^http://www\.sutton-images\.com/(?:preview\.asp\?filename=|thumbs/)(.+)	http://www.sutton-images.com/previews/$1
+
+^http://www\.sodc\.co\.jp/detailes/(\w+)/sample/(\w+)\.html	http://www.sodc.co.jp/detailes/$1_img/$2.jpg
+
+^http://serif\.hatelabo\.jp/([\da-f]{40}/[\da-f]{40})	http://serif.hatelabo.jp/images/cache/$1.gif
+
+^http://de\.kontron\.com/images/imageprocessing\.php\?.*file=([\w/]+\.\w+)	http://de.kontron.com$1
+
+^http://zipdeyaruo\.(?:net|com|org)/(?:thumnail|image(?:cache)?)/blog-imgs-(\d+\.fc2\.com/z/i/p/zipdeyaruolog\d+/.+)	http://blog-imgs-$1
+^http://zipdeyaruo\.(?:net|com|org)/image/(\d{12}/[\w-]+\.\w+)	http://zipdeyaruo.org/thumnail/$1
+^http://zipdeyaruo\.(?:net|org|com)/image/(\d{12}/zipyaru-[\d-]+\.\w+)	http://zipdeyaruo.org/imagecache/$1
+
+^http://blog-imgs-(\d+)\.fc2\.com\.proxy2\.yaraon\.net/y/a/r/yaraon/(.+)	http://blog-imgs-$1.fc2.com/y/a/r/yaraon/$2
+
+^http://www\.spaceweather\.com/submissions/large_image_popup\.php\?image_name=([\w-]+\.\w+)	http://www.spaceweather.com/submissions/pics/d/$1
+
+^http://pic2\.sosg\.net/getimg\.php\?host=([\w\.]+)&port=80&path=([/\w\.]+)	http://$1$2
+
+^http://blogjav\.info/viewer\.php\?file=(\d+\.\w+)	http://blogjav.info/images/$1
+
+^http://magmag\.ath\.cx/(\w+/\d{4}-\d{2}/\d{2}/\w+\.2chan\.net/b/res/\d{9}/\w+\.2chan\.net/\w+)/b/(?:thumb|src)/(\d{13})s?\.(\w+)	http://magmag.ath.cx/$1/b/src/$2.$3	$&
+
+^http://fansfree\.com/image/(\w+/[\w-]+/\d+\.\w+)	http://hentai-r.com/$1
+
+^http://www\.nationalgeographic\.co\.jp/common/i\.php\?(?:[\w=]+&)*file=/([\w/]+\.\w+)	http://www.nationalgeographic.co.jp/$1
+
+^http://brizzly\.com/pic/(\w+)$	http://pics.brizzly.com/$1.jpg		$VIEWER
+^http://pikchur\.com/(\w+)$	http://img.pikchur.com/pic_$1_l.jpg		$VIEWER
+^http://pk\.gd/(\w+)$	http://img.pikchur.com/pic_$1_l.jpg		$VIEWER
+
+^http://www\.bendbox\.com/(\d{8})/(\w+)	http://www.bendbox.com/$1/$2/$2.jpg	$&
+^http://bendbox\.com/(\d{8})/(\w+)	http://www.bendbox.com/$1/$2/$2.jpg	$&
+

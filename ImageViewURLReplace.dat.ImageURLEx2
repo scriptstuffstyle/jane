@@ -1,0 +1,399 @@
+>---------- ImageURLEx ----------
+
+>---------- アップローダ・画像掲示板系 ----------
+^http://img\d+\.picfoco\.com/img\.php\?id=\d+	$&		$EXTRACACHE	"(http://img\d+\.picfoco\.com/showimg\.php\?[^"]+)
+
+^http://www\.imagefap\.com/photo/\d+/	$&		$EXTRACACHE	"http://fap\.to/images/(\d+)/(\d{3})(\d+)/[^"]+\.(\w+)"	http://fap.to/images/full/$1/$2/$2$3.$4
+
+^http://torapic\.com/p/\w+	$&		$EXTRACACHE	"(https://torapic\.s3\.amazonaws\.com/\d+/[^"]+)
+
+^http://img\d+\.imagevenue\.com/img\.php\?image=.+	$&		$EXTRACACHE	SRC="([\w-]+/loc\d+/[^"]+)
+
+^http://\d\.dbbs\.to/img\.php\?.+	$&		$EXTRACACHE	src=(\./box/\w+/\d+/File-\d+-\d+\.\d+\.\w+)
+
+^http://emailgenki\.com/\d{12}	$&		$EXTRACACHE	"(uploads/\d{2}/\d{2}/\d{8}\.\w+)
+
+^http://photo-up\.mywebcommunity\.org/up\.cgi\?mode=img&no=\d+	$&		$EXTRACACHE	src="(\./pic/\d+\.\w+)
+
+^http://ozcircle\.net/_uploader/\d+	$&		$EXTRACACHE	src="(\.\./[^"]*\?wicket:interface=:\d+:viewerContainer:imageContainer:image::IResourceListener::&uploader=\d+)"
+
+^http://depic\.me/\w{12}	$&		$EXTRACACHE	"(http://s\d+\.depic\.me/\w+/[^"]+)
+
+^http://imgon\.net/pm-\w{4}\.html	$&		$EXTRACACHE	href="(/di-\w{4}\.\w+)
+
+^http://b\.ac-pink\.net/ebanup/html/[\w-]+\.html	$&		$EXTRACACHE	src=(\.\./photo/[\w-]+\.\w+)
+
+^http://up-photo\.zapto\.org/up\.cgi\?mode=img&no=\d+	$&		$EXTRACACHE	<img\s+src="(\./photo/\d+\.\w+)
+
+^http://img\.ly/images/\d+/full	$&		$EXTRACACHE	'(http://img\.ly/system/uploads/\d{3}/\d{3}/\d{3}/original_upload\.\w+)
+
+^http://danbooru\.donmai\.us/post/show/\d+	$&		$EXTRACACHE	"(http://\w+\.donmai\.us/data/[\da-f]{32}\.\w+)
+
+^http://(?:(?:(?:(?:img|cdn)\d*\.)?gelbooru\.com)|youhate\.us)/(?:index\.php)\?page=post&s=view&id=(\d+)	http://gelbooru.com/?page=post&s=view&id=$1		$EXTRACACHE	"(http://\w+\.gelbooru\.com//?images/[\da-f]{2}/[\da-f]{2}/[\da-f]+\.\w+)
+
+^http://imgb\.rentalcgi\.com/view/([\w-]+/\d+\.\w+)	http://imgb.rentalcgi.com/view/$1		$EXTRACACHE	'(http://cc\.rentalcgi\.com/view1/tmp\w+/\w+/\d+\.\w+)
+^http://cc\.rentalcgi\.com/view1/tmp\w+/([\w-]+/\d+\.\w+)	http://imgb.rentalcgi.com/view/$1		$EXTRACACHE	'(http://cc\.rentalcgi\.com/view1/tmp\w+/\w+/\d+\.\w+)
+^http://(imgb\d\.rentalcgi\.com/(?:view|tmp\w+)/[\w-]+/\d+\.\w+)	http://$1		$EXTRACACHE	'(/tmp\w+/\w+/\d+\.\w+)
+^http://imgb1\.ziyu\.net/\w+/([\w-]+/\d+\.\w+)	http://imgb1.ziyu.net/view/$1		$EXTRACACHE	'(/\w+/\w+/\d+\.\w+)
+
+^http://giga-ero\.com/e_(\w+)/up/(?:index\.php)?\?id=(\d+)	http://giga-ero.com/e_$1/up/index.php?id=$2		$EXTRACACHE	"(\./img/giga_e\w*_\d+\.\w+)
+
+^http://(?:www\.)?postimage\.org/image(\.php\?v=\w+|/\w+/)	http://postimage.org/image$1		$EXTRACACHE	'(http://s\d+\.postimg\.org/\w+/[^']+)
+^http://(?:www\.)?postimg\.org/image/(\w+)/	http://postimg.org/image/$1/full/		$EXTRACACHE	'(http://s\d+\.postimg\.org/\w+/[^']+)
+
+^http://(?:www\.)?(?:imageporter|picleet|imagedunk|picturedip)\.com/(\w+/[\w-]+\.\w+)	http://www.imageporter.com/$1		$EXTRACACHE	"(http://img\d*\.imageporter\.com/i/\d+/\w+\.\w+)
+^http://(?:www\.)?piclambo\.net/(\w+/[\w-]+\.\w+)	http://www.imageporter.com/$1		$EXTRACACHE	"(http://img\d*\.imageporter\.com/i/\d+/\w+\.\w+)
+
+^http://(?:www\.)?alicenetwork\.net/picture/view/alp(\d+)	http://www.alicenetwork.net/picture/view/alp$1		$EXTRACACHE	"(\.\./image/alp\d+\.\w+)
+^http://m-alice\.net/m/html/\d+-\d+	$&		$EXTRACACHE	"(\.\./img/\d+-\d+\.\w+)
+
+^http://\w\.mjmj\.be/disp/\w{10}/	$&		$EXTRACACHE	"(/file/plane/\w{10}\.\w+)
+^http://\w\.jgup\.jp/disp/\w+	$&		$EXTRACACHE	"(/file/plane/\w+\.\w+)
+^http://\w+\.upup\.be/d/\w+	$&		$EXTRACACHE	"(/f/r/\w+\.\w+)
+^http://imepic\.jp/\d{8}/\d{6}	$&		$EXTRACACHE	(http://img\d\.imepic\.jp/image/\d{8}/\d{6}\.\w+\?[\da-f]{32})
+^http://img\d\.imepic\.jp/image/(\d{8}/\d{6})\.\w+$	http://imepic.jp/$1		$EXTRACACHE	(http://img\d\.imepic\.jp/image/\d{8}/\d{6}\.\w+\?[\da-f]{32})
+^http://img\d\.imepic\.jp/mobile/plane/(\d{8}/\d{6})\.\w+	http://imepic.jp/$1		$EXTRACACHE	(http://img\d\.imepic\.jp/image/\d{8}/\d{6}\.\w+\?[\da-f]{32})
+
+^http://(?:www\.)?image-shed\.com/(?:show\.php/|out\.php/i)(\d+)	http://image-shed.com/show.php/$1		$EXTRACACHE	"(http://image-shed\.com/out\.php/i\d+[^"?]*\?id=[\da-f]{28})
+
+^http://data\d*\.ebbs\.jp/view\.php\?.*(?:num=\d+&.*l=\d+|l=\d+&.*num=\d+)	$&		$EXTRACACHE	"/img/(\d+/\d+/\d+)/(?:\d+_)?(\d+_\d+_\d+\.[^"]+)	/img/$1/$2
+
+^http://i\.kyooyan\.net/detail/\d+	$&		$EXTRACACHE	<center>\s*<img\s+src="(/img/upload/\d+\.\w+)
+
+^http://mitemitedq10\.info/d/\d+	$&		$EXTRACACHE	src="(http://mitemitedq10\.info/g/[\da-f]{32}\.\w+)
+
+^http://g-pic\.net/pic/\w+	$&		$EXTRACACHE	src="(http://g-pic\.net/img_\d+_o\.\w+)
+
+^http://artclip\.jp/item\.php\?id=\d+	$&		$EXTRACACHE	href="(/qtk/var/upload/display_[\da-f]{32}\.\w+)
+
+^http://img-up\.com/f(?:/|\.php\?(?:\w+=\w+&)*id=)(\d+)	http://img-up.com/f/$1/		$EXTRACACHE	file=(up_img-up\.com_\w+/\d+/\w+\.\w+)	/$1
+
+^http://(?:www\.)?imagesocket\.com/(?:photos/imagesocket|social)/(\d+)	http://www.imagesocket.com/photos/imagesocket/$1		$EXTRACACHE	(http://premium\.imagesocket\.com/images/(\d{4}/\d{2}/\d{2}/[\w-]+\.\w+))
+
+^https?://(?:minus\.com|min\.us)/l(\w+)	https://minus\.com/l$1		$EXTRACACHE	href="(http://i\d*\.minus\.com/i\w+\.\w+)
+
+^http://(?:tinypic\.com/redirect\.php\?url=http://)?o?(i\d+\.tinypic\.com/[\dA-Za-z]+)	http://tinypic.com/redirect.php?url=http://$1		$EXTRACACHE	"http://tinypic\.com/r/(\w+)/(\d+)	http://s$2.tinypic.com/$1
+
+^http://threepicture\.com/view/(?:full/)?(\d+_\w+)	http://threepicture.com/view/$1		$EXTRACACHE	"(http://threepicture\.com/files/download/\d+_\w+/[^"]+)
+
+^http://uppli\.jp/view\.php\?id=\w+&file_id=\w+&ext=\w+	$&		$EXTRACACHE	"(http://uppli\.jp/data/\d+/\w+/\w+\.\w+)
+
+^http://www\.imgjp\.com/[^/.]+\.html	$&		$EXTRACACHE	<link\s+rel="image_src"\s+href="([^"]+)
+
+^http://picbg\.net/img\.php\?file=\w+\.\w+	$&		$EXTRACACHE	'(http://store\.picbg\.net/pubpic/\w{2}/\w{2}/[^']+)
+
+^http://movapic\.com/\w+/pic/\d+	$&		$EXTRACACHE	(http://image\.movapic\.com/pic/m_[\da-f]{27}\.jpeg)
+
+^http://(?:www\.)?imgchili\.(?:com|net)/show/(\d+/.+\.\w+)	http://imgchili.net/show/$1		$EXTRACACHE	src="(http://i\d+\.imgchili\.(?:com|net)/\d+/[^"]+)
+
+^http://www\.turboimagehost\.com/p/(\d+/[\w-]+\.\w+)(?:\.html)?	http://www.turboimagehost.com/p/$1.html		$EXTRACACHE	"(http://\w+\.turboimagehost\.com/sp/[\da-f]{32}/[^"]+)
+
+^http://board\.sweetnote\.com/:images/site/\w+/\d{16}\?t=\w+	$&		$EXTRACACHE	src="(http://www\.sweetnote\.com/images/site/[^"]+)"\s+/>(?:</a>)?</center></p>\n
+^http://board\.sweetnote\.com/:images/board/\w+/[\da-f]{32}\?t=\w+	$&		$EXTRACACHE	src="(http://www\.sweetnote\.com/images/board/[^"]+)"\s+/>(?:</a>)?</center></p>\n
+^http://board\.sweetnote\.com/(\w+)/(?:image|static/images/[\da-f]{8})/(\d{20})	http://board.sweetnote.com/$1/image/$2		$EXTRACACHE	"(http://v3\.sweetnote\.com/\w+/static/images/\d{20}\.\w+\?\d+_[\da-f]+)
+
+^http://imgserve\.net/img-[\da-f]+\.html	$&		$EXTRACACHE	'(http://s\d+\.imgserve\.net/images/big/\d{4}/\d{2}/\d{2}/[\da-f]+\.\w+)
+
+^http://imgbox\.com/\w{8}	$&		$EXTRACACHE	"(http://i\.imgbox\.com/\w+\.\w+\?download=true)"
+
+^http://bayimg\.com/\w+	$&		$EXTRACACHE	"(//image\.bayimg\.com/[\da-f]{40}\.\w+)
+
+^http://pic-b\.com/photo/\d{2,}/\d+/	$&		$EXTRACACHE	"(http://pic-b\.com/photo/\d/\d+/[\d-]+-pc\.\w+)
+
+^http://uploadyourimages\.org/img-[\da-f]+\.html	$&		$EXTRACACHE	(http://uploadyourimages\.org/upload/big/\d{4}/\d{2}/\d{2}/[\da-f]+\.\w+)
+
+^http://www\.stooorage\.com/show/\d+/\w+\.\w+	$&		$EXTRACACHE	"(http://img\d\.stooorage\.com/images/\d+/[^"]+)
+
+^http://(imagetwist\.com/\w+/[\w-]+\.\w+)(?:\.html)?	http://$1.html		$EXTRACACHE	"(http://img\d+\.imagetwist\.com/i/\d+/[^"]+)
+^http://(imagenimage\.com/\w+/[\w-]+\.\w+)(?:\.html)?	http://$1.html		$EXTRACACHE	"(http://img\d+\.imagetwist\.com/i/\d+/[^"]+)
+^http://(imagenpic\.com/\w+/[\w-]+\.\w+)(?:\.html)?	http://$1.html		$EXTRACACHE	"(http://img\d+\.imagetwist\.com/i/\d+/[^"]+)
+^http://(imageshimage\.com/\w+/[\w-]+\.\w+)(?:\.html)?	http://$1.html		$EXTRACACHE	"(http://img\d+\.imagetwist\.com/i/\d+/[^"]+)
+
+^http://www\.imgspice\.com/(\w+/[\w-]+\.\w+)(?:\.html)?	http://www.imgspice.com/$1.html		$EXTRACACHE	src="(http://img\d+\.imgspice\.com/i/\d+/[\w-]+\.\w+)
+
+^http://500px\.com/photo/\d+	$&		$EXTRACACHE	<meta\s+content="([^"]+)"\s*property="og:image"\s*/>
+
+^http://imgef\.com/\w+	$&		$EXTRACACHE	<meta\s+name="twitter:image"\s*content="([^"]+)"\s*>
+
+>---------- ニュース ----------
+^http://www\.kobe-np\.co\.jp/news/\w+/p\d+_\d+\.shtml	$&		$EXTRACACHE	"(Images/\d+\.\w+)
+
+^http://www\.kyoto-np\.co\.jp/\w+/article/\d{14}/\d+	$&		$EXTRACACHE	"(/picture/\d{4}/\d{2}/[^"]+)
+
+^http://www\.hokkaido-np\.co\.jp/news/photonews/\d+\.html	$&		$EXTRACACHE	"(http://www\.hokkaido-np\.co\.jp/news/photonews/image/\d+_2\.\w+)
+
+^http://www\.nnn\.co\.jp/pnews/\d{6}/\d{12}\.html	$&		$EXTRACACHE	'(images/[A-Z]+\w+\.\w+)
+
+^http://www\.nikkei\.com/news/image-article/\?.+	$&		$EXTRACACHE	src="(/content/pic/\d{8}/[^"]+)
+
+^http://trendy\.nikkeibp\.co\.jp/article/pickup/\d{8}/\d{7}/\?SS=expand&FD=\d+	$&		$EXTRACACHE	<div\s+class="exp_img"><a\s+href\s+="javascript:history\.back\(\);"><img\s+src="([^"]+)
+^http://pc\.nikkeibp\.co\.jp/article/\w+/\d{8}/\d{7}/\?SS=imgview&FD=[\d-]+	$&		$EXTRACACHE	<tr><td><img\s+src="([^"]+)
+
+^http://j\.people\.com\.cn/94638/\d+/\d+\.html	$&		$EXTRACACHE	border="0"\s+src="(/mediafile/\d{6}/\d{2}/\w+\.\w+)
+
+^http://www\.otanew\.com/detail_img\.php\?pid=(\w+)&numb=(\d+)	$&		$EXTRACACHE	"(\./files/\d+/[\da-f]{32}\.\w+)
+
+^http://www\.tokyo-sports\.co\.jp/(?:\w+/)+\d+/attachment/(?:[\w-]|(?:%[\dA-F]{2}))+	$&/		$EXTRACACHE	"(http://wp\.tokyo-sports\.co\.jp/wp-content/uploads/\d{4}/\d{2}/[\da-f]{32}\.\w+)
+
+^http://3g\.recordchina\.co\.jp/gravure/images/\d+/\d+	$&		$EXTRACACHE	"(/resource/UserFiles/\d{4}-\d{2}-\d{2}/copys/\d+\.\w+)
+
+^http://autoc-one\.jp/(?:[\w-]+/)+photo/\d+\.html	$&		$EXTRACACHE	"(http://fsv-image\.autoc-one\.jp/images/\d+/\d+_o\.\w+)
+
+^http://clicccar\.com/\d{4}/\d{2}/\d{2}/\d+/(?:[\w\.-]|(?:%[\dA-F]{2}))+	$&		$EXTRACACHE	src="(http://clicccar\.com/wp-content/uploads/(?:\d{4}/\d{2}/|[\da-f]{32})[^"]+)
+
+^http://news\.nicovideo\.jp/watch/np\d+	$&		$EXTRACACHE	src="(http://p\.news\.nimg\.jp/photo/\d+/\d+l\.\w+)
+
+^http://(?:www\.)?cyclingnews\.com/news/photos/([\w-]+/\d+)	http://www.cyclingnews.com/news/photos/$1		$EXTRACACHE	"(http://cdn2\.media\.cyclingnews\.futurecdn\.net/\d{4}/\d{2}/\d{2}/\d+/[^"]+)
+
+^http://(?:www\.)?onlinegamer\.jp/news/(\d{12}/image/\d+)/	http://www.onlinegamer.jp/news/$1/		$EXTRACACHE	"(http://image\.onlinegamer\.jp/img/news/\d{8}/[\da-f]{36}/\d+\.\w+)
+
+^http://(?:www\.)?carview\.co\.jp/green/report/road_imp/(\w+/\d+/photo/\d+)	http://www.carview.co.jp/green/report/road_imp/$1		$EXTRACACHE	src="(http://cdn\.img\d+\.carview\.co\.jp/cvmaterials/(?:\w+/)+\w+_l\.\w+)
+^http://(?:www\.)?carview\.co\.jp/magazine/photo_impression/article/(\w+/\d+/\d+)	http://www.carview.co.jp/magazine/photo_impression/article/$1		$EXTRACACHE	src="(http://cdn\.img\d+\.carview\.co\.jp/cvmaterials/(?:\w+/)+\w+_l\.\w+)
+
+^http://www\.excite\.co\.jp/News/photo_news/p-\d+	$&/		$EXTRACACHE	<div\s+class="mainPhoto">\s*<img\s+src="(http://image\.excite\.co\.jp/feed/news/[A-Z][a-z]+/[^"]+)
+
+^http://(?:www\.)?superbike\.co\.uk/viewers/viewgallery\.aspx\?(?:\w+=\w+&)*page=(\d+)&(?:\w+=\w+&)*contentid=(\d+)	http://www.superbike.co.uk/viewers/viewgallery.aspx?page=$1&contentid=$2		$EXTRACACHE	src="([^"]+)"\s+id="ctl00_LeftContentArea_img_main"
+^http://(?:www\.)?superbike\.co\.uk/viewers/viewgallery\.aspx\?(?:\w+=\w+&)*page=(\d+)	http://www.superbike.co.uk/viewers/viewgallery.aspx?page=1&contentid=$1		$EXTRACACHE	src="([^"]+)"\s+id="ctl00_LeftContentArea_img_main"
+
+^http://www\.gallery\.weekendcreations\.com/telugu_movie_photo_gallery\.php\?film_id=\d+&id=\d+	$&		$EXTRACACHE	data-href="([^"]+)
+
+^http://www\.gamer\.ne\.jp/news/\d{12}/image/\d+	$&		$EXTRACACHE	"(http://image\.gamer\.ne\.jp/news/\d{4}/\d{8}/[\da-f]{36}/o/\d+\.\w+)
+
+^http://eiga\.com/news/\d{8}/\d+/\d+/\d{2}/	$&		$EXTRACACHE	"http://image\.eiga\.k-img\.com/images/buzz/(\d+)/(?:",a2=")?(\w+_large(?:_nocopy)?\.\w+)	http://image.eiga.k-img.com/images/buzz/$1/$2
+^http://eiga\.com/news/\d{8}/\d+/\d+/\d+/	$&		$EXTRACACHE	src="(http://image\.eiga\.k-img\.com/images/buzz/\d+/(?:",a2=")?\w+_large(?:_nocopy)?\.\w+)
+^http://eiga\.com/movie/\d+/special/\d{2}/	$&		$EXTRACACHE	"(http://image\.eiga\.k-img\.com/images/special/\d+/\d+_main\.\w+)
+
+^http://(?:www\.)?mdpr\.jp/topic/image/(\d+)	http://mdpr.jp/topic/image/$1		$EXTRACACHE	"/photo/images/(\d{4}/\d{2}/\d{2})/(?:0_)?(\d+\.\w+)	http://mdpr.jp/photo/images/$1/$2
+^http://(?:www\.)?mdpr\.jp/photo/detail/(\d+)	http://mdpr.jp/photo/detail/$1		$EXTRACACHE	"/photo/images/(\d{4}/\d{2}/\d{2})/(?:0_)?(\d+\.\w+)	http://mdpr.jp/photo/images/$1/$2
+
+^http://photo\.pclady\.com\.cn/pic/\d+\.html	$&		$EXTRACACHE	osrc="([^"]+)
+
+^http://nikkan-spa\.jp/\d+/[^./]+$	$&		$EXTRACACHE	rel="attachment"><img\s+.*src="(/wp-content/uploads/\d+/\d+/[^"]+)
+
+^http://www\.idlebrain\.com/(?:news/functions1|movie/photogallery)/[\w-]+/pages/image\d+\.html	$&		$EXTRACACHE	src="(\.\./images/[\w-]+\d+\.\w+)
+
+^http://(?:www\.)?manila-shimbun\.com/photo(\d+)\.html	http://manila-shimbun.com/photo$1.html		$EXTRACACHE	"(/image\.php\?file=\d+l\.\w+&pass=[\da-f]{32})"
+
+^http://www\.nikkansports\.com/(\w+/\w+)/news/photonews_nsInc_(\w-[\w-]+-\d{8}-\d+\.html)	http://www.nikkansports.com/$1/news/$2		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+^http://photos\.nikkansports\.com/(?:[\w-]+/)+entry/\w+\.html	$&		$EXTRACACHE	<img\s+src="(/[^"]+)"\s+alt="[^"]+"\s+oncontextmenu="return\s+false"
+
+^http://www\.officiallyjd\.com/archives/\d+/[^/]+/	$&		$EXTRACACHE	href='(http://www\.officiallyjd\.com/wp-content/uploads/\d{4}/\d{2}/[^']+)
+
+^http://ro69\.jp/news/photo/\d+/\d+	$&		$EXTRACACHE	<img\s+src="(http://images\.ro69\.jp/images/entry/\d+/[^"]+)"\s+alt="[^"]*"\s+id="photo-image-target"
+
+^http://www\.cnn\.co\.jp/photo/(?:l/)?\d+(?:-\d+)?\.html	$&		$EXTRACACHE	src="(/storage/\d{4}/\d{2}/\d{2}/[\da-z]{32}/[^"]+)
+^http://www\.cnn\.co\.jp/cimage/(\d+)/\d+/\d+/	http://www.cnn.co.jp/photo/l/$1.html		$EXTRACACHE	src="(/storage/\d{4}/\d{2}/\d{2}/[\da-z]{32}/[^"]+)
+
+^http://natalie\.mu/\w+/gallery/show/news_id/\d+/image_id/\d+	$&		$EXTRACACHE	"(/media/(?:[\w-]+/)+extra/news_xlarge_[^"]+)
+
+^http://news\.livedoor\.com/article/image_detail/\d+/\?img_id=\d+	$&		$EXTRACACHE	<meta\s+property="og:image"\s+content="([^"]+)">
+
+^http://www\.asahi\.com/\w+/gallery/[\w-]+/[\w-]+\.html	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+^http://www\.asahi\.com/photonews/[A-Z]+\d{12}\.html	$&		$EXTRACACHE	(http://www\.asahi\.com/photonews/images/[A-Z]+\d{12}\.\w+)
+
+^http://www\.cinematoday\.jp/image/N\d+	$&		$EXTRACACHE	(http://s\.cinematoday\.jp/res/N\d/\d{2}/\d{2}/v\d+/N\d+\.\w+)
+^http://www\.cinematoday\.jp/movie/T\d+/photo/\d+	$&		$EXTRACACHE	"(http://s\.cinematoday\.jp/res/mvga/\d{2}/\d{2}/v\d+/\d+_\d+\.\w+)
+^http://www\.cinematoday\.jp/gallery/(E\d+/\w+\.\w+)(?:\.html)?	http://www.cinematoday.jp/gallery/$1.html		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^http://www\.oricon\.co\.jp/news/photo/\d+/\d+/	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+^http://www\.oricon\.co\.jp/photo/\w+/\d+/\d+/	$&		$EXTRACACHE	<meta\s+property="og:image"\s+content="([^"]+)"\s+/>
+
+^http://(?:www\.)?fashion-press\.net/collections/gallery/\d+/\d+	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^http://topics\.jp\.msn\.com/\w+/\w+/photo-article\.aspx\?mediaid=\d+	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+>---------- ブログ系 ----------
+^http://ameblo\.jp/[\w-]+/image-\d+-\d+\.html	$&		$EXTRACACHE	"imgUrl"\s*:\s*"([^"]+)"\s*,\s*"	http://stat.ameba.jp/$1
+
+^http://photo\.xuite\.net/\w+/\d+/\d+\.\w+	$&		$EXTRACACHE	"(http://e\.share\.photo\.xuite\.net/\w+/\w+/\d+/\d+_x\.\w+)
+
+^http://ch-2\.biz/\?p=\d+	$&		$EXTRACACHE	"(http://ch-2\.biz/img/\w+\.\w+)
+
+^http://(\w+\.blog\.so-net\.ne\.jp/upload/detail/[\w-]+\.\w+)(?:\.html)?	http://$1.html		$EXTRACACHE	href="((?:http://[\w.]+\.blog\.so-net\.ne\.jp)?/_images/blog/_\w+/\w+/[^"]+)
+
+^http://\w+\.blog\.fc2\.com/img/[\w.-]+\.\w+/	$&		$EXTRACACHE	(http://blog-imgs-\d+(?:-origin)?\.fc2\.com/\w/\w/\w/\w+/[\w.-]+\.\w+)
+
+^http://www\.tinami\.com/view/\d+	$&		$EXTRACACHE	"(http://img\.tinami\.com/illust\d*/img/\d+/[\da-f]+\.\w+)
+
+^http://www\.cosp\.jp/view_photo\.aspx\?id=\d+&m=\d+	$&		$EXTRACACHE	(http://image\d+\.cosp\.jp/images/member/g/\d+/\d+/\d+\.\w+)
+^http://mobile\.cosp\.jp/photo\.aspx\?id=(\d+&m=\d+)	http://www.cosp.jp/view_photo.aspx?id=$1		$EXTRACACHE	(http://image\d+\.cosp\.jp/images/member/g/\d+/\d+/\d+\.\w+)
+
+^http://\w+\.curecos\.com/picture/detail\?id=(\d+)	http://ja.curecos.com/picture/detail?id=$1		$EXTRACACHE	"(http://img\.curecos\.com/\d+/[\da-f]{40}-[^"]+)
+
+^https?://(?:\w+\.)?twitter\.com/(?:#!/)?(\w+/status/\d+/photo/\d+)	https://twitter.com/$1/large		$EXTRACACHE	src="(https?://(?:p\.twimg\.com|pbs\.twimg\.com/media)/[\w-]+\.\w+[^"]+)
+
+^http://(?:m\.)?photozou\.jp/photo/(?:show|photo_only)/(\d+/\d+)	http://photozou.jp/photo/photo_only/$1		$EXTRACACHE	"(http://\w+\.photozou\.jp/bin/photo/\d+/org\.v\d+\.bin\?download=yes)"
+
+^https?://([\w-]+\.facebook\.com/photo\.php\?.+)	https://$1		$EXTRACACHE	id="fbPhotoImage"\s+src="([^"]+)
+
+^http://flic\.kr/p/\w+$	$&		$EXTRACACHE	="https?://(?:farm\d\.)?static\.?flickr\.com/(\d+/\d+_[\da-f]+)_\w\.(\w+)	http://static.flickr.com/$1_b.$2
+^https?://(?:(?:www|secure)\.)?flickr\.com/photos/([\-\w@]+/\d+)	https://secure.flickr.com/photos/$1/		$EXTRACACHE	="https?://(?:farm\d\.)?static\.?flickr\.com/(\d+/\d+_[\da-f]+)_\w\.(\w+)	http://static.flickr.com/$1_b.$2
+
+^http://(?:www\.)?fg-site\.net/fullSizeImage\.php\?img=([\d_]+\.\w+)	http://www.fg-site.net/fullSizeImage.php?img=$1		$EXTRACACHE	"(http://image\d+\.fg-site\.net/image/org/\d+/org[\d_]+\.\w+)
+^http://(?:www\.)?fg-site\.net/archives/(\d+/\d+-image[\d-]+)	http://www.fg-site.net/archives/$1		$EXTRACACHE	"(http://www\.fg-site\.net/wp-content/uploads/\d{4}/\d{2}/\d+-image[\d-]+\.\w+)
+
+^http://[\w-]+\.tumblr\.com/image/\d+	$&		$EXTRACACHE	data-src="(http://[^"]+)
+
+^https?://twitpic\.com/(?:show/\w+/)?(\w+)$	https://twitpic.com/$1		$EXTRACACHE	src="(https://\w+\.cloudfront\.net/photos/[^"]+)
+
+^http://blogring\.info/entry-image/\d+	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)">
+
+^http://tr\.twipple\.jp/p/\w{2}/\w{6}\.html	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^https?://path\.com/p/(\w+)	https://path.com/p/$1		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^https?://(?:(?:www\.)?instagram\.com|instagr\.am)/p/([\w_-]+)	https://instagram.com/p/$1		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+^http://web\.stagram\.com/p/\d+_\d+	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^http://(?:www\.)?yaplog\.jp/([\w-]+/image/\d+/\d+)	http://www.yaplog.jp/$1		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^http://(?:(?:www|twitter)\.)?yfrog\.com/(?:z/)?(\w+)$	http://twitter.yfrog.com/$1		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+>---------- ショップ・オークション系 ----------
+^http://www\.dmm\.co\.jp/((?:digital|ppm)/video(?:c|ig)/)-/detail/=/(?:\w+=.+/)*cid=([-\w]+)	http://www.dmm.co.jp/$1-/detail/=/cid=$2/		$EXTRACACHE	"(http://pics\.dmm\.co\.jp/\w+/[\w-]+/\w+/.+jp\.jpg)
+^http://www\.dmm\.co\.jp/((?:\w+/)+)-/detail/=/(?:\w+=.+/)*cid=([-\w]+)	http://www.dmm.co.jp/$1-/detail/=/cid=$2/		$EXTRACACHE	"http://pics\.dmm\.co\.jp/(\w+/[\w-]+/\w+/.+)p[srml]\.jpg	http://pics.dmm.co.jp/$1pl.jpg
+^http://www\.dmm\.com/((?:\w+/)+)-/detail/=/(?:\w+=.+/)*cid=([-\w]+)	http://www.dmm.com/$1-/detail/=/cid=$2/		$EXTRACACHE	"http://pics\.dmm\.com/(\w+/[\w-]+/\w+/.+)p[srml]\.jpg	http://pics.dmm.com/$1pl.jpg
+
+>---------- 検索系 ----------
+^http://ja\.uncyclopedia\.info/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:(.+)	$&		$EXTRACACHE	class="fullImageLink"\s+id="file"><a\s+href="(http://images\.uncyc\.org/\w+/\w/\w{2}/[^"]+)
+
+^http://ja\.(?:m\.)?wikipedia\.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:(.+)	http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:$1		$EXTRACACHE	href="(//upload\.wikimedia\.org/wikipedia/\w+/\w/\w{2}/[^"]+)
+^https?://commons\.wikimedia\.org/wiki/File:(.+)	https://commons.wikimedia.org/wiki/File:$1		$EXTRACACHE	href="(//upload\.wikimedia\.org/wikipedia/\w+/\w/\w{2}/[^"]+)
+
+^http://(?:www\.)?uesp\.net/wiki/File:(.+)	http://www.uesp.net/wiki/File:$1		$EXTRACACHE	href="(http://images\.uesp\.net/\d/\d+/[^"]+)
+
+^http://elderscrolls\.wikia\.com/wiki/File:.+	$&		$EXTRACACHE	<div\s+class="fullMedia">\s*<a\s+href="(http://images\d\.wikia\.nocookie\.net/(?:\w+/)?elderscrolls/images/[\da-f]/[\da-f]{2}/[^"]+)
+
+^http://info\.2ch\.net/index\.php/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:(.+)	$&		$EXTRACACHE	href="(/images/[\da-f]/[\da-f]{2}/[^"/]+)
+
+>---------- その他 ----------
+^http://yomecolle\.jp/photo/\d+	$&		$EXTRACACHE	"(/img_photo/\d+/\d+/\d+\.\w+)
+
+^http://okinny\.heypo\.net/image/\d+	$&		$EXTRACACHE	"(http://data\.okinny\.heypo\.net/image/large/[\da-f]{32}\.\w+)
+
+^http://nanapi\.jp/\d+/\?layout=image&url=http%3A%2F%2Fp\.nanapi\.jp%2.+	$&		$EXTRACACHE	"(http://(p\.nanapi\.jp|p-nanapi\.cdngc\.net)/r/\d{4}/\d{2}/\d{2}/\d{2}/\d{14}_[\da-f]{13}\.\w+)
+
+^http://foodpic\.net/v\d+	$&		$EXTRACACHE	id="afterPic"\s+src="(read_pic\.php\?file=[^"]+)
+
+^http://www\.3dlinks\.com/gallery_fullview\.cfm\?id=\d+	$&		$EXTRACACHE	src="(http://www\.3DLinks\.com/images/gallery/\w+\.\w+)
+
+^http://www\.myblondies\.com/photo/[\w-]+	$&		$EXTRACACHE	"(http://www\.myblondies\.com/galleries/\w+/[^"]+)
+
+^http://jpgmag\.com/photos/\d+	$&		$EXTRACACHE	"(http://8020\.photos\.jpgmag\.com/\d+_\d+_[\da-f]+_p\.\w+)
+
+^http://www\.jpeguploader\.com/view/\d+/	$&		$EXTRACACHE	"(http://www\.jpeguploader\.com/uploads/\d+-\d+\.\w+)
+
+^http://share-ero\.pics/image-file/\d+\.\w+	$&		$EXTRACACHE	src="(/uploads/feed_image/image/\d+/\d+\.\w+)"
+
+^http://(?:www\.)?nationalgeographic\.co\.jp/places/places_countryprofile\.php\?ENLARGE&COUNTRY_ID=(\d+)	http://www.nationalgeographic.co.jp/places/places_countryprofile.php?ENLARGE&COUNTRY_ID=$1		$EXTRACACHE	"/common/i\.php\?file=(/places/images/photos/\w+\.\w+)
+
+^http://(?:www\.)?hibiki-radio\.jp/upload_image/(\d+/\d+)	http://hibiki-radio.jp/upload_image/$1		$EXTRACACHE	(http://image\.hibiki-radio\.jp/uploads/images/L_[\da-f]{40}\.\w+)
+
+^http://(?:www\.)?picasion\.com/i/(\w{5})	http://picasion.com/i/$1		$EXTRACACHE	"(http://i\.picasion\.com/pic\d+/[\da-f]{32}\.\w+)
+
+^http://dokuo(?:image)?\.mine\.nu/images/(\d+/\d+\.\w+)	http://dokuo.mine.nu/images/$1		$EXTRACACHE	href="(/\?action_retry=true&id=\d+&no=\d+&item_id=\d+)
+
+^http://(?:www\.)?share-image\.com/gallery/[\w-]+/(\d+)	http://www.share-image.com/gallery/next-pic/$1		$EXTRACACHE	src="(http://pictures\.share-image\.com/pictures/big/\d+/\d+/\d+\.\w+)
+
+^http://(?:www\.)?girlswithmuscle\.com/(\d+)	http://www.girlswithmuscle.com/$1		$EXTRACACHE	href="(/images/full/\d+\.\w+)
+
+^http://(?:www\.)?art-wallpaper\.net/galleries/([\w-]+/imagepages/image\d+)\.htm	http://www.art-wallpaper.net/galleries/$1.htm		$EXTRACACHE	src="(\.\./images/[^"]+)
+
+>---------- 未整理 ----------
+^http://(?:\w+\.)?twitgoo\.com/(\w+)$	http://twitgoo.com/$1		$EXTRACACHE	<img id="fullsize" src="([^"]+)
+^http://tweetphoto\.com/(\d+)$	http://plixi.com/p/$1		$EXTRACACHE	type="hidden" name="url" value="([^"]+)
+^http://plixi\.com/p/\d+$	$&		$EXTRACACHE	type="hidden" name="url" value="([^"]+)
+^http://brightkite\.com/[o|p]\w+/([0-9a-f]+)	http://brightkite.com/objects/$1		$EXTRACACHE	class="object">\s*<div class="photo"[\s\S]+?src="([^"]+?)-object\.(\w+)"	$1.$2
+^http://bkite\.com/\w+$	$&		$EXTRACACHE	class="object">\s*<div class="photo"[\s\S]+?src="([^"]+?)-object\.(\w+)"	$1.$2
+^http://(?:w+\.)?mobypicture\.com/user/(\w+/view/\d+)	http://www.mobypicture.com/user/$1		$EXTRACACHE	class="imageLinkBorder" src="([^"]+?)_view\.(jpe?g|png|gif)" id="main_picture"	$1_full.$2
+^http://moby\.to/\w+$	$&		$EXTRACACHE	class="imageLinkBorder" src="([^"]+?)_view\.(jpe?g|png|gif)" id="main_picture"	$1_full.$2
+^http://ow\.ly/i/\w+	$&/original		$EXTRACACHE	class="imageWrapper">\s*<img src="([^"]+)
+^http://(?:www\.)?twipl\.net/(\w+)$	http://www.twipl.net/$1		$EXTRACACHE	onclick="largeView\('1', '([^\.]+\.\w+)', '([^']+)'	http://image.twipl.net/files/$2/photo/rsource/$1
+^http://p\.twimi\.jp/\w+$	$&		$EXTRACACHE	<img src="(http://p\.twimi.\jp/p/[^"]+)
+
+^http://(?:serve|img\d)\.imagehyper\.com/img\.php\?(?:\w+=\w+&)*id=(\d+)	http://serve.imagehyper.com/img.php?id=$1		$EXTRACACHE	"(http://img\d\.imagehyper\.com/img/[^"]+)
+
+^http://iina\.tv/thr_(?:res_)?show(?:/\w+=\d+)+	$&		$EXTRACACHE	(http://img\.iina\.tv/m/imagebbs/_nosync/(?:\d+/\d+/\d+)/org(?:\.\w+))
+
+^http://www\.imagebam\.com/image/[\da-f]+	$&		$EXTRACACHE	(http://\d+\.imagebam\.com/download/\w+/\d+/\d+/[^']+)
+
+^http://www\.badongo\.com/pic/\d+	$&?size=original		$EXTRACACHE	"(http://mediacache\d+\.badongo\.com/\d{16}/\d{7}/image/\d{4}-\d{2}-\d{2}/org/[^"]+)
+
+^http://news\.dengeki\.com/elem/\d{3}/\d{3}/\d{3}/\d+/img\.html	$&		$EXTRACACHE	src="/elem/(\d{3}/\d{3}/\d{3}/\d+/[^"]+)	http://news.dengeki.com/elem/$1
+^http://ascii\.jp/elem/\d{3}/\d{3}/\d{3}/\d+/img\.html	$&		$EXTRACACHE	src="/elem/(\d{3}/\d{3}/\d{3}/\d+/[^"]+)	http://ascii.jp/elem/$1
+
+^http://(?:www\.)?mediafreakcity\.com/product_lists\.aspx\?.*product_id=\d+	$&		$EXTRACACHE	http://imgs02\.mediafreakcity\.com/(new/)?jacket_images/([^"]+)	http://imgs02.mediafreakcity.com/$1bigcover/$2
+
+^http://www\.daily\.co\.jp/\w+/\d{4}/\d{2}/\d{2}/p\d_\d{10}\.shtml	$&		$EXTRACACHE	"((?:http:)?//\w+(?:\.\w+)+/\w+/\d{4}/\d{2}/\d{2}/Images/\d{8}\.\w+)
+
+^http://(?:www\.)?pixhost\.org/show/\d+/.+\.\w+	$&		$EXTRACACHE	"(http://img\d\.pixhost\.org/images/\d+/[^"]+)
+
+^http://\w+\.fc\.yahoo\.co\.jp/\d/\d+/\?m=\w+/media/\d+/\d+\.\w+	$&		$EXTRACACHE	src="(http://proxy\.f\d\.ymdb\.yahoofs\.jp/fanclub/\w+/media/\d+/\d+\.\w+\?[^"]+)
+^http://sportsnavi\.yahoo\.co\.jp/headlines/images/(\d{8})/(\d{8}-\d+[\w-]+)\.html	$&		$EXTRACACHE	"http://amd\.c\.yimg\.jp/(?:[\w-]+/)?(amd/\d{8}-\d+[^"]+)	http://amd.c.yimg.jp/$1
+^http://sportsnavi\.yahoo\.co\.jp/fight/photo/\d{6}/\d{11}\.html	$&		$EXTRACACHE	"(http://sports\.c\.yimg\.jp/spnavi/photo/fight/\d{6}/\d{2}/\d{11}\.\w+)
+^http://headlines\.yahoo\.co\.jp/hl\?a=\d{8}-\d{8}-[\w-]+\.view-\d+	$&		$EXTRACACHE	"(http://amd\.c\.yimg\.jp/[^"]*amd/\d{8}-\d{8}-[\w-]+\.\w+)"\s+[^>]*onContextMenu
+
+^http://pet-smile\.net/p/\d+/\d+/\d+/\d+/\w+/	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^http://www\.sankeibiz\.jp/business/photos/\d{6}/[a-z]+\d{13}-p\d+\.htm	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^http://[\w-]+\.keizai\.biz/headline/photo/\d+	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+^http://www\.(?:shibukei|hamakei)\.com/headline/photo/\d+	$&		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
+
+^http://(?:\w+\.)?lockerz\.com/s/(\d+)	http://lockerz.com/s/$1		$EXTRACACHE	<img\s+id="photo"\s+src="([^"]+)
+^http://(?:\w+\.)?lockerz\.com/u/([^/]+/decalz/\d+)/picture	http://lockerz.com/u/$1/picture		$EXTRACACHE	<img\s+id="photo"\s+src="([^"]+)
+
+^http://www\.fastpic\.jp/viewer\.php\?file=\d+\.\w+	$&		$EXTRACACHE	href="images/(\d+/\d+\.\w+)	http://www.fastpic.jp/images/$1
+
+^http://www\.yomiuri\.co\.jp/zoom/\d{8}-\w+\.htm	$&		$EXTRACACHE	"/photo/([^"]+)	http://www.yomiuri.co.jp/photo/$1
+^http://hochi\.yomiuri\.co\.jp/zoomImage/\d{8}-\w+\.htm	$&		$EXTRACACHE	"/photo/([^"]+)	http://hochi.yomiuri.co.jp/photo/$1
+^http://www\.yomiuri\.co\.jp/komachi/photogallery/(\w+)/garticle\.htm\?ge=(\d+).*&id=(\d+)	http://www.yomiuri.co.jp/komachi/photogallery/$1/garticle.htm?ge=$2&id=$3		$EXTRACACHE	"(http://app1\.yomiuri\.co\.jp/image/\d+-\d+_L\.\w+)
+
+^http://photo\.news\.livedoor\.com/detail/\d+	$&		$EXTRACACHE	(http://photo\.news\.livedoor\.com/news/image/[\da-f]/[\da-f]/[\da-f]{32}\.\w+)
+
+^http://www\.hokende\.com/news/detail_img\.php\?pid=\w+	$&		$EXTRACACHE	"\./files/(\d+/[\da-f]{32}\.\w+)"\s+class="detail_img2"	http://www.hokende.com/news/files/$1
+
+^http://www\.hollywood-ch\.com/\w+/\d{8}_p\.html(?:\?\d+)?	$&		$EXTRACACHE	"/images/upfile/(\w+/u/\d+\.\w+)	http://www.hollywood-ch.com/images/upfile/$1
+
+^http://(?:www\.)?gazo-ch\.net/t/(\d+)	http://www.gazo-ch.net/t/$1		$EXTRACACHE	"(http://o\.gazo-ch\.net/\d+/\w+\.\w+)
+
+^http://pri-log\.jp/p\.php\?ID=[\w-]+&page=\d+	$&		$EXTRACACHE	src="(?:http://(\w+\.)pri-log.jp)?/_alpicnew_/(\d+/\d+/\d+/\w+\.\w+)	http://$1pri-log.jp/_alpicnew_/$2
+
+^http://uou\.jp/2ch/\?idx=\d+\.\w+	$&		$EXTRACACHE	"photo/img_([\d_]+\.\w+)	http://uou.jp/2ch/photo/img_$1
+
+^http://www\.uploadhouse\.com/viewfile\.php\?.*id=(\d+)	http://www.uploadhouse.com/viewfile.php?id=$1		$EXTRACACHE	"(http://img\d+\.uploadhouse\.com/fileuploads/\d+/[\da-f]+\.\w+)
+
+^http://npn\.co\.jp/article/image/\d+/\d*	$&		$EXTRACACHE	src="(http://images\.npn\.co\.jp/article/\d+/[\d-]+\.\w+)
+
+^http://news\.goo\.ne\.jp/megapicture/\d+[^/]+/\w+-\d{8}-\d+\.html	$&		$EXTRACACHE	(http://img\.news\.goo\.ne\.jp/picture/megapicture_editor/mm\d{14}_\d+\.\w+)
+^http://news\.goo\.ne\.jp/picture/\w+/\w+/[\w-]+\.html	$&		$EXTRACACHE	(http://img\.news\.goo\.ne\.jp/picture/\w+/[\w-]+\.[^?"]+)
+
+^http://www\.sakigake\.jp/p/\w+/news_photo\.jsp\?kc=\d{8}\w&img=\d+	$&		$EXTRACACHE	"/p/images/news-entry/(\d{8}\w\d+\.\w+)	http://www.sakigake.jp/p/images/news-entry/$1
+
+^http://www\.zaikei\.co\.jp/photo/\d+\.html	$&		$EXTRACACHE	"/files/general/(\d{16}mvbig\.\w+)	http://www.zaikei.co.jp/files/general/$1
+
+^http://www\.news-postseven\.com/archives/\d{8}_\d+\.html\?IMAGE(?:&PAGE=\d+)?	$&		$EXTRACACHE	"/picture/(\d{4}/\d{2}/(?:\w|-(?!\d+x\d+\.\w+))+\.\w+)"	http://www.news-postseven.com/picture/$1
+
+^http://japanese\.joins\.com/photo/(\d+/\d+/\d+\.html)	http://japanese.joins.com/photo/$1		$EXTRACACHE	"(http://japanese\.joins\.com/upload/images/\d{4}/\d{2}/\d+-\d+\.\w+)
+
+^http://www\.terrafor\.net/detail_img\.php\?(?:.*&)?pid=(\w+)	http://www.terrafor.net/detail_img.php?pid=$1		$EXTRACACHE	"\./files/(\d+/[\da-f]{32}\.\w+)	http://www.terrafor.net/files/$1
+^http://www\.asobiniikoze\.com/detail_img\.php\?(?:.*&)?pid=(\w+)	http://www.asobiniikoze.com/detail_img.php?pid=$1		$EXTRACACHE	"\./files/(\d+/[\da-f]{32}\.\w+)	http://www.asobiniikoze.com/files/$1
+
+^http://ligowiec\.net/fotografia/[\w-]+/\d+\.\d+/\d+	$&		$EXTRACACHE	(http://ligowiec\.net/fotki/\w{2}/\d+\.\d+-guest\.\w+)
+
+^http://www\.mylifenote\.net/\d{4}/\d{2}/\d{2}/\d{8}\w+\.html	$&		$EXTRACACHE	"(http://www\.mylifenote\.net/\d{4}/\d{2}/\d{2}/\d{8}\w+\.\w+)
+
+^http://mantan-web\.jp/\d{4}/\d{2}/\d{2}/\d{8}\w+/\d+\.html	$&		$EXTRACACHE	id="mainPhoto"\s+src="/assets/images/(\d{4}/\d{2}/\d{2}/\d{8}\w+_\d+\.\w+)	http://mantan-web.jp/assets/images/$1
+
+^http://www\.chosunonline\.com/svc/view\.html\?.+$	$&		$EXTRACACHE	"(http://www\.chosunonline\.com/site/data/img_dir/\d{4}/\d{2}/\d{2}/\d{13}_\d+\.\w+)
+
+^http://cphpost\.dk/field-collection/field-image-and-desc-coll/\d+	$&		$EXTRACACHE	typeof="foaf:Image"\s+src="(http://cphpost\.dk/sites/default/files/styles/\d+x\d+/public/[^"]+)
+
+^http://www\.cyzo\.com/gravure/\d{4}/\d{2}/post-\d+_\d+\.html	$&		$EXTRACACHE	class="photo-main"><img\s+src="(http://www\.cyzo\.com/gravure/assets_c/\d{4}/\d{2}/[\w-]+\.\w+)
+
+^http://ryukyushimpo\.jp/photo/storyid-\d+\.html	$&		$EXTRACACHE	"/uploads/sg/img(\w+\.\w+)	http://ryukyushimpo.jp/uploads/sg/img$1
+
+^http://www\.okinawatimes\.co\.jp/article_photo/\d+	$&		$EXTRACACHE	/article_images/(\d{8}/\w+\.\w+)	http://www.okinawatimes.co.jp/article_images/$1
+
+^http://www\.fukuishimbun\.co\.jp/localnews/photo/\d+/\d+\.html	$&		$EXTRACACHE	(http://www\.fukuishimbun\.co\.jp/modules/news0/photos/\d{14}_\d+\.\w+)
+
