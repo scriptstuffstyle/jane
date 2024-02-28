@@ -629,9 +629,6 @@
 
 ^http://(?:www\.)?javblog\.biz/image/viewer\.php\?file=(\w+\.\w+)	http://www.javblog.biz/image/images/$1
 
-^https?://(?:\w+\.)?imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2
-^https?://(?:\w+\.)?imgur\.com/(?!gallery/|delete/)(?:download/)?(\w{5}(?:\w{2})?)(?![&,]|\w{2,})	https://imgur.com/download/$1		$VIEWER
-
 ^http://img-up\.com/img_dl\.php\?(?:\w+=\w+&)*file=(up_img-up\.com_\w+/\d+/\w+\.\w+)	http://img-up.com/$1
 ^http://img-up\.com/img_dl_convert\.php\?.+	$&		$VIEWER
 
@@ -1189,6 +1186,13 @@
 ^http://[\w-]+\.lekumo\.biz/\.a/[\da-f]{34}	$&		$VIEWER
 
 ^http://img\.scoop\.it/\w+	$&		$VIEWER
+
+^http://i\.imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2	https://imgur.com/$1
+^https://i\.imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2	https://imgur.com/$1
+^http://m\.imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2	https://imgur.com/$1
+^https://m\.imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2	https://imgur.com/$1
+^http://imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2	https://imgur.com/$1
+^https://imgur\.com/(?!gallery/|delete/)(\w{5}(?:\w{2})?)\w?\.(\w+)	https://i.imgur.com/$1.$2	https://imgur.com/$1
 
 ^http://wblog\.jp/charm/media/.+	$&	$&	$NOEXTCTRL
 

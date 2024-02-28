@@ -249,6 +249,8 @@
 
 ^http://(?:(?:www|twitter)\.)?yfrog\.com/(?:z/)?(\w+)$	http://twitter.yfrog.com/$1		$EXTRACACHE	<meta\s+property="og:image"\s*content="([^"]+)"\s*/>
 
+^https?://(?:\w+\.)?imgur\.com/(?!gallery/|delete/)(?:download/)?(\w{5}(?:\w{2})?)(?![&,]|\w{2,})	https://imgur.com/$1		$EXTRACACHE	<meta\s+name="twitter:image"[^<]*\s+content="([^"]+)
+
 >---------- ショップ・オークション系 ----------
 ^http://www\.dmm\.co\.jp/((?:digital|ppm)/video(?:c|ig)/)-/detail/=/(?:\w+=.+/)*cid=([-\w]+)	http://www.dmm.co.jp/$1-/detail/=/cid=$2/		$EXTRACACHE	"(http://pics\.dmm\.co\.jp/\w+/[\w-]+/\w+/.+jp\.jpg)
 ^http://www\.dmm\.co\.jp/((?:\w+/)+)-/detail/=/(?:\w+=.+/)*cid=([-\w]+)	http://www.dmm.co.jp/$1-/detail/=/cid=$2/		$EXTRACACHE	"http://pics\.dmm\.co\.jp/(\w+/[\w-]+/\w+/.+)p[srml]\.jpg	http://pics.dmm.co.jp/$1pl.jpg
